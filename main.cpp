@@ -3,39 +3,41 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 // Simple Book structure
 struct Book {
     int id;
-    std::string title;
-    std::string author;
-    std::string category;
+    string title;
+    string author;
+    string category;
     bool available;
     
     // Display book information
     void display() {
-        std::cout << "-------------------------\n";
-        std::cout << "Book ID: " << id << "\n";
-        std::cout << "Title: " << title << "\n";
-        std::cout << "Author: " << author << "\n";
-        std::cout << "Category: " << category << "\n";
-        std::cout << "Status: " << (available ? "Available" : "Checked Out") << "\n";
-        std::cout << "-------------------------\n";
+        cout << "-------------------------\n";
+        cout << "Book ID: " << id << "\n";
+        cout << "Title: " << title << "\n";
+        cout << "Author: " << author << "\n";
+        cout << "Category: " << category << "\n";
+        cout << "Status: " << (available ? "Available" : "Checked Out") << "\n";
+        cout << "-------------------------\n";
     }
 };
 
 // Library class to manage books
 class Library {
 private:
-    std::vector<Book> books;
-    std::string filename;
+    vector<Book> books;
+    string filename;
     int nextId;
     
     // Save books to file
     void saveToFile() {
-        std::ofstream file(filename);
+        ofstream file(filename);
         
         if (!file) {
-            std::cout << "Error: Could not open file for writing.\n";
+            cout << "Error: Could not open file for writing.\n";
             return;
         }
         
@@ -49,24 +51,24 @@ private:
     
     // Load books from file
     void loadFromFile() {
-        std::ifstream file(filename);
+        ifstream file(filename);
         
         if (!file) {
-            std::cout << "No existing book file found. Starting with empty library.\n";
+            cout << "No existing book file found. Starting with empty library.\n";
             nextId = 1;
             return;
         }
         
         books.clear();
-        std::string line, part;
-        std::vector<std::string> parts;
+        string line, part;
+        vector<string> parts;
         
         while (getline(file, line)) {
             parts.clear();
             
             // Split the line by commas
             size_t pos = 0;
-            while ((pos = line.find(",")) != std::string::npos) {
+            while ((pos = line.find(",")) != string::npos) {
                 part = line.substr(0, pos);
                 parts.push_back(part);
                 line.erase(0, pos + 1);
@@ -75,7 +77,7 @@ private:
             
             if (parts.size() == 5) {
                 Book book;
-                book.id = std::stoi(parts[0]);
+                book.id = stoi(parts[0]);
                 book.title = parts[1];
                 book.author = parts[2];
                 book.category = parts[3];
@@ -94,7 +96,7 @@ private:
     
 public:
     // Constructor
-    Library(std::string file = "books.dat") {
+    Library(string file = "books.dat") {
         filename = file;
         nextId = 1;
         loadFromFile();
@@ -103,28 +105,27 @@ public:
     // Add a new book
     void addBook() {
         Book newBook;
-        std::string temp;
         
-        std::cout << "\n--- Add New Book ---\n";
+        cout << "\n--- Add New Book ---\n";
         
         newBook.id = nextId++;
         
-        std::cout << "Enter Title: ";
-        std::cin.ignore(); // Clear input buffer
-        getline(std::cin, newBook.title);
+        cout << "Enter Title: ";
+        cin.ignore(); // Clear input buffer
+        getline(cin, newBook.title);
         
-        std::cout << "Enter Author: ";
-        getline(std::cin, newBook.author);
+        cout << "Enter Author: ";
+        getline(cin, newBook.author);
         
-        std::cout << "Enter Category: ";
-        getline(std::cin, newBook.category);
+        cout << "Enter Category: ";
+        getline(cin, newBook.category);
         
         newBook.available = true;
         
         books.push_back(newBook);
         saveToFile();
         
-        std::cout << "Book added successfully with ID: " << newBook.id << "\n";
+        cout << "Book added successfully with ID: " << newBook.id << "\n";
     }
     
     // Get book details by ID
@@ -132,9 +133,9 @@ public:
         int id;
         bool found = false;
         
-        std::cout << "\n--- Get Book Details ---\n";
-        std::cout << "Enter Book ID: ";
-        std::cin >> id;
+        cout << "\n--- Get Book Details ---\n";
+        cout << "Enter Book ID: ";
+        cin >> id;
         
         for (Book book : books) {
             if (book.id == id) {
@@ -145,65 +146,65 @@ public:
         }
         
         if (!found) {
-            std::cout << "Book with ID " << id << " not found.\n";
+            cout << "Book with ID " << id << " not found.\n";
         }
     }
     
     // Print all books
     void printBooks() {
-        std::cout << "\n--- All Library Books ---\n";
+        cout << "\n--- All Library Books ---\n";
         
         if (books.empty()) {
-            std::cout << "No books in the library.\n";
+            cout << "No books in the library.\n";
             return;
         }
         
-        std::cout << "Total Books: " << books.size() << "\n\n";
+        cout << "Total Books: " << books.size() << "\n\n";
         
         for (Book book : books) {
             book.display();
-            std::cout << "\n";
+            cout << "\n";
         }
     }
     
     // Find books by title, author, or category
     void findBook() {
         if (books.empty()) {
-            std::cout << "No books in the library.\n";
+            cout << "No books in the library.\n";
             return;
         }
         
         int choice;
-        std::string searchTerm;
+        string searchTerm;
         bool found = false;
         
-        std::cout << "\n--- Find Book ---\n";
-        std::cout << "Search by:\n";
-        std::cout << "1. Title\n";
-        std::cout << "2. Author\n";
-        std::cout << "3. Category\n";
-        std::cout << "Enter your choice (1-3): ";
-        std::cin >> choice;
+        cout << "\n--- Find Book ---\n";
+        cout << "Search by:\n";
+        cout << "1. Title\n";
+        cout << "2. Author\n";
+        cout << "3. Category\n";
+        cout << "Enter your choice (1-3): ";
+        cin >> choice;
         
-        std::cin.ignore(); // Clear input buffer
+        cin.ignore(); // Clear input buffer
         
         if (choice < 1 || choice > 3) {
-            std::cout << "Invalid choice. Returning to main menu.\n";
+            cout << "Invalid choice. Returning to main menu.\n";
             return;
         }
         
-        std::cout << "Enter search term: ";
-        getline(std::cin, searchTerm);
+        cout << "Enter search term: ";
+        getline(cin, searchTerm);
         
         // Convert search term to lowercase
         for (char &c : searchTerm) {
             c = tolower(c);
         }
         
-        std::cout << "\n--- Search Results ---\n";
+        cout << "\n--- Search Results ---\n";
         
         for (Book book : books) {
-            std::string value;
+            string value;
             
             // Get the appropriate field to search
             if (choice == 1) {
@@ -215,21 +216,21 @@ public:
             }
             
             // Convert to lowercase for case-insensitive search
-            std::string valueLower = value;
+            string valueLower = value;
             for (char &c : valueLower) {
                 c = tolower(c);
             }
             
             // Check if the search term is in the value
-            if (valueLower.find(searchTerm) != std::string::npos) {
+            if (valueLower.find(searchTerm) != string::npos) {
                 book.display();
-                std::cout << "\n";
+                cout << "\n";
                 found = true;
             }
         }
         
         if (!found) {
-            std::cout << "No matching books found.\n";
+            cout << "No matching books found.\n";
         }
     }
     
@@ -238,9 +239,9 @@ public:
         int id, field;
         bool found = false;
         
-        std::cout << "\n--- Update Book ---\n";
-        std::cout << "Enter Book ID to update: ";
-        std::cin >> id;
+        cout << "\n--- Update Book ---\n";
+        cout << "Enter Book ID to update: ";
+        cin >> id;
         
         for (int i = 0; i < books.size(); i++) {
             if (books[i].id == id) {
@@ -248,53 +249,52 @@ public:
                 
                 books[i].display();
                 
-                std::cout << "\nWhat would you like to update?\n";
-                std::cout << "1. Title\n";
-                std::cout << "2. Author\n";
-                std::cout << "3. Category\n";
-                std::cout << "4. Availability\n";
-                std::cout << "5. Cancel\n";
-                std::cout << "Enter your choice (1-5): ";
-                std::cin >> field;
+                cout << "\nWhat would you like to update?\n";
+                cout << "1. Title\n";
+                cout << "2. Author\n";
+                cout << "3. Category\n";
+                cout << "4. Availability\n";
+                cout << "5. Cancel\n";
+                cout << "Enter your choice (1-5): ";
+                cin >> field;
                 
-                std::cin.ignore(); // Clear input buffer
+                cin.ignore(); // Clear input buffer
                 
-                std::string newValue;
                 bool updated = false;
                 
                 switch (field) {
                     case 1:
-                        std::cout << "Enter new title: ";
-                        getline(std::cin, books[i].title);
+                        cout << "Enter new title: ";
+                        getline(cin, books[i].title);
                         updated = true;
                         break;
                     case 2:
-                        std::cout << "Enter new author: ";
-                        getline(std::cin, books[i].author);
+                        cout << "Enter new author: ";
+                        getline(cin, books[i].author);
                         updated = true;
                         break;
                     case 3:
-                        std::cout << "Enter new category: ";
-                        getline(std::cin, books[i].category);
+                        cout << "Enter new category: ";
+                        getline(cin, books[i].category);
                         updated = true;
                         break;
                     case 4:
                         books[i].available = !books[i].available;
-                        std::cout << "Book status changed to: " 
+                        cout << "Book status changed to: " 
                                   << (books[i].available ? "Available" : "Checked Out") << "\n";
                         updated = true;
                         break;
                     case 5:
-                        std::cout << "Update canceled.\n";
+                        cout << "Update canceled.\n";
                         break;
                     default:
-                        std::cout << "Invalid choice.\n";
+                        cout << "Invalid choice.\n";
                         break;
                 }
                 
                 if (updated) {
                     saveToFile();
-                    std::cout << "Book updated successfully.\n";
+                    cout << "Book updated successfully.\n";
                     books[i].display();
                 }
                 
@@ -303,7 +303,7 @@ public:
         }
         
         if (!found) {
-            std::cout << "Book with ID " << id << " not found.\n";
+            cout << "Book with ID " << id << " not found.\n";
         }
     }
     
@@ -312,9 +312,9 @@ public:
         int id;
         bool found = false;
         
-        std::cout << "\n--- Remove Book ---\n";
-        std::cout << "Enter Book ID to remove: ";
-        std::cin >> id;
+        cout << "\n--- Remove Book ---\n";
+        cout << "Enter Book ID to remove: ";
+        cin >> id;
         
         for (int i = 0; i < books.size(); i++) {
             if (books[i].id == id) {
@@ -323,15 +323,15 @@ public:
                 books[i].display();
                 
                 char confirm;
-                std::cout << "Are you sure you want to remove this book? (y/n): ";
-                std::cin >> confirm;
+                cout << "Are you sure you want to remove this book? (y/n): ";
+                cin >> confirm;
                 
                 if (confirm == 'y' || confirm == 'Y') {
                     books.erase(books.begin() + i);
                     saveToFile();
-                    std::cout << "Book removed successfully.\n";
+                    cout << "Book removed successfully.\n";
                 } else {
-                    std::cout << "Removal canceled.\n";
+                    cout << "Removal canceled.\n";
                 }
                 
                 break;
@@ -339,7 +339,7 @@ public:
         }
         
         if (!found) {
-            std::cout << "Book with ID " << id << " not found.\n";
+            cout << "Book with ID " << id << " not found.\n";
         }
     }
     
@@ -349,21 +349,21 @@ public:
         bool running = true;
         
         while (running) {
-            std::cout << "\n==== LIBRARY MANAGEMENT SYSTEM ====\n";
-            std::cout << "1. Add New Book\n";
-            std::cout << "2. Get Book Details\n";
-            std::cout << "3. Print All Books\n";
-            std::cout << "4. Find Book\n";
-            std::cout << "5. Update Book\n";
-            std::cout << "6. Remove Book\n";
-            std::cout << "7. Exit\n";
-            std::cout << "Enter your choice (1-7): ";
+            cout << "\n==== LIBRARY MANAGEMENT SYSTEM ====\n";
+            cout << "1. Add New Book\n";
+            cout << "2. Get Book Details\n";
+            cout << "3. Print All Books\n";
+            cout << "4. Find Book\n";
+            cout << "5. Update Book\n";
+            cout << "6. Remove Book\n";
+            cout << "7. Exit\n";
+            cout << "Enter your choice (1-7): ";
             
             // Handle invalid input
-            if (!(std::cin >> choice)) {
-                std::cin.clear(); // Clear error flags
-                std::cin.ignore(100, '\n'); // Discard invalid input
-                std::cout << "Invalid input. Please enter a number.\n";
+            if (!(cin >> choice)) {
+                cin.clear(); // Clear error flags
+                cin.ignore(100, '\n'); // Discard invalid input
+                cout << "Invalid input. Please enter a number.\n";
                 continue;
             }
             
@@ -387,11 +387,11 @@ public:
                     removeBook();
                     break;
                 case 7:
-                    std::cout << "Thank you for using the Library Management System. Goodbye!\n";
+                    cout << "Thank you for using the Library Management System. Goodbye!\n";
                     running = false;
                     break;
                 default:
-                    std::cout << "Invalid choice. Please try again.\n";
+                    cout << "Invalid choice. Please try again.\n";
                     break;
             }
         }
