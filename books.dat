@@ -3,3 +3,1996 @@
 3,The Great Gatsby,F. Scott Fitzgerald,Classic,1
 4,Pride and Prejudice,Jane Austen,Romance,1
 5,The Hobbit,J.R.R. Tolkien,Fantasy,1
+6,Don Quixote,Miguel de Cervantes,Classic,1
+7,Ulysses,James Joyce,Modernist,1
+8,The Divine Comedy,Dante Alighieri,Epic Poetry,1
+9,The Brothers Karamazov,Fyodor Dostoevsky,Philosophical Fiction,1
+10,War and Peace,Leo Tolstoy,Historical Fiction,1
+11,Hamlet,William Shakespeare,Tragedy,1
+12,Moby Dick,Herman Melville,Adventure,1
+13,In Search of Lost Time,Marcel Proust,Modernist,1
+14,One Hundred Years of Solitude,Gabriel Garcia Marquez,Magical Realism,1
+15,The Odyssey,Homer,Epic Poetry,1
+16,The Iliad,Homer,Epic Poetry,1
+17,Crime and Punishment,Fyodor Dostoevsky,Psychological Fiction,1
+18,Madame Bovary,Gustave Flaubert,Realism,1
+19,The Adventures of Huckleberry Finn,Mark Twain,Adventure,1
+20,Alice's Adventures in Wonderland,Lewis Carroll,Fantasy,1
+21,The Lord of the Rings,J.R.R. Tolkien,Fantasy,1
+22,Anna Karenina,Leo Tolstoy,Realism,1
+23,Les Misérables,Victor Hugo,Historical Fiction,1
+24,Wuthering Heights,Emily Brontë,Gothic Fiction,1
+25,Jane Eyre,Charlotte Brontë,Gothic Fiction,1
+26,The Catcher in the Rye,J.D. Salinger,Coming-of-age Fiction,1
+27,Great Expectations,Charles Dickens,Victorian Literature,1
+28,Little Women,Louisa May Alcott,Coming-of-age Fiction,1
+29,Brave New World,Aldous Huxley,Dystopian,1
+30,The Grapes of Wrath,John Steinbeck,Realism,1
+31,The Trial,Franz Kafka,Philosophical Fiction,1
+32,The Stranger,Albert Camus,Philosophical Fiction,1
+33,A Tale of Two Cities,Charles Dickens,Historical Fiction,1
+34,David Copperfield,Charles Dickens,Victorian Literature,1
+35,The Picture of Dorian Gray,Oscar Wilde,Gothic Fiction,1
+36,Frankenstein,Mary Shelley,Gothic Fiction,1
+37,The Count of Monte Cristo,Alexandre Dumas,Adventure,1
+38,Dracula,Bram Stoker,Gothic Fiction,1
+39,The Three Musketeers,Alexandre Dumas,Adventure,1
+40,The Scarlet Letter,Nathaniel Hawthorne,Romantic Fiction,1
+41,Gulliver's Travels,Jonathan Swift,Satire,1
+42,The Canterbury Tales,Geoffrey Chaucer,Poetry,1
+43,Emma,Jane Austen,Romance,1
+44,The Chronicles of Narnia,C.S. Lewis,Fantasy,1
+45,Lord of the Flies,William Golding,Allegory,1
+46,Heart of Darkness,Joseph Conrad,Psychological Fiction,1
+47,The Sound and the Fury,William Faulkner,Southern Gothic,1
+48,Rebecca,Daphne du Maurier,Gothic Fiction,1
+49,The Sun Also Rises,Ernest Hemingway,Modernist,1
+50,A Farewell to Arms,Ernest Hemingway,War Novel,1
+51,For Whom the Bell Tolls,Ernest Hemingway,War Novel,1
+52,The Old Man and the Sea,Ernest Hemingway,Adventure,1
+53,Animal Farm,George Orwell,Political Satire,1
+54,The Little Prince,Antoine de Saint-Exupéry,Children's Literature,1
+55,The Wind in the Willows,Kenneth Grahame,Children's Literature,1
+56,Winnie-the-Pooh,A.A. Milne,Children's Literature,1
+57,Charlotte's Web,E.B. White,Children's Literature,1
+58,The Secret Garden,Frances Hodgson Burnett,Children's Literature,1
+59,Anne of Green Gables,L.M. Montgomery,Children's Literature,1
+60,The Adventures of Tom Sawyer,Mark Twain,Children's Literature,1
+61,The Call of the Wild,Jack London,Adventure,1
+62,The Jungle Book,Rudyard Kipling,Children's Literature,1
+63,Robinson Crusoe,Daniel Defoe,Adventure,1
+64,Treasure Island,Robert Louis Stevenson,Adventure,1
+65,The Time Machine,H.G. Wells,Science Fiction,1
+66,The War of the Worlds,H.G. Wells,Science Fiction,1
+67,The Invisible Man,H.G. Wells,Science Fiction,1
+68,Journey to the Center of the Earth,Jules Verne,Science Fiction,1
+69,Twenty Thousand Leagues Under the Sea,Jules Verne,Science Fiction,1
+70,Around the World in Eighty Days,Jules Verne,Adventure,1
+71,Fahrenheit 451,Ray Bradbury,Dystopian,1
+73,Foundation,Isaac Asimov,Science Fiction,1
+74,Dune,Frank Herbert,Science Fiction,1
+75,Neuromancer,William Gibson,Science Fiction,1
+76,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Science Fiction Comedy,1
+77,Slaughterhouse-Five,Kurt Vonnegut,Science Fiction,1
+78,Cat's Cradle,Kurt Vonnegut,Science Fiction,1
+79,2001: A Space Odyssey,Arthur C. Clarke,Science Fiction,1
+80,The Handmaid's Tale,Margaret Atwood,Dystopian,1
+81,The Bell Jar,Sylvia Plath,Psychological Fiction,1
+82,Mrs. Dalloway,Virginia Woolf,Modernist,1
+83,To the Lighthouse,Virginia Woolf,Modernist,1
+84,Orlando,Virginia Woolf,Modernist,1
+85,A Room of One's Own,Virginia Woolf,Essay,1
+86,Beloved,Toni Morrison,Historical Fiction,1
+87,Song of Solomon,Toni Morrison,Magical Realism,1
+88,The Bluest Eye,Toni Morrison,Psychological Fiction,1
+89,Things Fall Apart,Chinua Achebe,Historical Fiction,1
+90,No Longer at Ease,Chinua Achebe,Historical Fiction,1
+91,Arrow of God,Chinua Achebe,Historical Fiction,1
+92,The Color Purple,Alice Walker,Epistolary Fiction,1
+93,Their Eyes Were Watching God,Zora Neale Hurston,Coming-of-age Fiction,1
+94,One Flew Over the Cuckoo's Nest,Ken Kesey,Psychological Fiction,1
+95,A Clockwork Orange,Anthony Burgess,Dystopian,1
+96,Native Son,Richard Wright,Psychological Fiction,1
+97,Invisible Man,Ralph Ellison,Modernist,1
+98,The Autobiography of Malcolm X,Malcolm X and Alex Haley,Autobiography,1
+99,The Great Influenza,John M. Barry,History,1
+100,In Cold Blood,Truman Capote,True Crime,1
+101,The Double Helix,James D. Watson,Memoir,1
+102,A Brief History of Time,Stephen Hawking,Science,1
+103,The Origin of Species,Charles Darwin,Science,1
+104,Silent Spring,Rachel Carson,Environmental Science,1
+105,The Prince,Niccolò Machiavelli,Political Philosophy,1
+106,The Republic,Plato,Philosophy,1
+107,The Communist Manifesto,Karl Marx and Friedrich Engels,Political Philosophy,1
+108,Das Kapital,Karl Marx,Political Economy,1
+109,Democracy in America,Alexis de Tocqueville,Political Science,1
+110,The Wealth of Nations,Adam Smith,Economics,1
+111,The Art of War,Sun Tzu,Military Strategy,1
+112,The Interpretation of Dreams,Sigmund Freud,Psychology,1
+113,Beyond Good and Evil,Friedrich Nietzsche,Philosophy,1
+114,Thus Spoke Zarathustra,Friedrich Nietzsche,Philosophy,1
+115,The Second Sex,Simone de Beauvoir,Feminist Philosophy,1
+116,Being and Nothingness,Jean-Paul Sartre,Philosophy,1
+117,The Structure of Scientific Revolutions,Thomas S. Kuhn,Philosophy of Science,1
+118,The Elements of Style,William Strunk Jr. and E.B. White,Writing Guide,1
+119,The Hero with a Thousand Faces,Joseph Campbell,Comparative Mythology,1
+120,The Golden Bough,James George Frazer,Comparative Mythology,1
+121,The Histories,Herodotus,History,1
+122,The History of the Peloponnesian War,Thucydides,History,1
+123,The Confessions,Saint Augustine,Autobiography,1
+124,The Social Contract,Jean-Jacques Rousseau,Political Philosophy,1
+125,Leviathan,Thomas Hobbes,Political Philosophy,1
+126,Two Treatises of Government,John Locke,Political Philosophy,1
+127,On Liberty,John Stuart Mill,Political Philosophy,1
+128,The Federalist Papers,Alexander Hamilton/James Madison/John Jay,Political Essays,1
+129,The Declaration of Independence,Thomas Jefferson,Political Document,1
+130,The Rights of Man,Thomas Paine,Political Philosophy,1
+131,Common Sense,Thomas Paine,Political Philosophy,1
+132,Meditations,Marcus Aurelius,Philosophy,1
+133,Pensées,Blaise Pascal,Philosophy,1
+134,Critique of Pure Reason,Immanuel Kant,Philosophy,1
+135,Essays,Michel de Montaigne,Philosophy,1
+136,Walden,Henry David Thoreau,Memoir,1
+137,Civil Disobedience,Henry David Thoreau,Political Essay,1
+138,Self-Reliance,Ralph Waldo Emerson,Essay,1
+139,Nature,Ralph Waldo Emerson,Essay,1
+140,Leaves of Grass,Walt Whitman,Poetry,1
+141,The Waste Land,T.S. Eliot,Poetry,1
+142,Four Quartets,T.S. Eliot,Poetry,1
+143,The Complete Poems of Emily Dickinson,Emily Dickinson,Poetry,1
+144,Songs of Innocence and of Experience,William Blake,Poetry,1
+145,Paradise Lost,John Milton,Epic Poetry,1
+146,Sonnets,William Shakespeare,Poetry,1
+147,The Complete Works of William Shakespeare,William Shakespeare,Drama/Poetry,1
+148,The Complete Tales and Poems of Edgar Allan Poe,Edgar Allan Poe,Short Stories/Poetry,1
+149,Metamorphoses,Ovid,Poetry,1
+150,The Complete Grimm's Fairy Tales,Jacob and Wilhelm Grimm,Folk Tales,1
+151,Arabian Nights,Anonymous,Folk Tales,1
+152,Aesop's Fables,Aesop,Fables,1
+153,The Analects,Confucius,Philosophy,1
+154,The Art of Happiness,Dalai Lama,Philosophy,1
+155,Tao Te Ching,Lao Tzu,Philosophy,1
+156,The I Ching,Anonymous,Divination Text,1
+157,The Bible,Various,Religious Text,1
+158,The Quran,Mohammed,Religious Text,1
+159,The Dhammapada,Buddha,Religious Text,1
+160,The Upanishads,Various,Religious Text,1
+161,The Bhagavad Gita,Anonymous,Religious Text,1
+162,The Talmud,Various,Religious Text,1
+163,The Book of Mormon,Joseph Smith,Religious Text,1
+164,The Name of the Rose,Umberto Eco,Historical Mystery,1
+165,The Da Vinci Code,Dan Brown,Mystery Thriller,1
+166,Angels & Demons,Dan Brown,Mystery Thriller,1
+167,Inferno,Dan Brown,Mystery Thriller,1
+168,And Then There Were None,Agatha Christie,Mystery,1
+169,Murder on the Orient Express,Agatha Christie,Mystery,1
+170,The Murder of Roger Ackroyd,Agatha Christie,Mystery,1
+171,The Hound of the Baskervilles,Arthur Conan Doyle,Mystery,1
+172,A Study in Scarlet,Arthur Conan Doyle,Mystery,1
+173,The Complete Sherlock Holmes,Arthur Conan Doyle,Mystery,1
+174,The Girl with the Dragon Tattoo,Stieg Larsson,Mystery Thriller,1
+175,The Maltese Falcon,Dashiell Hammett,Hard-boiled Mystery,1
+176,The Big Sleep,Raymond Chandler,Hard-boiled Mystery,1
+177,The Godfather,Mario Puzo,Crime Fiction,1
+178,Gone Girl,Gillian Flynn,Psychological Thriller,1
+179,The Silence of the Lambs,Thomas Harris,Psychological Thriller,1
+180,Red Dragon,Thomas Harris,Psychological Thriller,1
+181,Hannibal,Thomas Harris,Psychological Thriller,1
+182,The Shining,Stephen King,Horror,1
+183,It,Stephen King,Horror,1
+184,Carrie,Stephen King,Horror,1
+185,The Stand,Stephen King,Horror,1
+186,Pet Sematary,Stephen King,Horror,1
+187,Misery,Stephen King,Psychological Horror,1
+188,Salem's Lot,Stephen King,Horror,1
+189,Interview with the Vampire,Anne Rice,Gothic Fiction,1
+190,The Exorcist,William Peter Blatty,Horror,1
+191,House of Leaves,Mark Z. Danielewski,Experimental Horror,1
+192,Ghost Story,Peter Straub,Horror,1
+193,American Psycho,Bret Easton Ellis,Psychological Horror,1
+194,The Call of Cthulhu,H.P. Lovecraft,Cosmic Horror,1
+195,At the Mountains of Madness,H.P. Lovecraft,Cosmic Horror,1
+196,The Complete Works of H.P. Lovecraft,H.P. Lovecraft,Cosmic Horror,1
+197,Rosemary's Baby,Ira Levin,Horror,1
+198,I Am Legend,Richard Matheson,Horror,1
+199,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,1
+200,Harry Potter and the Chamber of Secrets,J.K. Rowling,Fantasy,1
+201,Harry Potter and the Prisoner of Azkaban,J.K. Rowling,Fantasy,1
+202,Harry Potter and the Goblet of Fire,J.K. Rowling,Fantasy,1
+203,Harry Potter and the Order of the Phoenix,J.K. Rowling,Fantasy,1
+204,Harry Potter and the Half-Blood Prince,J.K. Rowling,Fantasy,1
+205,Harry Potter and the Deathly Hallows,J.K. Rowling,Fantasy,1
+206,A Game of Thrones,George R.R. Martin,Fantasy,1
+207,A Clash of Kings,George R.R. Martin,Fantasy,1
+208,A Storm of Swords,George R.R. Martin,Fantasy,1
+209,A Feast for Crows,George R.R. Martin,Fantasy,1
+210,A Dance with Dragons,George R.R. Martin,Fantasy,1
+211,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,1
+212,The Two Towers,J.R.R. Tolkien,Fantasy,1
+213,The Return of the King,J.R.R. Tolkien,Fantasy,1
+214,The Silmarillion,J.R.R. Tolkien,Fantasy,1
+216,Prince Caspian,C.S. Lewis,Fantasy,1
+217,The Voyage of the Dawn Treader,C.S. Lewis,Fantasy,1
+218,The Silver Chair,C.S. Lewis,Fantasy,1
+219,The Horse and His Boy,C.S. Lewis,Fantasy,1
+220,The Magician's Nephew,C.S. Lewis,Fantasy,1
+221,The Last Battle,C.S. Lewis,Fantasy,1
+222,The Name of the Wind,Patrick Rothfuss,Fantasy,1
+223,The Wise Man's Fear,Patrick Rothfuss,Fantasy,1
+224,The Way of Kings,Brandon Sanderson,Fantasy,1
+225,Words of Radiance,Brandon Sanderson,Fantasy,1
+226,Oathbringer,Brandon Sanderson,Fantasy,1
+227,Mistborn: The Final Empire,Brandon Sanderson,Fantasy,1
+228,The Well of Ascension,Brandon Sanderson,Fantasy,1
+229,The Hero of Ages,Brandon Sanderson,Fantasy,1
+230,The Lies of Locke Lamora,Scott Lynch,Fantasy,1
+231,American Gods,Neil Gaiman,Fantasy,1
+232,Good Omens,Neil Gaiman and Terry Pratchett,Fantasy,1
+233,Neverwhere,Neil Gaiman,Fantasy,1
+234,Stardust,Neil Gaiman,Fantasy,1
+235,Coraline,Neil Gaiman,Fantasy,1
+236,The Ocean at the End of the Lane,Neil Gaiman,Fantasy,1
+237,The Colour of Magic,Terry Pratchett,Fantasy,1
+238,Guards! Guards!,Terry Pratchett,Fantasy,1
+239,Small Gods,Terry Pratchett,Fantasy,1
+240,The Wee Free Men,Terry Pratchett,Fantasy,1
+241,Going Postal,Terry Pratchett,Fantasy,1
+242,The Gunslinger,Stephen King,Fantasy,1
+243,The Drawing of the Three,Stephen King,Fantasy,1
+244,The Waste Lands,Stephen King,Fantasy,1
+245,Wizard and Glass,Stephen King,Fantasy,1
+246,Wolves of the Calla,Stephen King,Fantasy,1
+247,Song of Susannah,Stephen King,Fantasy,1
+248,The Dark Tower,Stephen King,Fantasy,1
+249,Jonathan Strange & Mr Norrell,Susanna Clarke,Fantasy,1
+250,The Night Circus,Erin Morgenstern,Fantasy,1
+251,The Magicians,Lev Grossman,Fantasy,1
+252,Uprooted,Naomi Novik,Fantasy,1
+253,The Golden Compass,Philip Pullman,Fantasy,1
+254,The Subtle Knife,Philip Pullman,Fantasy,1
+255,The Amber Spyglass,Philip Pullman,Fantasy,1
+256,The Neverending Story,Michael Ende,Fantasy,1
+257,Watership Down,Richard Adams,Fantasy,1
+258,The Last Unicorn,Peter S. Beagle,Fantasy,1
+259,A Wizard of Earthsea,Ursula K. Le Guin,Fantasy,1
+260,The Tombs of Atuan,Ursula K. Le Guin,Fantasy,1
+261,The Farthest Shore,Ursula K. Le Guin,Fantasy,1
+262,Tehanu,Ursula K. Le Guin,Fantasy,1
+263,The Left Hand of Darkness,Ursula K. Le Guin,Science Fiction,1
+264,The Dispossessed,Ursula K. Le Guin,Science Fiction,1
+265,Hyperion,Dan Simmons,Science Fiction,1
+266,The Fall of Hyperion,Dan Simmons,Science Fiction,1
+267,Endymion,Dan Simmons,Science Fiction,1
+268,The Rise of Endymion,Dan Simmons,Science Fiction,1
+269,Ender's Game,Orson Scott Card,Science Fiction,1
+270,Speaker for the Dead,Orson Scott Card,Science Fiction,1
+271,Xenocide,Orson Scott Card,Science Fiction,1
+272,Children of the Mind,Orson Scott Card,Science Fiction,1
+273,Snow Crash,Neal Stephenson,Science Fiction,1
+274,Cryptonomicon,Neal Stephenson,Science Fiction,1
+275,The Diamond Age,Neal Stephenson,Science Fiction,1
+276,Anathem,Neal Stephenson,Science Fiction,1
+277,Seveneves,Neal Stephenson,Science Fiction,1
+278,Red Mars,Kim Stanley Robinson,Science Fiction,1
+279,Green Mars,Kim Stanley Robinson,Science Fiction,1
+280,Blue Mars,Kim Stanley Robinson,Science Fiction,1
+281,The Forever War,Joe Haldeman,Science Fiction,1
+282,Ringworld,Larry Niven,Science Fiction,1
+283,Rendezvous with Rama,Arthur C. Clarke,Science Fiction,1
+284,Childhood's End,Arthur C. Clarke,Science Fiction,1
+285,The Caves of Steel,Isaac Asimov,Science Fiction,1
+286,The Naked Sun,Isaac Asimov,Science Fiction,1
+287,The Robots of Dawn,Isaac Asimov,Science Fiction,1
+288,Prelude to Foundation,Isaac Asimov,Science Fiction,1
+289,Foundation and Empire,Isaac Asimov,Science Fiction,1
+290,Second Foundation,Isaac Asimov,Science Fiction,1
+291,Foundation's Edge,Isaac Asimov,Science Fiction,1
+292,The Stars My Destination,Alfred Bester,Science Fiction,1
+293,Starship Troopers,Robert A. Heinlein,Science Fiction,1
+294,The Moon Is a Harsh Mistress,Robert A. Heinlein,Science Fiction,1
+295,Stranger in a Strange Land,Robert A. Heinlein,Science Fiction,1
+296,Do Androids Dream of Electric Sheep?,Philip K. Dick,Science Fiction,1
+297,Ubik,Philip K. Dick,Science Fiction,1
+298,A Scanner Darkly,Philip K. Dick,Science Fiction,1
+299,The Man in the High Castle,Philip K. Dick,Science Fiction,1
+300,The Three-Body Problem,Liu Cixin,Science Fiction,1
+301,The Dark Forest,Liu Cixin,Science Fiction,1
+302,Death's End,Liu Cixin,Science Fiction,1
+303,Solaris,Stanisław Lem,Science Fiction,1
+304,Roadside Picnic,Arkady and Boris Strugatsky,Science Fiction,1
+305,Blindsight,Peter Watts,Science Fiction,1
+306,Ready Player One,Ernest Cline,Science Fiction,1
+307,The Martian,Andy Weir,Science Fiction,1
+308,Project Hail Mary,Andy Weir,Science Fiction,1
+309,Station Eleven,Emily St. John Mandel,Science Fiction,1
+310,The Road,Cormac McCarthy,Post-Apocalyptic Fiction,1
+311,Blood Meridian,Cormac McCarthy,Western,1
+312,No Country for Old Men,Cormac McCarthy,Crime Fiction,1
+313,All the Pretty Horses,Cormac McCarthy,Western,1
+314,The Crossing,Cormac McCarthy,Western,1
+315,Cities of the Plain,Cormac McCarthy,Western,1
+316,The Border Trilogy,Cormac McCarthy,Western,1
+317,Lonesome Dove,Larry McMurtry,Western,1
+318,True Grit,Charles Portis,Western,1
+319,The Sisters Brothers,Patrick deWitt,Western,1
+320,The Son,Philipp Meyer,Western,1
+321,East of Eden,John Steinbeck,Historical Fiction,1
+322,Of Mice and Men,John Steinbeck,Fiction,1
+323,The Pearl,John Steinbeck,Fiction,1
+324,Cannery Row,John Steinbeck,Fiction,1
+325,Tortilla Flat,John Steinbeck,Fiction,1
+326,The Winter of Our Discontent,John Steinbeck,Fiction,1
+327,The Long Valley,John Steinbeck,Short Stories,1
+328,To a God Unknown,John Steinbeck,Fiction,1
+329,The Red Pony,John Steinbeck,Fiction,1
+330,The Pastures of Heaven,John Steinbeck,Fiction,1
+331,Catch-22,Joseph Heller,War Fiction,1
+332,Slaughterhouse-Five,Kurt Vonnegut,War Fiction,1
+333,All Quiet on the Western Front,Erich Maria Remarque,War Fiction,1
+334,The Things They Carried,Tim O'Brien,War Fiction,1
+335,The Naked and the Dead,Norman Mailer,War Fiction,1
+336,For Whom the Bell Tolls,Ernest Hemingway,War Fiction,1
+337,The Red Badge of Courage,Stephen Crane,War Fiction,1
+338,Dispatches,Michael Herr,War Memoir,1
+339,Matterhorn,Karl Marlantes,War Fiction,1
+340,War and Remembrance,Herman Wouk,War Fiction,1
+341,The Winds of War,Herman Wouk,War Fiction,1
+342,Gone with the Wind,Margaret Mitchell,Historical Fiction,1
+343,A Tree Grows in Brooklyn,Betty Smith,Coming-of-age Fiction,1
+344,The Good Earth,Pearl S. Buck,Historical Fiction,1
+345,Roots,Alex Haley,Historical Fiction,1
+346,The Pillars of the Earth,Ken Follett,Historical Fiction,1
+347,World Without End,Ken Follett,Historical Fiction,1
+348,Shogun,James Clavell,Historical Fiction,1
+349,The Name of the Rose,Umberto Eco,Historical Fiction,1
+350,The Book Thief,Markus Zusak,Historical Fiction,1
+351,All the Light We Cannot See,Anthony Doerr,Historical Fiction,1
+352,The Kite Runner,Khaled Hosseini,Historical Fiction,1
+353,A Thousand Splendid Suns,Khaled Hosseini,Historical Fiction,1
+354,The Nightingale,Kristin Hannah,Historical Fiction,1
+355,Wolf Hall,Hilary Mantel,Historical Fiction,1
+356,Bring Up the Bodies,Hilary Mantel,Historical Fiction,1
+357,The Mirror & the Light,Hilary Mantel,Historical Fiction,1
+358,Memoirs of a Geisha,Arthur Golden,Historical Fiction,1
+359,The Help,Kathryn Stockett,Historical Fiction,1
+360,Outlander,Diana Gabaldon,Historical Fiction,1
+361,Dragonfly in Amber,Diana Gabaldon,Historical Fiction,1
+362,Voyager,Diana Gabaldon,Historical Fiction,1
+363,Drums of Autumn,Diana Gabaldon,Historical Fiction,1
+364,The Fiery Cross,Diana Gabaldon,Historical Fiction,1
+365,A Breath of Snow and Ashes,Diana Gabaldon,Historical Fiction,1
+366,An Echo in the Bone,Diana Gabaldon,Historical Fiction,1
+367,Written in My Own Heart's Blood,Diana Gabaldon,Historical Fiction,1
+368,Go Tell It on the Mountain,James Baldwin,Semi-autobiographical Fiction,1
+369,Giovanni's Room,James Baldwin,LGBT Fiction,1
+370,Another Country,James Baldwin,Fiction,1
+371,If Beale Street Could Talk,James Baldwin,Fiction,1
+372,Middlesex,Jeffrey Eugenides,Coming-of-age Fiction,1
+373,The Virgin Suicides,Jeffrey Eugenides,Coming-of-age Fiction,1
+374,The Brief Wondrous Life of Oscar Wao,Junot Díaz,Coming-of-age Fiction,1
+375,White Teeth,Zadie Smith,Fiction,1
+376,On Beauty,Zadie Smith,Fiction,1
+377,Swing Time,Zadie Smith,Fiction,1
+378,Americanah,Chimamanda Ngozi Adichie,Fiction,1
+379,Half of a Yellow Sun,Chimamanda Ngozi Adichie,Historical Fiction,1
+380,Purple Hibiscus,Chimamanda Ngozi Adichie,Coming-of-age Fiction,1
+381,The Remains of the Day,Kazuo Ishiguro,Historical Fiction,1
+382,Never Let Me Go,Kazuo Ishiguro,Dystopian,1
+383,The Buried Giant,Kazuo Ishiguro,Fantasy,1
+384,An Artist of the Floating World,Kazuo Ishiguro,Historical Fiction,1
+385,When We Were Orphans,Kazuo Ishiguro,Mystery,1
+386,Norwegian Wood,Haruki Murakami,Coming-of-age Fiction,1
+387,The Wind-Up Bird Chronicle,Haruki Murakami,Magical Realism,1
+388,Kafka on the Shore,Haruki Murakami,Magical Realism,1
+389,1Q84,Haruki Murakami,Magical Realism,1
+390,After Dark,Haruki Murakami,Fiction,1
+391,Hard-Boiled Wonderland and the End of the World,Haruki Murakami,Science Fiction,1
+392,A Wild Sheep Chase,Haruki Murakami,Magical Realism,1
+393,Dance Dance Dance,Haruki Murakami,Magical Realism,1
+394,Colorless Tsukuru Tazaki and His Years of Pilgrimage,Haruki Murakami,Fiction,1
+395,The Unbearable Lightness of Being,Milan Kundera,Philosophical Fiction,1
+396,The Book of Laughter and Forgetting,Milan Kundera,Fiction,1
+397,The Joke,Milan Kundera,Fiction,1
+398,Life of Pi,Yann Martel,Adventure Fiction,1
+399,The Curious Incident of the Dog in the Night-Time,Mark Haddon,Mystery,1
+400,The Shadow of the Wind,Carlos Ruiz Zafón,Mystery,1
+401,The Angel's Game,Carlos Ruiz Zafón,Mystery,1
+402,The Prisoner of Heaven,Carlos Ruiz Zafón,Mystery,1
+403,The Labyrinth of the Spirits,Carlos Ruiz Zafón,Mystery,1
+404,The Night Circus,Erin Morgenstern,Fantasy,1
+405,Water for Elephants,Sara Gruen,Historical Fiction,1
+406,Cloud Atlas,David Mitchell,Science Fiction,1
+407,The Thousand Autumns of Jacob de Zoet,David Mitchell,Historical Fiction,1
+408,The Bone Clocks,David Mitchell,Fantasy,1
+409,Slade House,David Mitchell,Horror,1
+410,The Goldfinch,Donna Tartt,Fiction,1
+411,The Secret History,Donna Tartt,Mystery,1
+412,The Little Friend,Donna Tartt,Mystery,1
+413,The Night Manager,John le Carré,Espionage Fiction,1
+414,Tinker Tailor Soldier Spy,John le Carré,Espionage Fiction,1
+415,The Spy Who Came in from the Cold,John le Carré,Espionage Fiction,1
+416,A Perfect Spy,John le Carré,Espionage Fiction,1
+417,The Constant Gardener,John le Carré,Espionage Fiction,1
+418,The Girl on the Train,Paula Hawkins,Psychological Thriller,1
+419,Before I Go to Sleep,S.J. Watson,Psychological Thriller,1
+420,Rebecca,Daphne du Maurier,Gothic Fiction,1
+421,My Cousin Rachel,Daphne du Maurier,Gothic Fiction,1
+422,Jamaica Inn,Daphne du Maurier,Gothic Fiction,1
+423,The Thirteenth Tale,Diane Setterfield,Gothic Fiction,1
+424,Fingersmith,Sarah Waters,Historical Fiction,1
+425,The Little Stranger,Sarah Waters,Gothic Fiction,1
+426,Affinity,Sarah Waters,Historical Fiction,1
+427,Tipping the Velvet,Sarah Waters,Historical Fiction,1
+428,The Night Watch,Sarah Waters,Historical Fiction,1
+429,The Paying Guests,Sarah Waters,Historical Fiction,1
+430,The Girl with All the Gifts,M.R. Carey,Horror,1
+431,Bird Box,Josh Malerman,Horror,1
+432,World War Z,Max Brooks,Horror,1
+433,Let the Right One In,John Ajvide Lindqvist,Horror,1
+434,The Historian,Elizabeth Kostova,Horror,1
+435,NOS4A2,Joe Hill,Horror,1
+436,Heart-Shaped Box,Joe Hill,Horror,1
+437,Horns,Joe Hill,Horror,1
+438,The Haunting of Hill House,Shirley Jackson,Horror,1
+439,We Have Always Lived in the Castle,Shirley Jackson,Gothic Fiction,1
+440,The Lottery and Other Stories,Shirley Jackson,Horror,1
+441,The Woman in Black,Susan Hill,Gothic Horror,1
+442,The Turn of the Screw,Henry James,Gothic Fiction,1
+443,The Portrait of a Lady,Henry James,Novel,1
+444,The Ambassadors,Henry James,Novel,1
+445,The Wings of the Dove,Henry James,Novel,1
+446,The Corrections,Jonathan Franzen,Fiction,1
+447,Freedom,Jonathan Franzen,Fiction,1
+448,Purity,Jonathan Franzen,Fiction,1
+449,Infinite Jest,David Foster Wallace,Postmodern Literature,1
+450,The Pale King,David Foster Wallace,Fiction,1
+451,A Heartbreaking Work of Staggering Genius,Dave Eggers,Memoir,1
+452,What Is the What,Dave Eggers,Biographical Novel,1
+453,A Hologram for the King,Dave Eggers,Fiction,1
+454,The Circle,Dave Eggers,Science Fiction,1
+455,The Amazing Adventures of Kavalier & Clay,Michael Chabon,Historical Fiction,1
+456,Wonder Boys,Michael Chabon,Fiction,1
+457,The Yiddish Policemen's Union,Michael Chabon,Detective Fiction,1
+458,Telegraph Avenue,Michael Chabon,Fiction,1
+459,The Brief and Frightening Reign of Phil,George Saunders,Satire,1
+460,Tenth of December,George Saunders,Short Stories,1
+461,Lincoln in the Bardo,George Saunders,Historical Fiction,1
+462,Everything Is Illuminated,Jonathan Safran Foer,Fiction,1
+463,Extremely Loud & Incredibly Close,Jonathan Safran Foer,Novel,1
+464,Here I Am,Jonathan Safran Foer,Fiction,1
+465,White Noise,Don DeLillo,Postmodern Literature,1
+466,Underworld,Don DeLillo,Novel,1
+467,Libra,Don DeLillo,Historical Fiction,1
+468,Mao II,Don DeLillo,Novel,1
+469,Falling Man,Don DeLillo,Novel,1
+470,Zero K,Don DeLillo,Science Fiction,1
+471,The Road,Cormac McCarthy,Post-Apocalyptic Fiction,1
+472,Blood Meridian,Cormac McCarthy,Western,1
+473,Suttree,Cormac McCarthy,Southern Gothic,1
+474,Child of God,Cormac McCarthy,Southern Gothic,1
+475,The Orchard Keeper,Cormac McCarthy,Southern Gothic,1
+476,Outer Dark,Cormac McCarthy,Southern Gothic,1
+477,The Sunset Limited,Cormac McCarthy,Play,1
+478,The Counselor,Cormac McCarthy,Screenplay,1
+479,The Passenger,Cormac McCarthy,Novel,1
+480,Stella Maris,Cormac McCarthy,Novel,1
+481,The Underground Railroad,Colson Whitehead,Historical Fiction,1
+482,The Nickel Boys,Colson Whitehead,Historical Fiction,1
+483,Zone One,Colson Whitehead,Horror,1
+484,The Intuitionist,Colson Whitehead,Speculative Fiction,1
+485,Sag Harbor,Colson Whitehead,Coming-of-age Fiction,1
+486,John Henry Days,Colson Whitehead,Fiction,1
+487,Apex Hides the Hurt,Colson Whitehead,Fiction,1
+488,The Noble Hustle,Colson Whitehead,Memoir,1
+489,Harlem Shuffle,Colson Whitehead,Crime Fiction,1
+490,The Amazing Adventures of Kavalier & Clay,Michael Chabon,Historical Fiction,1
+491,The New York Trilogy,Paul Auster,Postmodern Detective Fiction,1
+492,4 3 2 1,Paul Auster,Novel,1
+493,The Brooklyn Follies,Paul Auster,Novel,1
+494,Invisible,Paul Auster,Novel,1
+495,Moon Palace,Paul Auster,Novel,1
+496,Leviathan,Paul Auster,Novel,1
+497,The Book of Illusions,Paul Auster,Novel,1
+498,Mr. Vertigo,Paul Auster,Novel,1
+499,Oracle Night,Paul Auster,Novel,1
+500,Man in the Dark,Paul Auster,Novel,1
+501,Sunset Park,Paul Auster,Novel,1
+502,Winter Journal,Paul Auster,Memoir,1
+503,Report from the Interior,Paul Auster,Memoir,1
+504,Timbuktu,Paul Auster,Novel,1
+505,In the Country of Last Things,Paul Auster,Dystopian Fiction,1
+506,The Power of One,Bryce Courtenay,Historical Fiction,1
+507,The Pillars of the Earth,Ken Follett,Historical Fiction,1
+508,The Thorn Birds,Colleen McCullough,Historical Fiction,1
+509,Shogun,James Clavell,Historical Fiction,1
+510,Memoirs of a Geisha,Arthur Golden,Historical Fiction,1
+511,A Suitable Boy,Vikram Seth,Historical Fiction,1
+512,The Three Musketeers,Alexandre Dumas,Historical Fiction,1
+513,The Count of Monte Cristo,Alexandre Dumas,Adventure,1
+514,The Hunchback of Notre-Dame,Victor Hugo,Historical Fiction,1
+515,Ivanhoe,Walter Scott,Historical Fiction,1
+516,I, Claudius,Robert Graves,Historical Fiction,1
+517,The Name of the Rose,Umberto Eco,Historical Mystery,1
+518,Wolf Hall,Hilary Mantel,Historical Fiction,1
+519,Bring Up the Bodies,Hilary Mantel,Historical Fiction,1
+520,The Mirror & the Light,Hilary Mantel,Historical Fiction,1
+521,The Book Thief,Markus Zusak,Historical Fiction,1
+522,All the Light We Cannot See,Anthony Doerr,Historical Fiction,1
+523,The Help,Kathryn Stockett,Historical Fiction,1
+524,The Nightingale,Kristin Hannah,Historical Fiction,1
+525,The Alice Network,Kate Quinn,Historical Fiction,1
+526,The Other Boleyn Girl,Philippa Gregory,Historical Fiction,1
+527,Outlander,Diana Gabaldon,Historical Fiction,1
+528,The Clan of the Cave Bear,Jean M. Auel,Prehistoric Fiction,1
+529,The Valley of Horses,Jean M. Auel,Prehistoric Fiction,1
+530,The Mammoth Hunters,Jean M. Auel,Prehistoric Fiction,1
+531,The Plains of Passage,Jean M. Auel,Prehistoric Fiction,1
+532,The Shelters of Stone,Jean M. Auel,Prehistoric Fiction,1
+533,The Land of Painted Caves,Jean M. Auel,Prehistoric Fiction,1
+534,Roots,Alex Haley,Historical Fiction,1
+535,Centennial,James A. Michener,Historical Fiction,1
+536,Hawaii,James A. Michener,Historical Fiction,1
+537,The Source,James A. Michener,Historical Fiction,1
+538,Chesapeake,James A. Michener,Historical Fiction,1
+539,Poland,James A. Michener,Historical Fiction,1
+540,Texas,James A. Michener,Historical Fiction,1
+541,Alaska,James A. Michener,Historical Fiction,1
+542,Caribbean,James A. Michener,Historical Fiction,1
+543,The Covenant,James A. Michener,Historical Fiction,1
+544,Space,James A. Michener,Historical Fiction,1
+545,The Red Tent,Anita Diamant,Historical Fiction,1
+546,The Poisonwood Bible,Barbara Kingsolver,Historical Fiction,1
+547,Cold Mountain,Charles Frazier,Historical Fiction,1
+548,The English Patient,Michael Ondaatje,Historical Fiction,1
+549,Atonement,Ian McEwan,Historical Fiction,1
+550,Birdsong,Sebastian Faulks,Historical Fiction,1
+551,The Remains of the Day,Kazuo Ishiguro,Historical Fiction,1
+552,Alias Grace,Margaret Atwood,Historical Fiction,1
+553,Girl with a Pearl Earring,Tracy Chevalier,Historical Fiction,1
+554,March,Geraldine Brooks,Historical Fiction,1
+555,Year of Wonders,Geraldine Brooks,Historical Fiction,1
+556,People of the Book,Geraldine Brooks,Historical Fiction,1
+557,The Known World,Edward P. Jones,Historical Fiction,1
+558,Possession,A.S. Byatt,Historical Fiction,1
+559,Midnight's Children,Salman Rushdie,Magical Realism,1
+560,The God of Small Things,Arundhati Roy,Historical Fiction,1
+561,A Fine Balance,Rohinton Mistry,Historical Fiction,1
+562,Snow Flower and the Secret Fan,Lisa See,Historical Fiction,1
+563,The Twentieth Wife,Indu Sundaresan,Historical Fiction,1
+564,The Last Queen,C.W. Gortner,Historical Fiction,1
+565,The Birth of Venus,Sarah Dunant,Historical Fiction,1
+566,The Physician,Noah Gordon,Historical Fiction,1
+567,Perfume,Patrick Süskind,Historical Fiction,1
+568,The Historian,Elizabeth Kostova,Historical Fiction,1
+569,City of Thieves,David Benioff,Historical Fiction,1
+570,The Shadow of the Wind,Carlos Ruiz Zafón,Historical Mystery,1
+571,The Angel's Game,Carlos Ruiz Zafón,Historical Mystery,1
+572,The Prisoner of Heaven,Carlos Ruiz Zafón,Historical Mystery,1
+573,The Labyrinth of the Spirits,Carlos Ruiz Zafón,Historical Mystery,1
+574,The Cemetery of Forgotten Books,Carlos Ruiz Zafón,Historical Mystery,1
+575,The Eight,Katherine Neville,Historical Mystery,1
+576,The Rule of Four,Ian Caldwell & Dustin Thomason,Historical Mystery,1
+577,The Club Dumas,Arturo Pérez-Reverte,Historical Mystery,1
+578,The Alienist,Caleb Carr,Historical Mystery,1
+579,Fingersmith,Sarah Waters,Historical Fiction,1
+580,Tipping the Velvet,Sarah Waters,Historical Fiction,1
+581,Affinity,Sarah Waters,Historical Fiction,1
+582,The Night Watch,Sarah Waters,Historical Fiction,1
+583,The Little Stranger,Sarah Waters,Gothic Fiction,1
+584,The Paying Guests,Sarah Waters,Historical Fiction,1
+585,The Crimson Petal and the White,Michel Faber,Historical Fiction,1
+586,The Essex Serpent,Sarah Perry,Historical Fiction,1
+587,The Miniaturist,Jessie Burton,Historical Fiction,1
+588,The Muse,Jessie Burton,Historical Fiction,1
+589,The House at Riverton,Kate Morton,Historical Fiction,1
+590,The Forgotten Garden,Kate Morton,Historical Fiction,1
+591,The Distant Hours,Kate Morton,Historical Fiction,1
+592,The Secret Keeper,Kate Morton,Historical Fiction,1
+593,The Lake House,Kate Morton,Historical Fiction,1
+594,The Clockmaker's Daughter,Kate Morton,Historical Fiction,1
+595,The Boy in the Striped Pajamas,John Boyne,Historical Fiction,1
+596,The Heart's Invisible Furies,John Boyne,Historical Fiction,1
+597,The Tattooist of Auschwitz,Heather Morris,Historical Fiction,1
+598,Cilka's Journey,Heather Morris,Historical Fiction,1
+599,A Gentleman in Moscow,Amor Towles,Historical Fiction,1
+600,Rules of Civility,Amor Towles,Historical Fiction,1
+601,The Lincoln Highway,Amor Towles,Historical Fiction,1
+602,The Guernsey Literary and Potato Peel Pie Society,Mary Ann Shaffer & Annie Barrows,Historical Fiction,1
+603,The Orphan Train,Christina Baker Kline,Historical Fiction,1
+604,Before We Were Yours,Lisa Wingate,Historical Fiction,1
+605,Pachinko,Min Jin Lee,Historical Fiction,1
+606,Homegoing,Yaa Gyasi,Historical Fiction,1
+607,Transcendent Kingdom,Yaa Gyasi,Fiction,1
+608,The Water Dancer,Ta-Nehisi Coates,Historical Fiction,1
+609,Beloved,Toni Morrison,Historical Fiction,1
+610,Song of Solomon,Toni Morrison,Historical Fiction,1
+611,Sula,Toni Morrison,Historical Fiction,1
+612,Tar Baby,Toni Morrison,Historical Fiction,1
+613,Paradise,Toni Morrison,Historical Fiction,1
+614,Jazz,Toni Morrison,Historical Fiction,1
+615,Love,Toni Morrison,Historical Fiction,1
+616,A Mercy,Toni Morrison,Historical Fiction,1
+617,Home,Toni Morrison,Historical Fiction,1
+618,God Help the Child,Toni Morrison,Historical Fiction,1
+619,The Underground Railroad,Colson Whitehead,Historical Fiction,1
+620,The Nickel Boys,Colson Whitehead,Historical Fiction,1
+621,Harlem Shuffle,Colson Whitehead,Historical Fiction,1
+622,Washington Black,Esi Edugyan,Historical Fiction,1
+623,Half-Blood Blues,Esi Edugyan,Historical Fiction,1
+624,The Color Purple,Alice Walker,Historical Fiction,1
+625,The Warmth of Other Suns,Isabel Wilkerson,Historical Non-Fiction,1
+626,Caste,Isabel Wilkerson,Historical Non-Fiction,1
+627,Barracoon,Zora Neale Hurston,Historical Non-Fiction,1
+628,Their Eyes Were Watching God,Zora Neale Hurston,Historical Fiction,1
+629,The Water Dancer,Ta-Nehisi Coates,Historical Fiction,1
+630,Between the World and Me,Ta-Nehisi Coates,Memoir,1
+631,The Beautiful Struggle,Ta-Nehisi Coates,Memoir,1
+632,We Were Eight Years in Power,Ta-Nehisi Coates,Essays,1
+633,The Good Lord Bird,James McBride,Historical Fiction,1
+634,Deacon King Kong,James McBride,Historical Fiction,1
+635,Song Yet Sung,James McBride,Historical Fiction,1
+636,The Color of Water,James McBride,Memoir,1
+637,The Bluest Eye,Toni Morrison,Fiction,1
+638,The New Jim Crow,Michelle Alexander,Non-Fiction,1
+639,Just Mercy,Bryan Stevenson,Memoir,1
+640,The Fire Next Time,James Baldwin,Essays,1
+641,Go Tell It on the Mountain,James Baldwin,Fiction,1
+642,Giovanni's Room,James Baldwin,Fiction,1
+643,Another Country,James Baldwin,Fiction,1
+644,If Beale Street Could Talk,James Baldwin,Fiction,1
+645,Notes of a Native Son,James Baldwin,Essays,1
+646,The Price of the Ticket,James Baldwin,Essays,1
+647,Nobody Knows My Name,James Baldwin,Essays,1
+648,The Cross of Redemption,James Baldwin,Essays,1
+649,Native Son,Richard Wright,Fiction,1
+650,Black Boy,Richard Wright,Autobiography,1
+651,Uncle Tom's Children,Richard Wright,Short Stories,1
+652,Invisible Man,Ralph Ellison,Fiction,1
+653,Juneteenth,Ralph Ellison,Fiction,1
+654,Shadow and Act,Ralph Ellison,Essays,1
+655,Going to the Territory,Ralph Ellison,Essays,1
+656,Three Days Before the Shooting,Ralph Ellison,Fiction,1
+657,The Autobiography of Malcolm X,Malcolm X and Alex Haley,Autobiography,1
+658,Soul on Ice,Eldridge Cleaver,Memoir,1
+659,The Souls of Black Folk,W.E.B. Du Bois,Non-Fiction,1
+660,Black Reconstruction in America,W.E.B. Du Bois,Non-Fiction,1
+661,Black No More,George Schuyler,Satire,1
+662,The Street,Ann Petry,Fiction,1
+663,The Narrows,Ann Petry,Fiction,1
+664,Passing,Nella Larsen,Fiction,1
+665,Quicksand,Nella Larsen,Fiction,1
+666,Not Without Laughter,Langston Hughes,Fiction,1
+667,The Ways of White Folks,Langston Hughes,Short Stories,1
+668,The Big Sea,Langston Hughes,Autobiography,1
+669,I Wonder as I Wander,Langston Hughes,Autobiography,1
+670,The Collected Poems of Langston Hughes,Langston Hughes,Poetry,1
+671,Cane,Jean Toomer,Fiction/Poetry,1
+672,The Blacker the Berry,Wallace Thurman,Fiction,1
+673,Home to Harlem,Claude McKay,Fiction,1
+674,Banjo,Claude McKay,Fiction,1
+675,A Long Way from Home,Claude McKay,Autobiography,1
+676,Jonah's Gourd Vine,Zora Neale Hurston,Fiction,1
+677,Mules and Men,Zora Neale Hurston,Non-Fiction,1
+678,Tell My Horse,Zora Neale Hurston,Non-Fiction,1
+679,Moses Man of the Mountain,Zora Neale Hurston,Fiction,1
+680,Seraph on the Suwanee,Zora Neale Hurston,Fiction,1
+681,Dust Tracks on a Road,Zora Neale Hurston,Autobiography,1
+682,Maud Martha,Gwendolyn Brooks,Fiction,1
+683,A Street in Bronzeville,Gwendolyn Brooks,Poetry,1
+684,Annie Allen,Gwendolyn Brooks,Poetry,1
+685,The Bean Eaters,Gwendolyn Brooks,Poetry,1
+686,In the Mecca,Gwendolyn Brooks,Poetry,1
+687,Riot,Gwendolyn Brooks,Poetry,1
+688,The Collected Poems of Gwendolyn Brooks,Gwendolyn Brooks,Poetry,1
+689,A Raisin in the Sun,Lorraine Hansberry,Drama,1
+690,To Be Young Gifted and Black,Lorraine Hansberry,Autobiography,1
+691,The Sign in Sidney Brustein's Window,Lorraine Hansberry,Drama,1
+692,Les Blancs,Lorraine Hansberry,Drama,1
+693,Corregidora,Gayl Jones,Fiction,1
+694,Eva's Man,Gayl Jones,Fiction,1
+695,The Healing,Gayl Jones,Fiction,1
+696,Mosquito,Gayl Jones,Fiction,1
+697,Palmares,Gayl Jones,Fiction,1
+698,Meridian,Alice Walker,Fiction,1
+699,The Third Life of Grange Copeland,Alice Walker,Fiction,1
+700,You Can't Keep a Good Woman Down,Alice Walker,Short Stories,1
+701,In Love & Trouble,Alice Walker,Short Stories,1
+702,The Temple of My Familiar,Alice Walker,Fiction,1
+703,Possessing the Secret of Joy,Alice Walker,Fiction,1
+704,By the Light of My Father's Smile,Alice Walker,Fiction,1
+705,Now Is the Time to Open Your Heart,Alice Walker,Fiction,1
+706,Anything We Love Can Be Saved,Alice Walker,Essays,1
+707,In Search of Our Mothers' Gardens,Alice Walker,Essays,1
+708,Living by the Word,Alice Walker,Essays,1
+709,The Same River Twice,Alice Walker,Memoir,1
+710,The Chicken Chronicles,Alice Walker,Memoir,1
+711,The Way Forward Is with a Broken Heart,Alice Walker,Short Stories,1
+712,Hard Times Require Furious Dancing,Alice Walker,Poetry,1
+713,Taking the Arrow Out of the Heart,Alice Walker,Poetry,1
+714,Everyday Use,Alice Walker,Short Story,1
+715,The Autobiography of Miss Jane Pittman,Ernest J. Gaines,Fiction,1
+716,A Lesson Before Dying,Ernest J. Gaines,Fiction,1
+717,The Sky Is Gray,Ernest J. Gaines,Short Story,1
+718,A Gathering of Old Men,Ernest J. Gaines,Fiction,1
+719,In My Father's House,Ernest J. Gaines,Fiction,1
+720,Of Love and Dust,Ernest J. Gaines,Fiction,1
+721,Bloodline,Ernest J. Gaines,Short Stories,1
+722,Catherine Carmier,Ernest J. Gaines,Fiction,1
+723,Conversations with Ernest Gaines,Ernest J. Gaines,Interviews,1
+724,Mozart and Leadbelly,Ernest J. Gaines,Essays,1
+725,The Women of Brewster Place,Gloria Naylor,Fiction,1
+726,Linden Hills,Gloria Naylor,Fiction,1
+727,Mama Day,Gloria Naylor,Fiction,1
+728,Bailey's Cafe,Gloria Naylor,Fiction,1
+729,The Men of Brewster Place,Gloria Naylor,Fiction,1
+730,Brown Girl Brownstones,Paule Marshall,Fiction,1
+731,Praisesong for the Widow,Paule Marshall,Fiction,1
+732,Daughters,Paule Marshall,Fiction,1
+733,The Fisher King,Paule Marshall,Fiction,1
+734,Soul Clap Hands and Sing,Paule Marshall,Fiction,1
+735,The Chosen Place the Timeless People,Paule Marshall,Fiction,1
+736,Triangular Road,Paule Marshall,Memoir,1
+737,Gorilla My Love,Toni Cade Bambara,Short Stories,1
+738,The Salt Eaters,Toni Cade Bambara,Fiction,1
+739,Those Bones Are Not My Child,Toni Cade Bambara,Fiction,1
+740,The Sea Birds Are Still Alive,Toni Cade Bambara,Short Stories,1
+741,Deep Sightings & Rescue Missions,Toni Cade Bambara,Fiction,1
+742,If He Hollers Let Him Go,Chester Himes,Fiction,1
+743,The Third Generation,Chester Himes,Fiction,1
+744,Lonely Crusade,Chester Himes,Fiction,1
+745,Cast the First Stone,Chester Himes,Fiction,1
+746,The End of a Primitive,Chester Himes,Fiction,1
+747,A Rage in Harlem,Chester Himes,Fiction,1
+748,The Real Cool Killers,Chester Himes,Fiction,1
+749,The Crazy Kill,Chester Himes,Fiction,1
+750,The Big Gold Dream,Chester Himes,Fiction,1
+751,All Shot Up,Chester Himes,Fiction,1
+752,Cotton Comes to Harlem,Chester Himes,Fiction,1
+753,The Heat's On,Chester Himes,Fiction,1
+754,Blind Man with a Pistol,Chester Himes,Fiction,1
+755,Plan B,Chester Himes,Fiction,1
+756,The Quality of Hurt,Chester Himes,Autobiography,1
+757,My Life of Absurdity,Chester Himes,Autobiography,1
+758,Devil in a Blue Dress,Walter Mosley,Fiction,1
+759,A Red Death,Walter Mosley,Fiction,1
+760,White Butterfly,Walter Mosley,Fiction,1
+761,Black Betty,Walter Mosley,Fiction,1
+762,A Little Yellow Dog,Walter Mosley,Fiction,1
+763,Gone Fishin',Walter Mosley,Fiction,1
+764,Bad Boy Brawly Brown,Walter Mosley,Fiction,1
+765,Six Easy Pieces,Walter Mosley,Fiction,1
+766,Little Scarlet,Walter Mosley,Fiction,1
+767,Cinnamon Kiss,Walter Mosley,Fiction,1
+768,Charcoal Joe,Walter Mosley,Fiction,1
+769,Blood Grove,Walter Mosley,Fiction,1
+770,Always Outnumbered Always Outgunned,Walter Mosley,Fiction,1
+771,Walkin' the Dog,Walter Mosley,Fiction,1
+772,The Man in My Basement,Walter Mosley,Fiction,1
+773,The Right Mistake,Walter Mosley,Fiction,1
+774,The Last Days of Ptolemy Grey,Walter Mosley,Fiction,1
+775,Down the River unto the Sea,Walter Mosley,Fiction,1
+776,John Woman,Walter Mosley,Fiction,1
+777,RL's Dream,Walter Mosley,Fiction,1
+778,47,Walter Mosley,Fiction,1
+779,Killing Johnny Fry,Walter Mosley,Fiction,1
+780,Diablerie,Walter Mosley,Fiction,1
+781,The Tempest Tales,Walter Mosley,Fiction,1
+782,The Gift of Fire / On the Head of a Pin,Walter Mosley,Fiction,1
+783,Debbie Doesn't Do It Anymore,Walter Mosley,Fiction,1
+784,Inside a Silver Box,Walter Mosley,Fiction,1
+785,Futureland,Walter Mosley,Science Fiction,1
+786,Blue Light,Walter Mosley,Science Fiction,1
+787,The Wave,Walter Mosley,Science Fiction,1
+788,Stepping Stone / The Love Machine,Walter Mosley,Science Fiction,1
+789,What Next,Walter Mosley,Non-Fiction,1
+790,Life Out of Context,Walter Mosley,Non-Fiction,1
+791,This Year You Write Your Novel,Walter Mosley,Non-Fiction,1
+792,Elements of Fiction,Walter Mosley,Non-Fiction,1
+793,Workin' on the Chain Gang,Walter Mosley,Non-Fiction,1
+794,The Long Fall,Walter Mosley,Fiction,1
+795,Known to Evil,Walter Mosley,Fiction,1
+796,When the Thrill Is Gone,Walter Mosley,Fiction,1
+797,All I Did Was Shoot My Man,Walter Mosley,Fiction,1
+798,And Sometimes I Wonder About You,Walter Mosley,Fiction,1
+799,Trouble Is What I Do,Walter Mosley,Fiction,1
+800,Blood Sucker,Walter Mosley,Fiction,1
+801,The Last Best Kiss,Walter Mosley,Fiction,1
+802,Blood Grove,Walter Mosley,Fiction,1
+803,Fear Itself,Walter Mosley,Fiction,1
+804,Fear of the Dark,Walter Mosley,Fiction,1
+805,Fearless Jones,Walter Mosley,Fiction,1
+806,Fear of the Dark,Walter Mosley,Fiction,1
+807,Jazz,Toni Morrison,Fiction,1
+808,A Mercy,Toni Morrison,Fiction,1
+809,The Bondwoman's Narrative,Hannah Crafts,Fiction,1
+810,Our Nig,Harriet E. Wilson,Fiction,1
+811,Jubilee,Margaret Walker,Fiction,1
+812,For colored girls who have considered suicide / when the rainbow is enuf,Ntozake Shange,Play,1
+813,Sassafrass Cypress & Indigo,Ntozake Shange,Fiction,1
+814,Betsey Brown,Ntozake Shange,Fiction,1
+815,Liliane,Ntozake Shange,Fiction,1
+816,Some Sing Some Cry,Ntozake Shange & Ifa Bayeza,Fiction,1
+817,If Beale Street Could Talk,James Baldwin,Fiction,1
+818,The Fire Next Time,James Baldwin,Non-Fiction,1
+819,Giovanni's Room,James Baldwin,Fiction,1
+820,Another Country,James Baldwin,Fiction,1
+821,Go Tell It on the Mountain,James Baldwin,Fiction,1
+822,Notes of a Native Son,James Baldwin,Non-Fiction,1
+823,Nobody Knows My Name,James Baldwin,Non-Fiction,1
+824,The Devil Finds Work,James Baldwin,Non-Fiction,1
+825,Just Above My Head,James Baldwin,Fiction,1
+826,The Evidence of Things Not Seen,James Baldwin,Non-Fiction,1
+827,The Cross of Redemption,James Baldwin,Non-Fiction,1
+828,No Name in the Street,James Baldwin,Non-Fiction,1
+829,Jimmy's Blues and Other Poems,James Baldwin,Poetry,1
+830,The Amen Corner,James Baldwin,Play,1
+831,Blues for Mister Charlie,James Baldwin,Play,1
+832,Tell Me How Long the Train's Been Gone,James Baldwin,Fiction,1
+833,If I Stop Now,James Baldwin,Fiction,1
+834,The Welcome Table,James Baldwin,Fiction,1
+835,Little Man Little Man,James Baldwin,Children's Literature,1
+836,I Am Not Your Negro,James Baldwin (adapted by Raoul Peck),Non-Fiction,1
+837,The Last Interview and Other Conversations,James Baldwin,Interviews,1
+838,The Price of the Ticket,James Baldwin,Non-Fiction,1
+839,Native Son,Richard Wright,Fiction,1
+840,Black Boy,Richard Wright,Autobiography,1
+841,Uncle Tom's Children,Richard Wright,Short Stories,1
+842,The Outsider,Richard Wright,Fiction,1
+843,Savage Holiday,Richard Wright,Fiction,1
+844,The Long Dream,Richard Wright,Fiction,1
+845,Eight Men,Richard Wright,Short Stories,1
+846,Lawd Today!,Richard Wright,Fiction,1
+847,Black Power,Richard Wright,Non-Fiction,1
+848,White Man Listen!,Richard Wright,Non-Fiction,1
+849,Pagan Spain,Richard Wright,Non-Fiction,1
+850,12 Million Black Voices,Richard Wright,Non-Fiction,1
+851,The Color Curtain,Richard Wright,Non-Fiction,1
+852,American Hunger,Richard Wright,Autobiography,1
+853,Later Works,Richard Wright,Various,1
+854,The Man Who Lived Underground,Richard Wright,Fiction,1
+855,Rite of Passage,Richard Wright,Fiction,1
+856,A Father's Law,Richard Wright,Fiction,1
+857,Haiku: This Other World,Richard Wright,Poetry,1
+858,The God That Failed,Richard Wright (contributor),Non-Fiction,1
+859,The Last Interview and Other Conversations,Richard Wright,Interviews,1
+860,Invisible Man,Ralph Ellison,Fiction,1
+861,Shadow and Act,Ralph Ellison,Essays,1
+862,Going to the Territory,Ralph Ellison,Essays,1
+863,Flying Home and Other Stories,Ralph Ellison,Short Stories,1
+864,Juneteenth,Ralph Ellison,Fiction,1
+865,Three Days Before the Shooting,Ralph Ellison,Fiction,1
+866,The Collected Essays of Ralph Ellison,Ralph Ellison,Essays,1
+867,Trading Twelves,Ralph Ellison & Albert Murray,Letters,1
+868,Living with Music,Ralph Ellison,Essays,1
+869,The Last Interview and Other Conversations,Ralph Ellison,Interviews,1
+870,The Invisible Man,H.G. Wells,Science Fiction,1
+871,The Time Machine,H.G. Wells,Science Fiction,1
+872,The War of the Worlds,H.G. Wells,Science Fiction,1
+873,The Island of Doctor Moreau,H.G. Wells,Science Fiction,1
+874,The First Men in the Moon,H.G. Wells,Science Fiction,1
+875,The Food of the Gods,H.G. Wells,Science Fiction,1
+876,In the Days of the Comet,H.G. Wells,Science Fiction,1
+877,The World Set Free,H.G. Wells,Science Fiction,1
+878,The Shape of Things to Come,H.G. Wells,Science Fiction,1
+879,The Sleeper Awakes,H.G. Wells,Science Fiction,1
+880,The Invisible Man,H.G. Wells,Science Fiction,1
+881,The War in the Air,H.G. Wells,Science Fiction,1
+882,Men Like Gods,H.G. Wells,Science Fiction,1
+883,The Dream,H.G. Wells,Science Fiction,1
+884,Star Begotten,H.G. Wells,Science Fiction,1
+885,The Croquet Player,H.G. Wells,Science Fiction,1
+886,The Outline of History,H.G. Wells,Non-Fiction,1
+887,A Short History of the World,H.G. Wells,Non-Fiction,1
+888,The Science of Life,H.G. Wells,Non-Fiction,1
+889,The Work Wealth and Happiness of Mankind,H.G. Wells,Non-Fiction,1
+890,Tono-Bungay,H.G. Wells,Fiction,1
+891,Ann Veronica,H.G. Wells,Fiction,1
+892,The History of Mr Polly,H.G. Wells,Fiction,1
+893,Kipps,H.G. Wells,Fiction,1
+894,Love and Mr Lewisham,H.G. Wells,Fiction,1
+895,The Wheels of Chance,H.G. Wells,Fiction,1
+896,The New Machiavelli,H.G. Wells,Fiction,1
+897,Boon,H.G. Wells,Fiction,1
+898,The Research Magnificent,H.G. Wells,Fiction,1
+899,The Wonderful Visit,H.G. Wells,Fiction,1
+900,The Sea Lady,H.G. Wells,Fiction,1
+901,The Wife of Sir Isaac Harman,H.G. Wells,Fiction,1
+902,The Undying Fire,H.G. Wells,Fiction,1
+903,The Soul of a Bishop,H.G. Wells,Fiction,1
+904,The Secret Places of the Heart,H.G. Wells,Fiction,1
+905,Meanwhile,H.G. Wells,Fiction,1
+906,The Autocracy of Mr Parham,H.G. Wells,Fiction,1
+907,The Bulpington of Blup,H.G. Wells,Fiction,1
+908,The Holy Terror,H.G. Wells,Fiction,1
+909,Apropos of Dolores,H.G. Wells,Fiction,1
+910,Brynhild,H.G. Wells,Fiction,1
+911,The Happy Turning,H.G. Wells,Fiction,1
+912,All Aboard for Ararat,H.G. Wells,Fiction,1
+913,The Camford Visitation,H.G. Wells,Fiction,1
+914,The Short Stories of H.G. Wells,H.G. Wells,Short Stories,1
+915,The Door in the Wall and Other Stories,H.G. Wells,Short Stories,1
+916,The Country of the Blind and Other Stories,H.G. Wells,Short Stories,1
+917,The Stolen Bacillus and Other Incidents,H.G. Wells,Short Stories,1
+918,The Plattner Story and Others,H.G. Wells,Short Stories,1
+919,Tales of Space and Time,H.G. Wells,Short Stories,1
+920,Twelve Stories and a Dream,H.G. Wells,Short Stories,1
+921,The Collected Short Stories of H.G. Wells,H.G. Wells,Short Stories,1
+922,Experiment in Autobiography,H.G. Wells,Autobiography,1
+923,The Last Interview and Other Conversations,H.G. Wells,Interviews,1
+924,The Brothers Karamazov,Fyodor Dostoevsky,Fiction,1
+925,Crime and Punishment,Fyodor Dostoevsky,Fiction,1
+926,The Idiot,Fyodor Dostoevsky,Fiction,1
+927,Demons,Fyodor Dostoevsky,Fiction,1
+928,The Adolescent,Fyodor Dostoevsky,Fiction,1
+929,Notes from Underground,Fyodor Dostoevsky,Fiction,1
+930,The Gambler,Fyodor Dostoevsky,Fiction,1
+931,White Nights,Fyodor Dostoevsky,Fiction,1
+932,The Double,Fyodor Dostoevsky,Fiction,1
+933,Poor Folk,Fyodor Dostoevsky,Fiction,1
+934,The House of the Dead,Fyodor Dostoevsky,Fiction,1
+935,The Insulted and Injured,Fyodor Dostoevsky,Fiction,1
+936,The Village of Stepanchikovo,Fyodor Dostoevsky,Fiction,1
+937,The Eternal Husband,Fyodor Dostoevsky,Fiction,1
+938,A Writer's Diary,Fyodor Dostoevsky,Non-Fiction,1
+939,The Diary of a Writer,Fyodor Dostoevsky,Non-Fiction,1
+940,Winter Notes on Summer Impressions,Fyodor Dostoevsky,Non-Fiction,1
+941,Complete Letters,Fyodor Dostoevsky,Letters,1
+942,The Grand Inquisitor,Fyodor Dostoevsky,Fiction,1
+943,Notes from a Dead House,Fyodor Dostoevsky,Fiction,1
+944,The Dream of a Ridiculous Man,Fyodor Dostoevsky,Fiction,1
+945,The Double and The Gambler,Fyodor Dostoevsky,Fiction,1
+946,The Best Short Stories of Fyodor Dostoevsky,Fyodor Dostoevsky,Short Stories,1
+947,War and Peace,Leo Tolstoy,Fiction,1
+948,Anna Karenina,Leo Tolstoy,Fiction,1
+949,The Death of Ivan Ilyich,Leo Tolstoy,Fiction,1
+950,Resurrection,Leo Tolstoy,Fiction,1
+951,The Cossacks,Leo Tolstoy,Fiction,1
+952,The Kreutzer Sonata,Leo Tolstoy,Fiction,1
+953,Hadji Murat,Leo Tolstoy,Fiction,1
+954,Childhood,Leo Tolstoy,Fiction,1
+955,Boyhood,Leo Tolstoy,Fiction,1
+956,Youth,Leo Tolstoy,Fiction,1
+957,Sevastopol Sketches,Leo Tolstoy,Fiction,1
+958,The Forged Coupon,Leo Tolstoy,Fiction,1
+959,The Devil,Leo Tolstoy,Fiction,1
+960,Father Sergius,Leo Tolstoy,Fiction,1
+961,The Raid,Leo Tolstoy,Fiction,1
+962,A Confession,Leo Tolstoy,Non-Fiction,1
+963,The Kingdom of God Is Within You,Leo Tolstoy,Non-Fiction,1
+964,What Is Art?,Leo Tolstoy,Non-Fiction,1
+965,A Calendar of Wisdom,Leo Tolstoy,Non-Fiction,1
+966,The Law of Love and the Law of Violence,Leo Tolstoy,Non-Fiction,1
+967,What Then Must We Do?,Leo Tolstoy,Non-Fiction,1
+968,Tolstoy's Diaries,Leo Tolstoy,Diaries,1
+969,Tolstoy's Letters,Leo Tolstoy,Letters,1
+970,The Collected Short Fiction of Leo Tolstoy,Leo Tolstoy,Short Stories,1
+971,Master and Man,Leo Tolstoy,Fiction,1
+972,How Much Land Does a Man Need?,Leo Tolstoy,Fiction,1
+973,The Death of Ivan Ilyich and Other Stories,Leo Tolstoy,Fiction,1
+974,Childhood Boyhood Youth,Leo Tolstoy,Fiction,1
+975,The Gospel in Brief,Leo Tolstoy,Non-Fiction,1
+976,On Life and Essays on Religion,Leo Tolstoy,Non-Fiction,1
+977,Family Happiness,Leo Tolstoy,Fiction,1
+978,The Power of Darkness,Leo Tolstoy,Play,1
+979,The Living Corpse,Leo Tolstoy,Play,1
+980,The Light Shines in Darkness,Leo Tolstoy,Play,1
+981,Fruits of Culture,Leo Tolstoy,Play,1
+982,The Cause of It All,Leo Tolstoy,Play,1
+983,The First Distiller,Leo Tolstoy,Play,1
+984,The Wisdom of Leo Tolstoy,Leo Tolstoy,Non-Fiction,1
+985,Patriotism and Government,Leo Tolstoy,Non-Fiction,1
+986,Last Steps: The Late Writings of Leo Tolstoy,Leo Tolstoy,Non-Fiction,1
+987,Divine and Human and Other Stories,Leo Tolstoy,Fiction,1
+988,Walk in the Light and Twenty-Three Tales,Leo Tolstoy,Fiction,1
+989,Great Short Works of Leo Tolstoy,Leo Tolstoy,Fiction,1
+990,My Religion,Leo Tolstoy,Non-Fiction,1
+991,The Last Interview and Other Conversations,Leo Tolstoy,Interviews,1
+992,The Cherry Orchard,Anton Chekhov,Play,1
+993,The Seagull,Anton Chekhov,Play,1
+994,Uncle Vanya,Anton Chekhov,Play,1
+995,Three Sisters,Anton Chekhov,Play,1
+996,Ivanov,Anton Chekhov,Play,1
+997,The Lady with the Dog,Anton Chekhov,Short Story,1
+998,The Steppe,Anton Chekhov,Fiction,1
+999,The Duel,Anton Chekhov,Fiction,1
+1000,The Black Monk,Anton Chekhov,Short Story,1
+1001,The Peasants,Anton Chekhov,Fiction,1
+1002,Ward No. 6,Anton Chekhov,Short Story,1
+1003,The Bishop,Anton Chekhov,Short Story,1
+1004,The Darling,Anton Chekhov,Short Story,1
+1005,The Student,Anton Chekhov,Short Story,1
+1006,The Grasshopper,Anton Chekhov,Short Story,1
+1007,A Boring Story,Anton Chekhov,Short Story,1
+1008,Three Years,Anton Chekhov,Fiction,1
+1009,My Life,Anton Chekhov,Fiction,1
+1010,The Party,Anton Chekhov,Short Story,1
+1011,The Duel,Anton Chekhov,Fiction,1
+1012,The Steppe,Anton Chekhov,Fiction,1
+1013,The Kiss,Anton Chekhov,Short Story,1
+1014,The Name-Day Party,Anton Chekhov,Short Story,1
+1015,Kashtanka,Anton Chekhov,Short Story,1
+1016,The Horse-Stealers,Anton Chekhov,Short Story,1
+1017,The House with the Mezzanine,Anton Chekhov,Short Story,1
+1018,The Man in a Case,Anton Chekhov,Short Story,1
+1019,Gooseberries,Anton Chekhov,Short Story,1
+1020,About Love,Anton Chekhov,Short Story,1
+1021,The Bet,Anton Chekhov,Short Story,1
+1022,Sakhalin Island,Anton Chekhov,Non-Fiction,1
+1023,The Complete Short Novels,Anton Chekhov,Fiction,1
+1024,Anton Chekhov's Short Stories,Anton Chekhov,Short Stories,1
+1025,The Selected Letters of Anton Chekhov,Anton Chekhov,Letters,1
+1026,The Last Interview and Other Conversations,Anton Chekhov,Interviews,1
+1027,Pride and Prejudice,Jane Austen,Romance,1
+1028,Sense and Sensibility,Jane Austen,Romance,1
+1029,Emma,Jane Austen,Romance,1
+1030,Mansfield Park,Jane Austen,Romance,1
+1031,Persuasion,Jane Austen,Romance,1
+1032,Northanger Abbey,Jane Austen,Romance,1
+1033,Lady Susan,Jane Austen,Fiction,1
+1034,The Watsons,Jane Austen,Fiction,1
+1035,Sanditon,Jane Austen,Fiction,1
+1036,Love and Freindship,Jane Austen,Fiction,1
+1037,The Complete Novels of Jane Austen,Jane Austen,Fiction,1
+1038,The Complete Works of Jane Austen,Jane Austen,Fiction,1
+1039,Jane Austen's Letters,Jane Austen,Letters,1
+1040,The Wit and Wisdom of Jane Austen,Jane Austen,Non-Fiction,1
+1041,Jane Austen: A Life,Claire Tomalin,Biography,1
+1042,A Jane Austen Education,William Deresiewicz,Non-Fiction,1
+1043,Madame Bovary,Gustave Flaubert,Fiction,1
+1044,Sentimental Education,Gustave Flaubert,Fiction,1
+1045,Salammbo,Gustave Flaubert,Fiction,1
+1046,Three Tales,Gustave Flaubert,Fiction,1
+1047,Bouvard and Pécuchet,Gustave Flaubert,Fiction,1
+1048,The Temptation of Saint Anthony,Gustave Flaubert,Fiction,1
+1049,Dictionary of Received Ideas,Gustave Flaubert,Non-Fiction,1
+1050,The Selected Letters of Gustave Flaubert,Gustave Flaubert,Letters,1
+1051,The Last Interview and Other Conversations,Gustave Flaubert,Interviews,1
+1052,Don Quixote,Miguel de Cervantes,Fiction,1
+1053,The Exemplary Novels,Miguel de Cervantes,Fiction,1
+1054,La Galatea,Miguel de Cervantes,Fiction,1
+1055,Journey to Parnassus,Miguel de Cervantes,Poetry,1
+1056,The Bagnios of Algiers,Miguel de Cervantes,Play,1
+1057,The Siege of Numantia,Miguel de Cervantes,Play,1
+1058,The Colloquy of the Dogs,Miguel de Cervantes,Fiction,1
+1059,Rinconete and Cortadillo,Miguel de Cervantes,Fiction,1
+1060,The Dialogue of the Dogs,Miguel de Cervantes,Fiction,1
+1061,Persiles and Sigismunda,Miguel de Cervantes,Fiction,1
+1062,Miguel de Cervantes: A Life,William Egginton,Biography,1
+1063,The Collected Works of Miguel de Cervantes,Miguel de Cervantes,Fiction,1
+1064,A Connecticut Yankee in King Arthur's Court,Mark Twain,Fiction,1
+1065,The Adventures of Tom Sawyer,Mark Twain,Fiction,1
+1066,The Adventures of Huckleberry Finn,Mark Twain,Fiction,1
+1067,Pudd'nhead Wilson,Mark Twain,Fiction,1
+1068,The Prince and the Pauper,Mark Twain,Fiction,1
+1069,Life on the Mississippi,Mark Twain,Non-Fiction,1
+1070,Roughing It,Mark Twain,Non-Fiction,1
+1071,The Innocents Abroad,Mark Twain,Non-Fiction,1
+1072,Following the Equator,Mark Twain,Non-Fiction,1
+1073,The Mysterious Stranger,Mark Twain,Fiction,1
+1074,The Gilded Age,Mark Twain,Fiction,1
+1075,The Man That Corrupted Hadleyburg,Mark Twain,Fiction,1
+1076,The £1,000,000 Bank-Note,Mark Twain,Fiction,1
+1077,The Celebrated Jumping Frog of Calaveras County,Mark Twain,Short Story,1
+1078,Personal Recollections of Joan of Arc,Mark Twain,Fiction,1
+1079,Autobiography of Mark Twain,Mark Twain,Autobiography,1
+1080,The Complete Short Stories of Mark Twain,Mark Twain,Short Stories,1
+1081,The Complete Essays of Mark Twain,Mark Twain,Essays,1
+1082,Letters from the Earth,Mark Twain,Fiction,1
+1083,The Diaries of Adam and Eve,Mark Twain,Fiction,1
+1084,The Complete Works of Mark Twain,Mark Twain,Various,1
+1085,Mark Twain: A Life,Ron Powers,Biography,1
+1086,The Last Interview and Other Conversations,Mark Twain,Interviews,1
+1087,Oliver Twist,Charles Dickens,Fiction,1
+1088,A Tale of Two Cities,Charles Dickens,Fiction,1
+1089,Great Expectations,Charles Dickens,Fiction,1
+1090,David Copperfield,Charles Dickens,Fiction,1
+1091,Bleak House,Charles Dickens,Fiction,1
+1092,Hard Times,Charles Dickens,Fiction,1
+1093,The Pickwick Papers,Charles Dickens,Fiction,1
+1094,The Old Curiosity Shop,Charles Dickens,Fiction,1
+1095,Nicholas Nickleby,Charles Dickens,Fiction,1
+1096,Dombey and Son,Charles Dickens,Fiction,1
+1097,Little Dorrit,Charles Dickens,Fiction,1
+1098,Our Mutual Friend,Charles Dickens,Fiction,1
+1099,Martin Chuzzlewit,Charles Dickens,Fiction,1
+1100,The Mystery of Edwin Drood,Charles Dickens,Fiction,1
+1101,A Christmas Carol,Charles Dickens,Fiction,1
+1102,The Chimes,Charles Dickens,Fiction,1
+1103,The Cricket on the Hearth,Charles Dickens,Fiction,1
+1104,The Battle of Life,Charles Dickens,Fiction,1
+1105,The Haunted Man and the Ghost's Bargain,Charles Dickens,Fiction,1
+1106,American Notes,Charles Dickens,Non-Fiction,1
+1107,Pictures from Italy,Charles Dickens,Non-Fiction,1
+1108,The Life of Our Lord,Charles Dickens,Non-Fiction,1
+1109,A Child's History of England,Charles Dickens,Non-Fiction,1
+1110,The Uncommercial Traveller,Charles Dickens,Non-Fiction,1
+1111,Complete Ghost Stories,Charles Dickens,Fiction,1
+1112,Selected Journalism 1850-1870,Charles Dickens,Non-Fiction,1
+1113,Speeches Literary and Social,Charles Dickens,Non-Fiction,1
+1114,The Complete Works of Charles Dickens,Charles Dickens,Various,1
+1115,Charles Dickens: A Life,Claire Tomalin,Biography,1
+1116,The Last Interview and Other Conversations,Charles Dickens,Interviews,1
+1117,The Scarlet Letter,Nathaniel Hawthorne,Fiction,1
+1118,The House of the Seven Gables,Nathaniel Hawthorne,Fiction,1
+1119,The Blithedale Romance,Nathaniel Hawthorne,Fiction,1
+1120,The Marble Faun,Nathaniel Hawthorne,Fiction,1
+1121,Twice-Told Tales,Nathaniel Hawthorne,Short Stories,1
+1122,Mosses from an Old Manse,Nathaniel Hawthorne,Short Stories,1
+1123,The Snow-Image and Other Twice-Told Tales,Nathaniel Hawthorne,Short Stories,1
+1124,A Wonder-Book for Girls and Boys,Nathaniel Hawthorne,Children's Literature,1
+1125,Tanglewood Tales,Nathaniel Hawthorne,Children's Literature,1
+1126,The Celestial Railroad and Other Stories,Nathaniel Hawthorne,Short Stories,1
+1127,Young Goodman Brown and Other Tales,Nathaniel Hawthorne,Short Stories,1
+1128,The Complete Novels of Nathaniel Hawthorne,Nathaniel Hawthorne,Fiction,1
+1129,The American Notebooks,Nathaniel Hawthorne,Non-Fiction,1
+1130,The English Notebooks,Nathaniel Hawthorne,Non-Fiction,1
+1131,The French and Italian Notebooks,Nathaniel Hawthorne,Non-Fiction,1
+1132,Septimius Felton,Nathaniel Hawthorne,Fiction,1
+1133,Fanshawe,Nathaniel Hawthorne,Fiction,1
+1134,The Dolliver Romance,Nathaniel Hawthorne,Fiction,1
+1135,Doctor Grimshawe's Secret,Nathaniel Hawthorne,Fiction,1
+1136,The Life of Franklin Pierce,Nathaniel Hawthorne,Biography,1
+1137,Our Old Home,Nathaniel Hawthorne,Non-Fiction,1
+1138,The Complete Works of Nathaniel Hawthorne,Nathaniel Hawthorne,Various,1
+1139,Hawthorne: A Life,Brenda Wineapple,Biography,1
+1140,The Last Interview and Other Conversations,Nathaniel Hawthorne,Interviews,1
+1141,Wuthering Heights,Emily Brontë,Fiction,1
+1142,The Complete Poems of Emily Brontë,Emily Brontë,Poetry,1
+1143,The Complete Novels of the Brontë Sisters,Emily Brontë,Charlotte Brontë,Anne Brontë,Fiction,1
+1144,Jane Eyre,Charlotte Brontë,Fiction,1
+1145,Shirley,Charlotte Brontë,Fiction,1
+1146,Villette,Charlotte Brontë,Fiction,1
+1147,The Professor,Charlotte Brontë,Fiction,1
+1148,The Tenant of Wildfell Hall,Anne Brontë,Fiction,1
+1149,Agnes Grey,Anne Brontë,Fiction,1
+1150,The Brontës: A Life in Letters,Juliet Barker,Biography,1
+1151,The Life of Charlotte Brontë,Elizabeth Gaskell,Biography,1
+1152,The Last Interview and Other Conversations,Charlotte Brontë,Interviews,1
+1153,Moby-Dick,Herman Melville,Fiction,1
+1154,Billy Budd Sailor,Herman Melville,Fiction,1
+1155,Typee,Herman Melville,Fiction,1
+1156,Omoo,Herman Melville,Fiction,1
+1157,White-Jacket,Herman Melville,Fiction,1
+1158,Redburn,Herman Melville,Fiction,1
+1159,Pierre,Herman Melville,Fiction,1
+1160,The Confidence-Man,Herman Melville,Fiction,1
+1161,Israel Potter,Herman Melville,Fiction,1
+1162,Mardi,Herman Melville,Fiction,1
+1163,Clarel,Herman Melville,Poetry,1
+1164,Battle-Pieces and Aspects of the War,Herman Melville,Poetry,1
+1165,John Marr and Other Sailors,Herman Melville,Poetry,1
+1166,Timoleon,Herman Melville,Poetry,1
+1167,The Piazza Tales,Herman Melville,Short Stories,1
+1168,The Apple-Tree Table and Other Sketches,Herman Melville,Short Stories,1
+1169,The Complete Short Stories of Herman Melville,Herman Melville,Short Stories,1
+1170,The Complete Poems of Herman Melville,Herman Melville,Poetry,1
+1171,Journal of a Visit to London and the Continent,Herman Melville,Non-Fiction,1
+1172,Journals,Herman Melville,Non-Fiction,1
+1173,Correspondence,Herman Melville,Letters,1
+1174,The Complete Works of Herman Melville,Herman Melville,Various,1
+1175,Herman Melville: A Biography,Hershel Parker,Biography,1
+1176,The Last Interview and Other Conversations,Herman Melville,Interviews,1
+1177,Leaves of Grass,Walt Whitman,Poetry,1
+1178,Drum-Taps,Walt Whitman,Poetry,1
+1179,Specimen Days & Collect,Walt Whitman,Non-Fiction,1
+1180,Franklin Evans,Walt Whitman,Fiction,1
+1181,Democratic Vistas,Walt Whitman,Non-Fiction,1
+1182,The Complete Prose Works of Walt Whitman,Walt Whitman,Prose,1
+1183,The Correspondence of Walt Whitman,Walt Whitman,Letters,1
+1184,The Complete Poems of Walt Whitman,Walt Whitman,Poetry,1
+1185,Walt Whitman's Diary in Canada,Walt Whitman,Diary,1
+1186,November Boughs,Walt Whitman,Prose,1
+1187,Memoranda During the War,Walt Whitman,Non-Fiction,1
+1188,Complete Poetry and Collected Prose,Walt Whitman,Poetry/Prose,1
+1189,The Complete Works of Walt Whitman,Walt Whitman,Various,1
+1190,Walt Whitman: A Life,Justin Kaplan,Biography,1
+1191,The Last Interview and Other Conversations,Walt Whitman,Interviews,1
+1192,The Collected Poems of Emily Dickinson,Emily Dickinson,Poetry,1
+1193,Selected Letters of Emily Dickinson,Emily Dickinson,Letters,1
+1194,The Complete Poems of Emily Dickinson,Emily Dickinson,Poetry,1
+1195,My Wars Are Laid Away in Books: The Life of Emily Dickinson,Alfred Habegger,Biography,1
+1196,The Best Poems of Emily Dickinson,Emily Dickinson,Poetry,1
+1197,Emily Dickinson: A Life,Cynthia Griffin Wolff,Biography,1
+1198,The Complete Letters of Emily Dickinson,Emily Dickinson,Letters,1
+1199,The Poems of Emily Dickinson: Reading Edition,Emily Dickinson,Poetry,1
+1200,The Complete Poems of Emily Dickinson: Reading Edition,Emily Dickinson,Poetry,1
+1201,The Portable Emily Dickinson,Emily Dickinson,Poetry,1
+1202,The Last Interview and Other Conversations,Emily Dickinson,Interviews,1
+1203,Paradise Lost,John Milton,Poetry,1
+1204,Paradise Regained,John Milton,Poetry,1
+1205,Samson Agonistes,John Milton,Poetry,1
+1206,Lycidas,John Milton,Poetry,1
+1207,Comus,John Milton,Poetry,1
+1208,Areopagitica,John Milton,Prose,1
+1209,The Complete Poems of John Milton,John Milton,Poetry,1
+1210,The Complete Prose Works of John Milton,John Milton,Prose,1
+1211,The Complete Works of John Milton,John Milton,Various,1
+1212,L'Allegro and Il Penseroso,John Milton,Poetry,1
+1213,Of Education,John Milton,Prose,1
+1214,The Doctrine and Discipline of Divorce,John Milton,Prose,1
+1215,The Tenure of Kings and Magistrates,John Milton,Prose,1
+1216,Eikonoklastes,John Milton,Prose,1
+1217,The Ready and Easy Way to Establish a Free Commonwealth,John Milton,Prose,1
+1218,John Milton: A Life,A.N. Wilson,Biography,1
+1219,The Last Interview and Other Conversations,John Milton,Interviews,1
+1220,The Canterbury Tales,Geoffrey Chaucer,Poetry,1
+1221,Troilus and Criseyde,Geoffrey Chaucer,Poetry,1
+1222,The Book of the Duchess,Geoffrey Chaucer,Poetry,1
+1223,The House of Fame,Geoffrey Chaucer,Poetry,1
+1224,The Parliament of Fowls,Geoffrey Chaucer,Poetry,1
+1225,The Legend of Good Women,Geoffrey Chaucer,Poetry,1
+1226,Anelida and Arcite,Geoffrey Chaucer,Poetry,1
+1227,The Treatise on the Astrolabe,Geoffrey Chaucer,Prose,1
+1228,The Romaunt of the Rose,Geoffrey Chaucer,Poetry,1
+1229,The Complete Works of Geoffrey Chaucer,Geoffrey Chaucer,Various,1
+1230,Chaucer: A European Life,Marion Turner,Biography,1
+1231,The Last Interview and Other Conversations,Geoffrey Chaucer,Interviews,1
+1232,The Divine Comedy,Dante Alighieri,Poetry,1
+1233,The New Life,Dante Alighieri,Poetry,1
+1234,The Banquet,Dante Alighieri,Poetry,1
+1235,On Monarchy,Dante Alighieri,Prose,1
+1236,On the Eloquence of the Vernacular,Dante Alighieri,Prose,1
+1237,Eclogues,Dante Alighieri,Poetry,1
+1238,Epistles,Dante Alighieri,Prose,1
+1239,The Rime Petrose,Dante Alighieri,Poetry,1
+1240,The Complete Works of Dante Alighieri,Dante Alighieri,Various,1
+1241,Dante: A Life,R.W.B. Lewis,Biography,1
+1242,The Last Interview and Other Conversations,Dante Alighieri,Interviews,1
+1243,Ulysses,James Joyce,Fiction,1
+1244,A Portrait of the Artist as a Young Man,James Joyce,Fiction,1
+1245,Dubliners,James Joyce,Short Stories,1
+1246,Finnegans Wake,James Joyce,Fiction,1
+1247,Exiles,James Joyce,Play,1
+1248,Stephen Hero,James Joyce,Fiction,1
+1249,Chamber Music,James Joyce,Poetry,1
+1250,Pomes Penyeach,James Joyce,Poetry,1
+1251,Collected Poems of James Joyce,James Joyce,Poetry,1
+1252,The Cat and the Devil,James Joyce,Children's Literature,1
+1253,The Complete Works of James Joyce,James Joyce,Various,1
+1254,James Joyce: A Biography,Gordon Bowker,Biography,1
+1255,The Last Interview and Other Conversations,James Joyce,Interviews,1
+1256,In Search of Lost Time,Marcel Proust,Fiction,1
+1257,Swann's Way,Marcel Proust,Fiction,1
+1258,In the Shadow of Young Girls in Flower,Marcel Proust,Fiction,1
+1259,The Guermantes Way,Marcel Proust,Fiction,1
+1260,Sodom and Gomorrah,Marcel Proust,Fiction,1
+1261,The Prisoner,Marcel Proust,Fiction,1
+1262,The Fugitive,Marcel Proust,Fiction,1
+1263,Time Regained,Marcel Proust,Fiction,1
+1264,Jean Santeuil,Marcel Proust,Fiction,1
+1265,Pleasures and Days,Marcel Proust,Fiction,1
+1266,Against Sainte-Beuve,Marcel Proust,Criticism,1
+1267,Pastiches and Mixtures,Marcel Proust,Fiction,1
+1268,Marcel Proust: Selected Letters,Marcel Proust,Letters,1
+1269,Marcel Proust: A Life,William C. Carter,Biography,1
+1270,The Last Interview and Other Conversations,Marcel Proust,Interviews,1
+1271,Mrs. Dalloway,Virginia Woolf,Fiction,1
+1272,To the Lighthouse,Virginia Woolf,Fiction,1
+1273,Orlando,Virginia Woolf,Fiction,1
+1274,The Waves,Virginia Woolf,Fiction,1
+1275,Between the Acts,Virginia Woolf,Fiction,1
+1276,Night and Day,Virginia Woolf,Fiction,1
+1277,Jacob's Room,Virginia Woolf,Fiction,1
+1278,The Years,Virginia Woolf,Fiction,1
+1279,The Voyage Out,Virginia Woolf,Fiction,1
+1280,Flush,Virginia Woolf,Fiction,1
+1281,A Room of One's Own,Virginia Woolf,Essay,1
+1282,Three Guineas,Virginia Woolf,Essay,1
+1283,The Common Reader: First Series,Virginia Woolf,Essays,1
+1284,The Common Reader: Second Series,Virginia Woolf,Essays,1
+1285,The Death of the Moth and Other Essays,Virginia Woolf,Essays,1
+1286,The Moment and Other Essays,Virginia Woolf,Essays,1
+1287,The Captain's Death Bed and Other Essays,Virginia Woolf,Essays,1
+1288,Granite and Rainbow,Virginia Woolf,Essays,1
+1289,A Writer's Diary,Virginia Woolf,Diary,1
+1290,The Diary of Virginia Woolf,Virginia Woolf,Diary,1
+1291,The Letters of Virginia Woolf,Virginia Woolf,Letters,1
+1292,Moments of Being,Virginia Woolf,Autobiography,1
+1293,Roger Fry: A Biography,Virginia Woolf,Biography,1
+1294,Freshwater,Virginia Woolf,Play,1
+1295,The Complete Works of Virginia Woolf,Virginia Woolf,Various,1
+1296,Virginia Woolf: A Biography,Hermione Lee,Biography,1
+1297,The Last Interview and Other Conversations,Virginia Woolf,Interviews,1
+1298,The Trial,Franz Kafka,Fiction,1
+1299,The Castle,Franz Kafka,Fiction,1
+1300,Amerika,Franz Kafka,Fiction,1
+1301,The Metamorphosis,Franz Kafka,Fiction,1
+1302,A Hunger Artist,Franz Kafka,Short Stories,1
+1303,In the Penal Colony,Franz Kafka,Short Story,1
+1304,The Judgment,Franz Kafka,Short Story,1
+1305,The Complete Stories of Franz Kafka,Franz Kafka,Short Stories,1
+1306,The Diaries of Franz Kafka,Franz Kafka,Diary,1
+1307,Letters to Felice,Franz Kafka,Letters,1
+1308,Letters to Milena,Franz Kafka,Letters,1
+1309,Letters to Friends Family and Editors,Franz Kafka,Letters,1
+1310,The Complete Works of Franz Kafka,Franz Kafka,Various,1
+1311,Kafka: A Biography,Reiner Stach,Biography,1
+1312,The Last Interview and Other Conversations,Franz Kafka,Interviews,1
+1313,One Hundred Years of Solitude,Gabriel García Márquez,Fiction,1
+1314,Love in the Time of Cholera,Gabriel García Márquez,Fiction,1
+1315,Chronicle of a Death Foretold,Gabriel García Márquez,Fiction,1
+1316,The Autumn of the Patriarch,Gabriel García Márquez,Fiction,1
+1317,The General in His Labyrinth,Gabriel García Márquez,Fiction,1
+1318,Of Love and Other Demons,Gabriel García Márquez,Fiction,1
+1319,No One Writes to the Colonel,Gabriel García Márquez,Fiction,1
+1320,Leaf Storm,Gabriel García Márquez,Fiction,1
+1321,In Evil Hour,Gabriel García Márquez,Fiction,1
+1322,Strange Pilgrims,Gabriel García Márquez,Short Stories,1
+1323,Innocent Eréndira and Other Stories,Gabriel García Márquez,Short Stories,1
+1324,The Story of a Shipwrecked Sailor,Gabriel García Márquez,Non-Fiction,1
+1325,News of a Kidnapping,Gabriel García Márquez,Non-Fiction,1
+1326,Living to Tell the Tale,Gabriel García Márquez,Autobiography,1
+1327,Memories of My Melancholy Whores,Gabriel García Márquez,Fiction,1
+1328,The Complete Works of Gabriel García Márquez,Gabriel García Márquez,Various,1
+1329,Gabriel García Márquez: A Life,Gerald Martin,Biography,1
+1330,The Last Interview and Other Conversations,Gabriel García Márquez,Interviews,1
+1331,The Sound and the Fury,William Faulkner,Fiction,1
+1332,As I Lay Dying,William Faulkner,Fiction,1
+1333,Absalom Absalom!,William Faulkner,Fiction,1
+1334,Light in August,William Faulkner,Fiction,1
+1335,The Hamlet,William Faulkner,Fiction,1
+1336,The Town,William Faulkner,Fiction,1
+1337,The Mansion,William Faulkner,Fiction,1
+1338,Go Down Moses,William Faulkner,Fiction,1
+1339,Intruder in the Dust,William Faulkner,Fiction,1
+1340,Sanctuary,William Faulkner,Fiction,1
+1341,Requiem for a Nun,William Faulkner,Fiction,1
+1342,The Wild Palms,William Faulkner,Fiction,1
+1343,The Reivers,William Faulkner,Fiction,1
+1344,A Fable,William Faulkner,Fiction,1
+1345,Soldiers' Pay,William Faulkner,Fiction,1
+1346,Mosquitoes,William Faulkner,Fiction,1
+1347,Sartoris,William Faulkner,Fiction,1
+1348,Pylon,William Faulkner,Fiction,1
+1349,The Unvanquished,William Faulkner,Fiction,1
+1350,Flags in the Dust,William Faulkner,Fiction,1
+1351,Knight's Gambit,William Faulkner,Short Stories,1
+1352,Collected Stories of William Faulkner,William Faulkner,Short Stories,1
+1353,New Orleans Sketches,William Faulkner,Short Stories,1
+1354,The Portable Faulkner,William Faulkner,Fiction,1
+1355,Selected Letters of William Faulkner,William Faulkner,Letters,1
+1356,Essays Speeches and Public Letters,William Faulkner,Non-Fiction,1
+1357,The Complete Works of William Faulkner,William Faulkner,Various,1
+1358,William Faulkner: A Life,Joseph Blotner,Biography,1
+1359,The Last Interview and Other Conversations,William Faulkner,Interviews,1
+1360,The Great Gatsby,F. Scott Fitzgerald,Fiction,1
+1361,Tender Is the Night,F. Scott Fitzgerald,Fiction,1
+1362,This Side of Paradise,F. Scott Fitzgerald,Fiction,1
+1363,The Beautiful and Damned,F. Scott Fitzgerald,Fiction,1
+1364,The Last Tycoon,F. Scott Fitzgerald,Fiction,1
+1365,Tales of the Jazz Age,F. Scott Fitzgerald,Short Stories,1
+1366,Flappers and Philosophers,F. Scott Fitzgerald,Short Stories,1
+1367,All the Sad Young Men,F. Scott Fitzgerald,Short Stories,1
+1368,Taps at Reveille,F. Scott Fitzgerald,Short Stories,1
+1369,The Pat Hobby Stories,F. Scott Fitzgerald,Short Stories,1
+1370,The Crack-Up,F. Scott Fitzgerald,Essays,1
+1371,A Life in Letters,F. Scott Fitzgerald,Letters,1
+1372,The Notebooks of F. Scott Fitzgerald,F. Scott Fitzgerald,Notes,1
+1373,The Complete Short Stories of F. Scott Fitzgerald,F. Scott Fitzgerald,Short Stories,1
+1374,The Complete Works of F. Scott Fitzgerald,F. Scott Fitzgerald,Various,1
+1375,F. Scott Fitzgerald: A Life in Letters,F. Scott Fitzgerald,Letters,1
+1376,The Letters of F. Scott Fitzgerald,F. Scott Fitzgerald,Letters,1
+1377,F. Scott Fitzgerald: A Life,Matthew J. Bruccoli,Biography,1
+1378,The Last Interview and Other Conversations,F. Scott Fitzgerald,Interviews,1
+1379,For Whom the Bell Tolls,Ernest Hemingway,Fiction,1
+1380,A Farewell to Arms,Ernest Hemingway,Fiction,1
+1381,The Old Man and the Sea,Ernest Hemingway,Fiction,1
+1382,The Sun Also Rises,Ernest Hemingway,Fiction,1
+1383,To Have and Have Not,Ernest Hemingway,Fiction,1
+1384,Across the River and into the Trees,Ernest Hemingway,Fiction,1
+1385,Islands in the Stream,Ernest Hemingway,Fiction,1
+1386,The Garden of Eden,Ernest Hemingway,Fiction,1
+1387,Death in the Afternoon,Ernest Hemingway,Non-Fiction,1
+1388,Green Hills of Africa,Ernest Hemingway,Non-Fiction,1
+1389,A Moveable Feast,Ernest Hemingway,Memoir,1
+1390,The Dangerous Summer,Ernest Hemingway,Non-Fiction,1
+1391,True at First Light,Ernest Hemingway,Fiction,1
+1392,The Nick Adams Stories,Ernest Hemingway,Short Stories,1
+1393,Men Without Women,Ernest Hemingway,Short Stories,1
+1394,Winner Take Nothing,Ernest Hemingway,Short Stories,1
+1395,The Fifth Column and the First Forty-Nine Stories,Ernest Hemingway,Short Stories,1
+1396,The Snows of Kilimanjaro and Other Stories,Ernest Hemingway,Short Stories,1
+1397,The Complete Short Stories of Ernest Hemingway,Ernest Hemingway,Short Stories,1
+1398,By-Line: Ernest Hemingway,Ernest Hemingway,Journalism,1
+1399,Ernest Hemingway Selected Letters 1917-1961,Ernest Hemingway,Letters,1
+1400,The Complete Works of Ernest Hemingway,Ernest Hemingway,Various,1
+1401,Ernest Hemingway: A Life Story,Carlos Baker,Biography,1
+1402,The Last Interview and Other Conversations,Ernest Hemingway,Interviews,1
+1403,The Grapes of Wrath,John Steinbeck,Fiction,1
+1404,Of Mice and Men,John Steinbeck,Fiction,1
+1405,East of Eden,John Steinbeck,Fiction,1
+1406,The Pearl,John Steinbeck,Fiction,1
+1407,Tortilla Flat,John Steinbeck,Fiction,1
+1408,Cannery Row,John Steinbeck,Fiction,1
+1409,Sweet Thursday,John Steinbeck,Fiction,1
+1410,The Winter of Our Discontent,John Steinbeck,Fiction,1
+1411,The Moon Is Down,John Steinbeck,Fiction,1
+1412,To a God Unknown,John Steinbeck,Fiction,1
+1413,In Dubious Battle,John Steinbeck,Fiction,1
+1414,The Pastures of Heaven,John Steinbeck,Fiction,1
+1415,The Red Pony,John Steinbeck,Fiction,1
+1416,The Long Valley,John Steinbeck,Short Stories,1
+1417,Travels with Charley,John Steinbeck,Non-Fiction,1
+1418,America and Americans,John Steinbeck,Non-Fiction,1
+1419,A Russian Journal,John Steinbeck,Non-Fiction,1
+1420,Once There Was a War,John Steinbeck,Non-Fiction,1
+1421,The Sea of Cortez,John Steinbeck,Non-Fiction,1
+1422,Journal of a Novel,John Steinbeck,Non-Fiction,1
+1423,Working Days,John Steinbeck,Non-Fiction,1
+1424,The Acts of King Arthur and His Noble Knights,John Steinbeck,Fiction,1
+1425,The Complete Works of John Steinbeck,John Steinbeck,Various,1
+1426,John Steinbeck: A Biography,Jay Parini,Biography,1
+1427,The Last Interview and Other Conversations,John Steinbeck,Interviews,1
+1428,Brave New World,Aldous Huxley,Fiction,1
+1429,Island,Aldous Huxley,Fiction,1
+1430,The Doors of Perception,Aldous Huxley,Non-Fiction,1
+1431,Heaven and Hell,Aldous Huxley,Non-Fiction,1
+1432,The Perennial Philosophy,Aldous Huxley,Non-Fiction,1
+1433,Point Counter Point,Aldous Huxley,Fiction,1
+1434,Antic Hay,Aldous Huxley,Fiction,1
+1435,Crome Yellow,Aldous Huxley,Fiction,1
+1436,Those Barren Leaves,Aldous Huxley,Fiction,1
+1437,Ape and Essence,Aldous Huxley,Fiction,1
+1438,After Many a Summer Dies the Swan,Aldous Huxley,Fiction,1
+1439,Eyeless in Gaza,Aldous Huxley,Fiction,1
+1440,Time Must Have a Stop,Aldous Huxley,Fiction,1
+1441,The Devils of Loudun,Aldous Huxley,Non-Fiction,1
+1442,The Art of Seeing,Aldous Huxley,Non-Fiction,1
+1443,Mortal Coils,Aldous Huxley,Short Stories,1
+1444,Brief Candles,Aldous Huxley,Short Stories,1
+1445,Limbo,Aldous Huxley,Short Stories,1
+1446,Collected Short Stories,Aldous Huxley,Short Stories,1
+1447,The Complete Essays of Aldous Huxley,Aldous Huxley,Essays,1
+1448,Collected Letters of Aldous Huxley,Aldous Huxley,Letters,1
+1449,The Complete Works of Aldous Huxley,Aldous Huxley,Various,1
+1450,Aldous Huxley: A Biography,Sybille Bedford,Biography,1
+1451,The Last Interview and Other Conversations,Aldous Huxley,Interviews,1
+1452,The Sun Also Rises,Ernest Hemingway,Fiction,1
+1453,A Farewell to Arms,Ernest Hemingway,Fiction,1
+1454,For Whom the Bell Tolls,Ernest Hemingway,Fiction,1
+1455,The Old Man and the Sea,Ernest Hemingway,Fiction,1
+1456,Death in the Afternoon,Ernest Hemingway,Non-Fiction,1
+1457,Green Hills of Africa,Ernest Hemingway,Non-Fiction,1
+1458,To Have and Have Not,Ernest Hemingway,Fiction,1
+1459,Across the River and into the Trees,Ernest Hemingway,Fiction,1
+1460,Islands in the Stream,Ernest Hemingway,Fiction,1
+1461,The Garden of Eden,Ernest Hemingway,Fiction,1
+1462,True at First Light,Ernest Hemingway,Fiction,1
+1463,In Our Time,Ernest Hemingway,Short Stories,1
+1464,Men Without Women,Ernest Hemingway,Short Stories,1
+1465,Winner Take Nothing,Ernest Hemingway,Short Stories,1
+1466,The Fifth Column and the First Forty-Nine Stories,Ernest Hemingway,Short Stories,1
+1467,The Snows of Kilimanjaro and Other Stories,Ernest Hemingway,Short Stories,1
+1468,The Nick Adams Stories,Ernest Hemingway,Short Stories,1
+1469,The Dangerous Summer,Ernest Hemingway,Non-Fiction,1
+1470,A Moveable Feast,Ernest Hemingway,Memoir,1
+1471,The Complete Short Stories of Ernest Hemingway,Ernest Hemingway,Short Stories,1
+1472,By-Line: Ernest Hemingway,Ernest Hemingway,Journalism,1
+1473,Ernest Hemingway Selected Letters 1917-1961,Ernest Hemingway,Letters,1
+1474,Ernest Hemingway: A Life Story,Carlos Baker,Biography,1
+1475,The Last Interview and Other Conversations,Ernest Hemingway,Interviews,1
+1476,The Complete Works of Ernest Hemingway,Ernest Hemingway,Various,1
+1477,The Hobbit,J.R.R. Tolkien,Fantasy,1
+1478,The Lord of the Rings,J.R.R. Tolkien,Fantasy,1
+1479,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,1
+1480,The Two Towers,J.R.R. Tolkien,Fantasy,1
+1481,The Return of the King,J.R.R. Tolkien,Fantasy,1
+1482,The Silmarillion,J.R.R. Tolkien,Fantasy,1
+1483,Unfinished Tales,J.R.R. Tolkien,Fantasy,1
+1484,The Children of Húrin,J.R.R. Tolkien,Fantasy,1
+1485,Beren and Lúthien,J.R.R. Tolkien,Fantasy,1
+1486,The Fall of Gondolin,J.R.R. Tolkien,Fantasy,1
+1487,The History of Middle-earth,J.R.R. Tolkien,Fantasy,1
+1488,The Book of Lost Tales,J.R.R. Tolkien,Fantasy,1
+1489,The Lays of Beleriand,J.R.R. Tolkien,Fantasy,1
+1490,The Shaping of Middle-earth,J.R.R. Tolkien,Fantasy,1
+1491,The Lost Road and Other Writings,J.R.R. Tolkien,Fantasy,1
+1492,The Return of the Shadow,J.R.R. Tolkien,Fantasy,1
+1493,The Treason of Isengard,J.R.R. Tolkien,Fantasy,1
+1494,The War of the Ring,J.R.R. Tolkien,Fantasy,1
+1495,Sauron Defeated,J.R.R. Tolkien,Fantasy,1
+1496,Morgoth's Ring,J.R.R. Tolkien,Fantasy,1
+1497,The War of the Jewels,J.R.R. Tolkien,Fantasy,1
+1498,The Peoples of Middle-earth,J.R.R. Tolkien,Fantasy,1
+1499,The Adventures of Tom Bombadil,J.R.R. Tolkien,Poetry,1
+1500,The Road Goes Ever On,J.R.R. Tolkien,Poetry,1
+1501,Smith of Wootton Major,J.R.R. Tolkien,Fiction,1
+1502,Farmer Giles of Ham,J.R.R. Tolkien,Fiction,1
+1503,The Father Christmas Letters,J.R.R. Tolkien,Children's Literature,1
+1504,Mr. Bliss,J.R.R. Tolkien,Children's Literature,1
+1505,Roverandom,J.R.R. Tolkien,Children's Literature,1
+1506,The History of The Hobbit,J.R.R. Tolkien,Non-Fiction,1
+1507,Tales from the Perilous Realm,J.R.R. Tolkien,Fantasy,1
+1508,Bilbo's Last Song,J.R.R. Tolkien,Poetry,1
+1509,The Lay of Aotrou and Itroun,J.R.R. Tolkien,Poetry,1
+1510,The Legend of Sigurd and Gudrún,J.R.R. Tolkien,Poetry,1
+1511,The Letters of J.R.R. Tolkien,J.R.R. Tolkien,Letters,1
+1512,The Complete Works of J.R.R. Tolkien,J.R.R. Tolkien,Various,1
+1513,J.R.R. Tolkien: A Biography,Humphrey Carpenter,Biography,1
+1514,The Last Interview and Other Conversations,J.R.R. Tolkien,Interviews,1
+1515,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,1
+1516,Harry Potter and the Chamber of Secrets,J.K. Rowling,Fantasy,1
+1517,Harry Potter and the Prisoner of Azkaban,J.K. Rowling,Fantasy,1
+1518,Harry Potter and the Goblet of Fire,J.K. Rowling,Fantasy,1
+1519,Harry Potter and the Order of the Phoenix,J.K. Rowling,Fantasy,1
+1520,Harry Potter and the Half-Blood Prince,J.K. Rowling,Fantasy,1
+1521,Harry Potter and the Deathly Hallows,J.K. Rowling,Fantasy,1
+1522,Fantastic Beasts and Where to Find Them,J.K. Rowling,Fantasy,1
+1523,Quidditch Through the Ages,J.K. Rowling,Fantasy,1
+1524,The Tales of Beedle the Bard,J.K. Rowling,Fantasy,1
+1525,The Casual Vacancy,J.K. Rowling,Fiction,1
+1526,The Cuckoo's Calling,Robert Galbraith (J.K. Rowling),Mystery,1
+1527,The Silkworm,Robert Galbraith (J.K. Rowling),Mystery,1
+1528,Career of Evil,Robert Galbraith (J.K. Rowling),Mystery,1
+1529,Lethal White,Robert Galbraith (J.K. Rowling),Mystery,1
+1530,Troubled Blood,Robert Galbraith (J.K. Rowling),Mystery,1
+1531,The Ink Black Heart,Robert Galbraith (J.K. Rowling),Mystery,1
+1532,Fantastic Beasts: The Crimes of Grindelwald,J.K. Rowling,Screenplay,1
+1533,Fantastic Beasts: The Secrets of Dumbledore,J.K. Rowling,Screenplay,1
+1534,Very Good Lives,J.K. Rowling,Non-Fiction,1
+1535,The Ickabog,J.K. Rowling,Children's Literature,1
+1536,The Christmas Pig,J.K. Rowling,Children's Literature,1
+1537,J.K. Rowling: A Biography,Sean Smith,Biography,1
+1538,The Last Interview and Other Conversations,J.K. Rowling,Interviews,1
+1539,Foundation,Isaac Asimov,Science Fiction,1
+1540,Foundation and Empire,Isaac Asimov,Science Fiction,1
+1541,Second Foundation,Isaac Asimov,Science Fiction,1
+1542,Foundation's Edge,Isaac Asimov,Science Fiction,1
+1543,Foundation and Earth,Isaac Asimov,Science Fiction,1
+1544,Prelude to Foundation,Isaac Asimov,Science Fiction,1
+1545,Forward the Foundation,Isaac Asimov,Science Fiction,1
+1546,I Robot,Isaac Asimov,Science Fiction,1
+1547,The Caves of Steel,Isaac Asimov,Science Fiction,1
+1548,The Naked Sun,Isaac Asimov,Science Fiction,1
+1549,The Robots of Dawn,Isaac Asimov,Science Fiction,1
+1550,Robots and Empire,Isaac Asimov,Science Fiction,1
+1551,The End of Eternity,Isaac Asimov,Science Fiction,1
+1552,The Gods Themselves,Isaac Asimov,Science Fiction,1
+1553,The Currents of Space,Isaac Asimov,Science Fiction,1
+1554,The Stars Like Dust,Isaac Asimov,Science Fiction,1
+1555,Pebble in the Sky,Isaac Asimov,Science Fiction,1
+1556,Nemesis,Isaac Asimov,Science Fiction,1
+1557,Nightfall,Isaac Asimov,Science Fiction,1
+1558,The Bicentennial Man and Other Stories,Isaac Asimov,Science Fiction,1
+1559,The Complete Robot,Isaac Asimov,Science Fiction,1
+1560,Robot Dreams,Isaac Asimov,Science Fiction,1
+1561,Robot Visions,Isaac Asimov,Science Fiction,1
+1562,The Martian Way and Other Stories,Isaac Asimov,Science Fiction,1
+1563,Earth Is Room Enough,Isaac Asimov,Science Fiction,1
+1564,Nine Tomorrows,Isaac Asimov,Science Fiction,1
+1565,The Rest of the Robots,Isaac Asimov,Science Fiction,1
+1566,Asimov's Mysteries,Isaac Asimov,Science Fiction,1
+1567,The Early Asimov,Isaac Asimov,Science Fiction,1
+1568,Buy Jupiter and Other Stories,Isaac Asimov,Science Fiction,1
+1569,The Winds of Change and Other Stories,Isaac Asimov,Science Fiction,1
+1570,Gold,Isaac Asimov,Science Fiction,1
+1571,Magic,Isaac Asimov,Science Fiction,1
+1572,The Complete Stories Vol. 1,Isaac Asimov,Science Fiction,1
+1573,The Complete Stories Vol. 2,Isaac Asimov,Science Fiction,1
+1574,Asimov's Guide to the Bible,Isaac Asimov,Non-Fiction,1
+1575,Asimov's Guide to Shakespeare,Isaac Asimov,Non-Fiction,1
+1576,Asimov's Chronology of Science and Discovery,Isaac Asimov,Non-Fiction,1
+1577,Asimov's Chronology of the World,Isaac Asimov,Non-Fiction,1
+1578,Asimov's New Guide to Science,Isaac Asimov,Non-Fiction,1
+1579,The Intelligent Man's Guide to Science,Isaac Asimov,Non-Fiction,1
+1580,Understanding Physics,Isaac Asimov,Non-Fiction,1
+1581,The Universe,Isaac Asimov,Non-Fiction,1
+1582,The Human Body,Isaac Asimov,Non-Fiction,1
+1583,The Human Brain,Isaac Asimov,Non-Fiction,1
+1584,The Chemicals of Life,Isaac Asimov,Non-Fiction,1
+1585,A Short History of Biology,Isaac Asimov,Non-Fiction,1
+1586,A Short History of Chemistry,Isaac Asimov,Non-Fiction,1
+1587,Life and Energy,Isaac Asimov,Non-Fiction,1
+1588,The Genetic Code,Isaac Asimov,Non-Fiction,1
+1589,The Neutrino,Isaac Asimov,Non-Fiction,1
+1590,The Noble Gases,Isaac Asimov,Non-Fiction,1
+1591,Photosynthesis,Isaac Asimov,Non-Fiction,1
+1592,The World of Carbon,Isaac Asimov,Non-Fiction,1
+1593,The World of Nitrogen,Isaac Asimov,Non-Fiction,1
+1594,Atoms,Isaac Asimov,Non-Fiction,1
+1595,Inside the Atom,Isaac Asimov,Non-Fiction,1
+1596,Building Blocks of the Universe,Isaac Asimov,Non-Fiction,1
+1597,The Clock We Live On,Isaac Asimov,Non-Fiction,1
+1598,How Did We Find Out About...? series,Isaac Asimov,Non-Fiction,1
+1599,Isaac Asimov's Book of Facts,Isaac Asimov,Non-Fiction,1
+1600,Isaac Asimov's Treasury of Humor,Isaac Asimov,Non-Fiction,1
+1601,In Memory Yet Green,Isaac Asimov,Autobiography,1
+1602,In Joy Still Felt,Isaac Asimov,Autobiography,1
+1603,I. Asimov: A Memoir,Isaac Asimov,Autobiography,1
+1604,It's Been a Good Life,Isaac Asimov,Autobiography,1
+1605,The Complete Works of Isaac Asimov,Isaac Asimov,Various,1
+1606,Isaac Asimov: A Life of the Grand Master of Science Fiction,Michael White,Biography,1
+1607,The Last Interview and Other Conversations,Isaac Asimov,Interviews,1
+1608,Dune,Frank Herbert,Science Fiction,1
+1609,Dune Messiah,Frank Herbert,Science Fiction,1
+1610,Children of Dune,Frank Herbert,Science Fiction,1
+1611,God Emperor of Dune,Frank Herbert,Science Fiction,1
+1612,Heretics of Dune,Frank Herbert,Science Fiction,1
+1613,Chapterhouse: Dune,Frank Herbert,Science Fiction,1
+1614,The Road to Dune,Frank Herbert,Science Fiction,1
+1615,Man of Two Worlds,Frank Herbert,Science Fiction,1
+1616,The Santaroga Barrier,Frank Herbert,Science Fiction,1
+1617,Soul Catcher,Frank Herbert,Fiction,1
+1618,The White Plague,Frank Herbert,Science Fiction,1
+1619,The Dragon in the Sea,Frank Herbert,Science Fiction,1
+1620,Hellstrom's Hive,Frank Herbert,Science Fiction,1
+1621,The Eyes of Heisenberg,Frank Herbert,Science Fiction,1
+1622,The Godmakers,Frank Herbert,Science Fiction,1
+1623,Destination: Void,Frank Herbert,Science Fiction,1
+1624,The Jesus Incident,Frank Herbert & Bill Ransom,Science Fiction,1
+1625,The Lazarus Effect,Frank Herbert & Bill Ransom,Science Fiction,1
+1626,The Ascension Factor,Frank Herbert & Bill Ransom,Science Fiction,1
+1627,Direct Descent,Frank Herbert,Science Fiction,1
+1628,The Dosadi Experiment,Frank Herbert,Science Fiction,1
+1629,Whipping Star,Frank Herbert,Science Fiction,1
+1630,The Green Brain,Frank Herbert,Science Fiction,1
+1631,The Complete Works of Frank Herbert,Frank Herbert,Various,1
+1632,Dreamer of Dune: The Biography of Frank Herbert,Brian Herbert,Biography,1
+1633,The Last Interview and Other Conversations,Frank Herbert,Interviews,1
+1634,The Martian,Andy Weir,Science Fiction,1
+1635,Project Hail Mary,Andy Weir,Science Fiction,1
+1636,Artemis,Andy Weir,Science Fiction,1
+1637,The Egg,Andy Weir,Short Story,1
+1638,Randomize,Andy Weir,Short Story,1
+1639,Ready Player One,Ernest Cline,Science Fiction,1
+1640,Ready Player Two,Ernest Cline,Science Fiction,1
+1641,Armada,Ernest Cline,Science Fiction,1
+1642,Turtles All the Way Down,John Green,Young Adult Fiction,1
+1643,The Fault in Our Stars,John Green,Young Adult Fiction,1
+1644,Looking for Alaska,John Green,Young Adult Fiction,1
+1645,Paper Towns,John Green,Young Adult Fiction,1
+1646,An Abundance of Katherines,John Green,Young Adult Fiction,1
+1647,Will Grayson Will Grayson,John Green & David Levithan,Young Adult Fiction,1
+1648,Let It Snow,John Green Maureen Johnson & Lauren Myracle,Young Adult Fiction,1
+1649,The Anthropocene Reviewed,John Green,Non-Fiction,1
+1650,The Silent Patient,Alex Michaelides,Psychological Thriller,1
+1651,The Maidens,Alex Michaelides,Psychological Thriller,1
+1652,Gone Girl,Gillian Flynn,Psychological Thriller,1
+1653,Sharp Objects,Gillian Flynn,Psychological Thriller,1
+1654,Dark Places,Gillian Flynn,Psychological Thriller,1
+1655,The Grownup,Gillian Flynn,Short Story,1
+1656,The Girl on the Train,Paula Hawkins,Psychological Thriller,1
+1657,Into the Water,Paula Hawkins,Psychological Thriller,1
+1658,A Slow Fire Burning,Paula Hawkins,Psychological Thriller,1
+1659,The Woman in the Window,A.J. Finn,Psychological Thriller,1
+1660,The Kind Worth Killing,Peter Swanson,Psychological Thriller,1
+1661,All the Missing Girls,Megan Miranda,Psychological Thriller,1
+1662,The Last Mrs. Parrish,Liv Constantine,Psychological Thriller,1
+1663,Sometimes I Lie,Alice Feeney,Psychological Thriller,1
+1664,Behind Closed Doors,B.A. Paris,Psychological Thriller,1
+1665,The Woman in Cabin 10,Ruth Ware,Psychological Thriller,1
+1666,The Good Daughter,Karin Slaughter,Psychological Thriller,1
+1667,The Wife Between Us,Greer Hendricks & Sarah Pekkanen,Psychological Thriller,1
+1668,The Marriage Lie,Kimberly Belle,Psychological Thriller,1
+1669,Before I Go to Sleep,S.J. Watson,Psychological Thriller,1
+1670,I Let You Go,Clare Mackintosh,Psychological Thriller,1
+1671,The Couple Next Door,Shari Lapena,Psychological Thriller,1
+1672,Final Girls,Riley Sager,Psychological Thriller,1
+1673,The Good Girl,Mary Kubica,Psychological Thriller,1
+1674,Big Little Lies,Liane Moriarty,Mystery,1
+1675,The Husband's Secret,Liane Moriarty,Mystery,1
+1676,Nine Perfect Strangers,Liane Moriarty,Mystery,1
+1677,What Alice Forgot,Liane Moriarty,Fiction,1
+1678,Truly Madly Guilty,Liane Moriarty,Fiction,1
+1679,The Last Anniversary,Liane Moriarty,Fiction,1
+1680,Three Wishes,Liane Moriarty,Fiction,1
+1681,The Hypnotist's Love Story,Liane Moriarty,Fiction,1
+1682,Apples Never Fall,Liane Moriarty,Fiction,1
+1683,The Light We Lost,Jill Santopolo,Romance,1
+1684,More Than Words,Jill Santopolo,Romance,1
+1685,Everything After,Jill Santopolo,Romance,1
+1686,The Summer I Turned Pretty,Jenny Han,Young Adult Romance,1
+1687,It's Not Summer Without You,Jenny Han,Young Adult Romance,1
+1688,We'll Always Have Summer,Jenny Han,Young Adult Romance,1
+1689,To All the Boys I've Loved Before,Jenny Han,Young Adult Romance,1
+1690,P.S. I Still Love You,Jenny Han,Young Adult Romance,1
+1691,Always and Forever Lara Jean,Jenny Han,Young Adult Romance,1
+1692,The Hunger Games,Suzanne Collins,Young Adult Dystopian,1
+1693,Catching Fire,Suzanne Collins,Young Adult Dystopian,1
+1694,Mockingjay,Suzanne Collins,Young Adult Dystopian,1
+1695,The Ballad of Songbirds and Snakes,Suzanne Collins,Young Adult Dystopian,1
+1696,Gregor the Overlander,Suzanne Collins,Middle Grade Fiction,1
+1697,Gregor and the Prophecy of Bane,Suzanne Collins,Middle Grade Fiction,1
+1698,Gregor and the Curse of the Warmbloods,Suzanne Collins,Middle Grade Fiction,1
+1699,Gregor and the Marks of Secret,Suzanne Collins,Middle Grade Fiction,1
+1700,Gregor and the Code of Claw,Suzanne Collins,Middle Grade Fiction,1
+1701,Divergent,Veronica Roth,Young Adult Dystopian,1
+1702,Insurgent,Veronica Roth,Young Adult Dystopian,1
+1703,Allegiant,Veronica Roth,Young Adult Dystopian,1
+1704,Four: A Divergent Collection,Veronica Roth,Young Adult Dystopian,1
+1705,Carve the Mark,Veronica Roth,Young Adult Science Fiction,1
+1706,The Fates Divide,Veronica Roth,Young Adult Science Fiction,1
+1707,Chosen Ones,Veronica Roth,Fantasy,1
+1708,The Maze Runner,James Dashner,Young Adult Dystopian,1
+1709,The Scorch Trials,James Dashner,Young Adult Dystopian,1
+1710,The Death Cure,James Dashner,Young Adult Dystopian,1
+1711,The Kill Order,James Dashner,Young Adult Dystopian,1
+1712,The Fever Code,James Dashner,Young Adult Dystopian,1
+1713,The Eye of Minds,James Dashner,Young Adult Science Fiction,1
+1714,The Rule of Thoughts,James Dashner,Young Adult Science Fiction,1
+1715,The Game of Lives,James Dashner,Young Adult Science Fiction,1
+1716,The 13th Reality series,James Dashner,Young Adult Fantasy,1
+1717,Twilight,Stephenie Meyer,Young Adult Fantasy,1
+1718,New Moon,Stephenie Meyer,Young Adult Fantasy,1
+1719,Eclipse,Stephenie Meyer,Young Adult Fantasy,1
+1720,Breaking Dawn,Stephenie Meyer,Young Adult Fantasy,1
+1721,Midnight Sun,Stephenie Meyer,Young Adult Fantasy,1
+1722,The Short Second Life of Bree Tanner,Stephenie Meyer,Young Adult Fantasy,1
+1723,The Host,Stephenie Meyer,Science Fiction,1
+1724,The Chemist,Stephenie Meyer,Thriller,1
+1725,Life and Death: Twilight Reimagined,Stephenie Meyer,Young Adult Fantasy,1
+1726,The Giver,Lois Lowry,Young Adult Dystopian,1
+1727,Gathering Blue,Lois Lowry,Young Adult Dystopian,1
+1728,Messenger,Lois Lowry,Young Adult Dystopian,1
+1729,Son,Lois Lowry,Young Adult Dystopian,1
+1730,Number the Stars,Lois Lowry,Children's Historical Fiction,1
+1731,A Summer to Die,Lois Lowry,Young Adult Fiction,1
+1732,Anastasia Krupnik series,Lois Lowry,Children's Fiction,1
+1733,Gooney Bird Greene series,Lois Lowry,Children's Fiction,1
+1734,Looking Back: A Book of Memories,Lois Lowry,Memoir,1
+1735,Autobiography of Red,Anne Carson,Poetry,1
+1736,Red Doc>,Anne Carson,Poetry,1
+1737,Glass Irony and God,Anne Carson,Poetry,1
+1738,Plainwater,Anne Carson,Poetry,1
+1739,Men in the Off Hours,Anne Carson,Poetry,1
+1740,The Beauty of the Husband,Anne Carson,Poetry,1
+1741,Decreation,Anne Carson,Poetry,1
+1742,Nox,Anne Carson,Poetry,1
+1743,Antigonick,Anne Carson,Poetry,1
+1744,Float,Anne Carson,Poetry,1
+1745,Eros the Bittersweet,Anne Carson,Poetry,1
+1746,If Not Winter: Fragments of Sappho,Anne Carson,Poetry,1
+1747,Grief Lessons: Four Plays by Euripides,Anne Carson,Drama,1
+1748,An Oresteia,Anne Carson,Drama,1
+1749,The Albertine Workout,Anne Carson,Poetry,1
+1750,Short Talks,Anne Carson,Poetry,1
+1751,Economy of the Unlost,Anne Carson,Non-Fiction,1
+1752,Norma Jeane Baker of Troy,Anne Carson,Drama,1
+1753,The Fall of Rome: A Traveller's Guide,Anne Carson,Poetry,1
+1754,The Complete Works of Anne Carson,Anne Carson,Various,1
+1755,The Last Interview and Other Conversations,Anne Carson,Interviews,1
+1756,Ariel,Sylvia Plath,Poetry,1
+1757,The Bell Jar,Sylvia Plath,Fiction,1
+1758,The Colossus and Other Poems,Sylvia Plath,Poetry,1
+1759,Crossing the Water,Sylvia Plath,Poetry,1
+1760,Winter Trees,Sylvia Plath,Poetry,1
+1761,Letters Home,Sylvia Plath,Letters,1
+1762,Johnny Panic and the Bible of Dreams,Sylvia Plath,Short Stories,1
+1763,The Journals of Sylvia Plath,Sylvia Plath,Journals,1
+1764,The Collected Poems of Sylvia Plath,Sylvia Plath,Poetry,1
+1765,The Unabridged Journals of Sylvia Plath,Sylvia Plath,Journals,1
+1766,The Letters of Sylvia Plath,Sylvia Plath,Letters,1
+1767,Sylvia Plath: Drawings,Sylvia Plath,Art,1
+1768,The It-Doesn't-Matter Suit,Sylvia Plath,Children's Literature,1
+1769,The Bed Book,Sylvia Plath,Children's Literature,1
+1770,Sylvia Plath: A Biography,Linda Wagner-Martin,Biography,1
+1771,The Last Interview and Other Conversations,Sylvia Plath,Interviews,1
+1772,The Complete Works of Sylvia Plath,Sylvia Plath,Various,1
+1773,Howl and Other Poems,Allen Ginsberg,Poetry,1
+1774,Kaddish and Other Poems,Allen Ginsberg,Poetry,1
+1775,Reality Sandwiches,Allen Ginsberg,Poetry,1
+1776,Planet News,Allen Ginsberg,Poetry,1
+1777,The Fall of America,Allen Ginsberg,Poetry,1
+1778,Mind Breaths,Allen Ginsberg,Poetry,1
+1779,Plutonian Ode,Allen Ginsberg,Poetry,1
+1780,White Shroud,Allen Ginsberg,Poetry,1
+1781,Cosmopolitan Greetings,Allen Ginsberg,Poetry,1
+1782,Death & Fame: Last Poems 1993-1997,Allen Ginsberg,Poetry,1
+1783,Collected Poems 1947-1997,Allen Ginsberg,Poetry,1
+1784,Journals: Early Fifties Early Sixties,Allen Ginsberg,Journals,1
+1785,Deliberate Prose: Selected Essays 1952-1995,Allen Ginsberg,Essays,1
+1786,Indian Journals,Allen Ginsberg,Journals,1
+1787,The Yage Letters,Allen Ginsberg & William S. Burroughs,Letters,1
+1788,Composed on the Tongue,Allen Ginsberg,Essays,1
+1789,As Ever: The Collected Correspondence of Allen Ginsberg and Neal Cassady,Allen Ginsberg & Neal Cassady,Letters,1
+1790,The Selected Letters of Allen Ginsberg and Gary Snyder,Allen Ginsberg & Gary Snyder,Letters,1
+1791,The Complete Works of Allen Ginsberg,Allen Ginsberg,Various,1
+1792,Allen Ginsberg: A Biography,Barry Miles,Biography,1
+1793,The Last Interview and Other Conversations,Allen Ginsberg,Interviews,1
+1794,On the Road,Jack Kerouac,Fiction,1
+1795,The Dharma Bums,Jack Kerouac,Fiction,1
+1796,Big Sur,Jack Kerouac,Fiction,1
+1797,Desolation Angels,Jack Kerouac,Fiction,1
+1798,The Subterraneans,Jack Kerouac,Fiction,1
+1799,Visions of Cody,Jack Kerouac,Fiction,1
+1800,Doctor Sax,Jack Kerouac,Fiction,1
+1801,Lonesome Traveler,Jack Kerouac,Non-Fiction,1
+1802,Visions of Gerard,Jack Kerouac,Fiction,1
+1803,Tristessa,Jack Kerouac,Fiction,1
+1804,Mexico City Blues,Jack Kerouac,Poetry,1
+1805,Maggie Cassidy,Jack Kerouac,Fiction,1
+1806,The Town and the City,Jack Kerouac,Fiction,1
+1807,Vanity of Duluoz,Jack Kerouac,Fiction,1
+1808,Satori in Paris,Jack Kerouac,Fiction,1
+1809,Pic,Jack Kerouac,Fiction,1
+1810,Book of Dreams,Jack Kerouac,Non-Fiction,1
+1811,Wake Up: A Life of the Buddha,Jack Kerouac,Non-Fiction,1
+1812,Some of the Dharma,Jack Kerouac,Non-Fiction,1
+1813,Good Blonde & Others,Jack Kerouac,Essays,1
+1814,Scattered Poems,Jack Kerouac,Poetry,1
+1815,Heaven and Other Poems,Jack Kerouac,Poetry,1
+1816,Pomes All Sizes,Jack Kerouac,Poetry,1
+1817,Book of Haikus,Jack Kerouac,Poetry,1
+1818,The Scripture of the Golden Eternity,Jack Kerouac,Poetry,1
+1819,Some of the Dharma,Jack Kerouac,Non-Fiction,1
+1820,Old Angel Midnight,Jack Kerouac,Fiction,1
+1821,Pull My Daisy,Jack Kerouac,Screenplay,1
+1822,The Sea Is My Brother,Jack Kerouac,Fiction,1
+1823,The Haunted Life,Jack Kerouac,Fiction,1
+1824,And the Hippos Were Boiled in Their Tanks,Jack Kerouac & William S. Burroughs,Fiction,1
+1825,Selected Letters: 1940-1956,Jack Kerouac,Letters,1
+1826,Selected Letters: 1957-1969,Jack Kerouac,Letters,1
+1827,Windblown World: The Journals of Jack Kerouac 1947-1954,Jack Kerouac,Journals,1
+1828,The Portable Jack Kerouac,Jack Kerouac,Various,1
+1829,The Complete Works of Jack Kerouac,Jack Kerouac,Various,1
+1830,Jack Kerouac: A Biography,Tom Clark,Biography,1
+1831,The Last Interview and Other Conversations,Jack Kerouac,Interviews,1
+1832,Naked Lunch,William S. Burroughs,Fiction,1
+1833,Junkie,William S. Burroughs,Fiction,1
+1834,Queer,William S. Burroughs,Fiction,1
+1835,The Soft Machine,William S. Burroughs,Fiction,1
+1836,The Ticket That Exploded,William S. Burroughs,Fiction,1
+1837,Nova Express,William S. Burroughs,Fiction,1
+1838,The Wild Boys,William S. Burroughs,Fiction,1
+1839,Port of Saints,William S. Burroughs,Fiction,1
+1840,Cities of the Red Night,William S. Burroughs,Fiction,1
+1841,The Place of Dead Roads,William S. Burroughs,Fiction,1
+1842,The Western Lands,William S. Burroughs,Fiction,1
+1843,Interzone,William S. Burroughs,Fiction,1
+1844,The Adding Machine,William S. Burroughs,Essays,1
+1845,The Job,William S. Burroughs,Interviews,1
+1846,The Third Mind,William S. Burroughs & Brion Gysin,Non-Fiction,1
+1847,The Yage Letters,William S. Burroughs & Allen Ginsberg,Letters,1
+1848,Exterminator!,William S. Burroughs,Fiction,1
+1849,The Last Words of Dutch Schultz,William S. Burroughs,Fiction,1
+1850,Ghost of Chance,William S. Burroughs,Fiction,1
+1851,My Education: A Book of Dreams,William S. Burroughs,Non-Fiction,1
+1852,The Burroughs File,William S. Burroughs,Various,1
+1853,Word Virus: The William S. Burroughs Reader,William S. Burroughs,Various,1
+1854,Last Words: The Final Journals of William S. Burroughs,William S. Burroughs,Journals,1
+1855,Roosevelt After Inauguration,William S. Burroughs,Fiction,1
+1856,Letters to Allen Ginsberg 1953-1957,William S. Burroughs,Letters,1
+1857,The Letters of William S. Burroughs: 1945-1959,William S. Burroughs,Letters,1
+1858,Everything Lost: The Latin American Notebook of William S. Burroughs,William S. Burroughs,Journals,1
+1859,And the Hippos Were Boiled in Their Tanks,William S. Burroughs & Jack Kerouac,Fiction,1
+1860,The Complete Works of William S. Burroughs,William S. Burroughs,Various,1
+1861,Literary Outlaw: The Life and Times of William S. Burroughs,Ted Morgan,Biography,1
+1862,The Last Interview and Other Conversations,William S. Burroughs,Interviews,1
+1863,The Bell Jar,Sylvia Plath,Fiction,1
+1864,Ariel,Sylvia Plath,Poetry,1
+1865,The Colossus and Other Poems,Sylvia Plath,Poetry,1
+1866,Crossing the Water,Sylvia Plath,Poetry,1
+1867,Winter Trees,Sylvia Plath,Poetry,1
+1868,Johnny Panic and the Bible of Dreams,Sylvia Plath,Short Stories,1
+1869,Letters Home,Sylvia Plath,Letters,1
+1870,The Collected Poems,Sylvia Plath,Poetry,1
+1871,The Journals of Sylvia Plath,Sylvia Plath,Journals,1
+1872,The Unabridged Journals of Sylvia Plath,Sylvia Plath,Journals,1
+1873,The Letters of Sylvia Plath,Sylvia Plath,Letters,1
+1874,The Bed Book,Sylvia Plath,Children's Literature,1
+1875,The It-Doesn't-Matter Suit,Sylvia Plath,Children's Literature,1
+1876,Mrs Cherry's Kitchen,Sylvia Plath,Children's Literature,1
+1877,Sylvia Plath: Drawings,Sylvia Plath,Art,1
+1878,The Complete Works of Sylvia Plath,Sylvia Plath,Various,1
+1879,Sylvia Plath: A Biography,Linda Wagner-Martin,Biography,1
+1880,The Last Interview and Other Conversations,Sylvia Plath,Interviews,1
+1881,Confessions of a Mask,Yukio Mishima,Fiction,1
+1882,The Temple of the Golden Pavilion,Yukio Mishima,Fiction,1
+1883,The Sailor Who Fell from Grace with the Sea,Yukio Mishima,Fiction,1
+1884,Spring Snow,Yukio Mishima,Fiction,1
+1885,Runaway Horses,Yukio Mishima,Fiction,1
+1886,The Temple of Dawn,Yukio Mishima,Fiction,1
+1887,The Decay of the Angel,Yukio Mishima,Fiction,1
+1888,The Sound of Waves,Yukio Mishima,Fiction,1
+1889,After the Banquet,Yukio Mishima,Fiction,1
+1890,Thirst for Love,Yukio Mishima,Fiction,1
+1891,Forbidden Colors,Yukio Mishima,Fiction,1
+1892,Death in Midsummer and Other Stories,Yukio Mishima,Short Stories,1
+1893,Acts of Worship,Yukio Mishima,Short Stories,1
+1894,The Frolic of the Beasts,Yukio Mishima,Fiction,1
+1895,Life for Sale,Yukio Mishima,Fiction,1
+1896,Star,Yukio Mishima,Fiction,1
+1897,Five Modern Nō Plays,Yukio Mishima,Drama,1
+1898,My Friend Hitler and Other Plays,Yukio Mishima,Drama,1
+1899,Madame de Sade,Yukio Mishima,Drama,1
+1900,Sun and Steel,Yukio Mishima,Autobiography,1
+1901,The Way of the Samurai,Yukio Mishima,Non-Fiction,1
+1902,The Complete Works of Yukio Mishima,Yukio Mishima,Various,1
+1903,Yukio Mishima: A Life in Four Chapters,Paul Schrader & Leonard Schrader,Biography,1
+1904,The Last Interview and Other Conversations,Yukio Mishima,Interviews,1
+1905,Kafka on the Shore,Haruki Murakami,Fiction,1
+1906,The Wind-Up Bird Chronicle,Haruki Murakami,Fiction,1
+1907,Norwegian Wood,Haruki Murakami,Fiction,1
+1908,1Q84,Haruki Murakami,Fiction,1
+1909,After Dark,Haruki Murakami,Fiction,1
+1910,A Wild Sheep Chase,Haruki Murakami,Fiction,1
+1911,Dance Dance Dance,Haruki Murakami,Fiction,1
+1912,Hard-Boiled Wonderland and the End of the World,Haruki Murakami,Fiction,1
+1913,South of the Border West of the Sun,Haruki Murakami,Fiction,1
+1914,Sputnik Sweetheart,Haruki Murakami,Fiction,1
+1915,The Wind-Up Bird Chronicle,Haruki Murakami,Fiction,1
+1916,Colorless Tsukuru Tazaki and His Years of Pilgrimage,Haruki Murakami,Fiction,1
+1917,Killing Commendatore,Haruki Murakami,Fiction,1
+1918,Hear the Wind Sing,Haruki Murakami,Fiction,1
+1919,Pinball 1973,Haruki Murakami,Fiction,1
+1920,The Strange Library,Haruki Murakami,Fiction,1
+1921,Wind/Pinball,Haruki Murakami,Fiction,1
+1922,Men Without Women,Haruki Murakami,Short Stories,1
+1923,Blind Willow Sleeping Woman,Haruki Murakami,Short Stories,1
+1924,After the Quake,Haruki Murakami,Short Stories,1
+1925,First Person Singular,Haruki Murakami,Short Stories,1
+1926,What I Talk About When I Talk About Running,Haruki Murakami,Memoir,1
+1927,Underground: The Tokyo Gas Attack and the Japanese Psyche,Haruki Murakami,Non-Fiction,1
+1928,Absolutely on Music,Haruki Murakami,Non-Fiction,1
+1929,The Complete Works of Haruki Murakami,Haruki Murakami,Various,1
+1930,Haruki Murakami and the Music of Words,Jay Rubin,Biography,1
+1931,The Last Interview and Other Conversations,Haruki Murakami,Interviews,1
+1932,The Name of the Rose,Umberto Eco,Fiction,1
+1933,Foucault's Pendulum,Umberto Eco,Fiction,1
+1934,The Island of the Day Before,Umberto Eco,Fiction,1
+1935,Baudolino,Umberto Eco,Fiction,1
+1936,The Mysterious Flame of Queen Loana,Umberto Eco,Fiction,1
+1937,The Prague Cemetery,Umberto Eco,Fiction,1
+1938,Numero Zero,Umberto Eco,Fiction,1
+1939,The Name of the Rose: including the Author's Postscript,Umberto Eco,Fiction,1
+1940,Travels in Hyperreality,Umberto Eco,Essays,1
+1941,Misreadings,Umberto Eco,Essays,1
+1942,How to Travel with a Salmon & Other Essays,Umberto Eco,Essays,1
+1943,Kant and the Platypus: Essays on Language and Cognition,Umberto Eco,Non-Fiction,1
+1944,Serendipities: Language and Lunacy,Umberto Eco,Non-Fiction,1
+1945,Six Walks in the Fictional Woods,Umberto Eco,Non-Fiction,1
+1946,The Role of the Reader,Umberto Eco,Non-Fiction,1
+1947,The Open Work,Umberto Eco,Non-Fiction,1
+1948,The Search for the Perfect Language,Umberto Eco,Non-Fiction,1
+1949,Semiotics and the Philosophy of Language,Umberto Eco,Non-Fiction,1
+1950,A Theory of Semiotics,Umberto Eco,Non-Fiction,1
+1951,Interpretation and Overinterpretation,Umberto Eco,Non-Fiction,1
+1952,The Limits of Interpretation,Umberto Eco,Non-Fiction,1
+1953,The Aesthetics of Thomas Aquinas,Umberto Eco,Non-Fiction,1
+1954,Art and Beauty in the Middle Ages,Umberto Eco,Non-Fiction,1
+1955,On Literature,Umberto Eco,Non-Fiction,1
+1956,On Ugliness,Umberto Eco,Non-Fiction,1
+1957,History of Beauty,Umberto Eco,Non-Fiction,1
+1958,Chronicles of a Liquid Society,Umberto Eco,Non-Fiction,1
+1959,How to Write a Thesis,Umberto Eco,Non-Fiction,1
+1960,The Infinity of Lists,Umberto Eco,Non-Fiction,1
+1961,Turning Back the Clock: Hot Wars and Media Populism,Umberto Eco,Non-Fiction,1
+1962,Five Moral Pieces,Umberto Eco,Non-Fiction,1
+1963,The Book of Legendary Lands,Umberto Eco,Non-Fiction,1
+1964,Inventing the Enemy,Umberto Eco,Non-Fiction,1
+1965,From the Tree to the Labyrinth,Umberto Eco,Non-Fiction,1
+1966,Confessions of a Young Novelist,Umberto Eco,Non-Fiction,1
+1967,Pape Satàn Aleppe: Chronicles of a Liquid Society,Umberto Eco,Non-Fiction,1
+1968,The Complete Works of Umberto Eco,Umberto Eco,Various,1
+1969,Umberto Eco: The Philosophy of Semiotics and the Work of Fiction,Michael Caesar,Biography,1
+1970,The Last Interview and Other Conversations,Umberto Eco,Interviews,1
+1971,Lolita,Vladimir Nabokov,Fiction,1
+1972,Pale Fire,Vladimir Nabokov,Fiction,1
+1973,Ada or Ardor: A Family Chronicle,Vladimir Nabokov,Fiction,1
+1974,Pnin,Vladimir Nabokov,Fiction,1
+1975,Speak Memory,Vladimir Nabokov,Autobiography,1
+1976,The Gift,Vladimir Nabokov,Fiction,1
+1977,The Defense,Vladimir Nabokov,Fiction,1
+1978,Invitation to a Beheading,Vladimir Nabokov,Fiction,1
+1979,Despair,Vladimir Nabokov,Fiction,1
+1980,The Eye,Vladimir Nabokov,Fiction,1
+1981,King Queen Knave,Vladimir Nabokov,Fiction,1
+1982,Mary,Vladimir Nabokov,Fiction,1
+1983,The Luzhin Defense,Vladimir Nabokov,Fiction,1
+1984,Laughter in the Dark,Vladimir Nabokov,Fiction,1
+1985,Bend Sinister,Vladimir Nabokov,Fiction,1
+1986,The Real Life of Sebastian Knight,Vladimir Nabokov,Fiction,1
+1987,Glory,Vladimir Nabokov,Fiction,1
+1988,Look at the Harlequins!,Vladimir Nabokov,Fiction,1
+1989,Transparent Things,Vladimir Nabokov,Fiction,1
+1990,The Original of Laura,Vladimir Nabokov,Fiction,1
+1991,The Enchanter,Vladimir Nabokov,Fiction,1
+1992,The Stories of Vladimir Nabokov,Vladimir Nabokov,Short Stories,1
+1993,Lectures on Literature,Vladimir Nabokov,Non-Fiction,1
+1994,Lectures on Russian Literature,Vladimir Nabokov,Non-Fiction,1
+1995,Lectures on Don Quixote,Vladimir Nabokov,Non-Fiction,1
+1996,Nikolai Gogol,Vladimir Nabokov,Biography,1
+1997,Strong Opinions,Vladimir Nabokov,Non-Fiction,1
+1998,Poems and Problems,Vladimir Nabokov,Poetry,1
+1999,The Annotated Lolita,Vladimir Nabokov,Fiction,1
+2000,Dear Bunny Dear Volodya: The Nabokov-Wilson Letters 1940-1971,Vladimir Nabokov & Edmund Wilson,Letters,1
