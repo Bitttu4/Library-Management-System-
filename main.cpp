@@ -1,30 +1,34 @@
 // Include necessary header files for input/output operations
 #include <iostream>  // For console input/output operations (cin, cout)
 #include <fstream>   // For file input/output operations (ifstream, ofstream)
-#include <string>    // For string data type and operations
-#include <vector>    // For dynamic array (vector) container
+#include <cstring>   // For string manipulation functions like strcpy, strcmp
+#include <cctype>    // For character handling functions like tolower
 
 // Use the standard namespace to avoid prefixing std:: before every standard library element
 using namespace std;
 
+// Define constants for string length limits
+const int MAX_STRING_LENGTH = 100;  // Maximum length for strings (title, author, category)
+const int MAX_BOOKS = 10000;        // Maximum number of books the library can hold
+
 // Book structure to represent individual book records with essential attributes
 struct Book {
-    int id;          // Unique identifier for each book
-    string title;    // Title of the book
-    string author;   // Author name
-    string category; // Category/genre of the book
-    bool available;  // Availability status (true = available, false = checked out)
+    int id;                           // Unique identifier for each book
+    char title[MAX_STRING_LENGTH];    // Title of the book
+    char author[MAX_STRING_LENGTH];   // Author name
+    char category[MAX_STRING_LENGTH]; // Category/genre of the book
+    bool available;                   // Availability status (true = available, false = checked out)
     
     // Method to display all information about a book in a formatted way
     void display() {
-        cout << "-------------------------\n";  // Separator line for readability
-        cout << "Book ID: " << id << "\n";      // Display book ID
-        cout << "Title: " << title << "\n";     // Display book title
-        cout << "Author: " << author << "\n";   // Display book author
+        cout << "-------------------------\n";    // Separator line for readability
+        cout << "Book ID: " << id << "\n";        // Display book ID
+        cout << "Title: " << title << "\n";       // Display book title
+        cout << "Author: " << author << "\n";     // Display book author
         cout << "Category: " << category << "\n"; // Display book category
         // Display availability status as text (Available or Checked Out)
         cout << "Status: " << (available ? "Available" : "Checked Out") << "\n";
-        cout << "-------------------------\n";  // Bottom separator line
+        cout << "-------------------------\n";    // Bottom separator line
     }
 };
 
@@ -32,9 +36,38 @@ struct Book {
 class Library {
 private:
     // Private member variables
-    vector<Book> books;  // Vector to store all book records
-    string filename;     // Name of the file where books data is stored
-    int nextId;          // Next available ID for a new book
+    Book books[MAX_BOOKS];      // Array to store all book records
+    int bookCount;              // Current number of books in the array
+    char filename[MAX_STRING_LENGTH]; // Name of the file where books data is stored
+    int nextId;                 // Next available ID for a new book
+    
+    // Helper function to convert a string to lowercase for case-insensitive comparison
+    void toLowerCase(char* str) {
+        for (int i = 0; str[i]; i++) {
+            str[i] = tolower(str[i]);
+        }
+    }
+    
+    // Helper function to check if a substring exists in a string (case-insensitive)
+    bool containsSubstring(const char* str, const char* substr) {
+        // Create temporary copies for case conversion
+        char tempStr[MAX_STRING_LENGTH];
+        char tempSubstr[MAX_STRING_LENGTH];
+        
+        // Copy strings to temporary buffers
+        strncpy(tempStr, str, MAX_STRING_LENGTH - 1);
+        tempStr[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
+        
+        strncpy(tempSubstr, substr, MAX_STRING_LENGTH - 1);
+        tempSubstr[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
+        
+        // Convert both to lowercase
+        toLowerCase(tempStr);
+        toLowerCase(tempSubstr);
+        
+        // Check if substring exists in string
+        return (strstr(tempStr, tempSubstr) != NULL);
+    }
     
     // Private method to save all books to a file
     void saveToFile() {
@@ -48,14 +81,48 @@ private:
         }
         
         // Write each book record to the file in CSV format
-        for (Book book : books) {
+        for (int i = 0; i < bookCount; i++) {
             // Format: ID,Title,Author,Category,Availability(1/0)
-            file << book.id << "," << book.title << "," << book.author << ",";
-            file << book.category << "," << (book.available ? "1" : "0") << "\n";
+            file << books[i].id << "," << books[i].title << "," << books[i].author << ",";
+            file << books[i].category << "," << (books[i].available ? "1" : "0") << "\n";
         }
         
         // Close the file after writing
         file.close();
+    }
+    
+    // Function to split a CSV line into fields
+    void parseCsvLine(const char* line, char fields[][MAX_STRING_LENGTH], int& fieldCount) {
+        fieldCount = 0;
+        int linePos = 0;
+        int fieldPos = 0;
+        
+        // Process each character in the line
+        while (line[linePos] != '\0' && fieldCount < 5) {
+            if (line[linePos] == ',') {
+                // End of field - terminate the current field and move to next
+                fields[fieldCount][fieldPos] = '\0';
+                fieldCount++;
+                fieldPos = 0;
+            } else {
+                // Add character to current field
+                fields[fieldCount][fieldPos] = line[linePos];
+                fieldPos++;
+                
+                // Ensure we don't overflow the field buffer
+                if (fieldPos >= MAX_STRING_LENGTH - 1) {
+                    fieldPos = MAX_STRING_LENGTH - 1;
+                    fields[fieldCount][fieldPos] = '\0';
+                }
+            }
+            linePos++;
+        }
+        
+        // Add the last field if there's any content
+        if (fieldPos > 0 || line[linePos-1] == ',') {
+            fields[fieldCount][fieldPos] = '\0';
+            fieldCount++;
+        }
     }
     
     // Private method to load books from a file
@@ -66,46 +133,49 @@ private:
         // Handle case when file doesn't exist
         if (!file) {
             cout << "No existing book file found. Starting with empty library.\n";
-            nextId = 1;  // Start with ID 1 for the first book
+            nextId = 1;     // Start with ID 1 for the first book
+            bookCount = 0;  // Initialize book count to 0
             return;
         }
         
-        // Clear existing books and prepare variables for parsing
-        books.clear();
-        string line, part;
-        vector<string> parts;
+        // Reset book count
+        bookCount = 0;
+        
+        // Variables for line parsing
+        char line[MAX_STRING_LENGTH * 4];  // Buffer for reading a line (large enough for all fields)
+        char fields[5][MAX_STRING_LENGTH]; // Array to hold parsed fields
+        int fieldCount;
         
         // Read file line by line
-        while (getline(file, line)) {
-            parts.clear();  // Clear parts for each new line
-            
-            // Split the line by commas to extract individual fields
-            size_t pos = 0;
-            while ((pos = line.find(",")) != string::npos) {
-                part = line.substr(0, pos);  // Extract part before comma
-                parts.push_back(part);       // Add to parts vector
-                line.erase(0, pos + 1);      // Remove extracted part and comma
-            }
-            parts.push_back(line);  // Add the last part (after last comma)
+        while (file.getline(line, sizeof(line)) && bookCount < MAX_BOOKS) {
+            // Parse the CSV line
+            parseCsvLine(line, fields, fieldCount);
             
             // Check if we have all 5 expected fields (ID, Title, Author, Category, Availability)
-            if (parts.size() == 5) {
-                Book book;  // Create a new book object
-                
+            if (fieldCount == 5) {
                 // Parse and assign values to book fields
-                book.id = stoi(parts[0]);          // Convert ID from string to integer
-                book.title = parts[1];             // Assign title
-                book.author = parts[2];            // Assign author
-                book.category = parts[3];          // Assign category
-                book.available = (parts[4] == "1"); // Convert "1" to true, anything else to false
+                books[bookCount].id = atoi(fields[0]);  // Convert ID from string to integer
                 
-                // Add book to the collection
-                books.push_back(book);
+                // Copy strings to book fields (ensuring they're null-terminated)
+                strncpy(books[bookCount].title, fields[1], MAX_STRING_LENGTH - 1);
+                books[bookCount].title[MAX_STRING_LENGTH - 1] = '\0';
+                
+                strncpy(books[bookCount].author, fields[2], MAX_STRING_LENGTH - 1);
+                books[bookCount].author[MAX_STRING_LENGTH - 1] = '\0';
+                
+                strncpy(books[bookCount].category, fields[3], MAX_STRING_LENGTH - 1);
+                books[bookCount].category[MAX_STRING_LENGTH - 1] = '\0';
+                
+                // Convert "1" to true, anything else to false
+                books[bookCount].available = (strcmp(fields[4], "1") == 0);
                 
                 // Update nextId to be higher than any existing ID
-                if (book.id >= nextId) {
-                    nextId = book.id + 1;
+                if (books[bookCount].id >= nextId) {
+                    nextId = books[bookCount].id + 1;
                 }
+                
+                // Increment book count
+                bookCount++;
             }
         }
         
@@ -115,15 +185,26 @@ private:
     
 public:
     // Constructor - initialize the library
-    Library(string file = "books.dat") {
-        filename = file;  // Set the filename for book data
+    Library(const char* file = "books.dat") {
+        // Set the filename for book data (ensure it's null-terminated)
+        strncpy(filename, file, MAX_STRING_LENGTH - 1);
+        filename[MAX_STRING_LENGTH - 1] = '\0';
+        
         nextId = 1;       // Initialize nextId to 1
+        bookCount = 0;    // Initialize book count to 0
         loadFromFile();   // Load books from file if available
     }
     
     // Method to add a new book to the library
     void addBook() {
-        Book newBook;  // Create a new Book object
+        // Check if library is full
+        if (bookCount >= MAX_BOOKS) {
+            cout << "Error: Library is full. Cannot add more books.\n";
+            return;
+        }
+        
+        // Create a new Book object
+        Book newBook;
         
         // Display section header
         cout << "\n--- Add New Book ---\n";
@@ -131,22 +212,31 @@ public:
         // Assign the next available ID to the new book
         newBook.id = nextId++;
         
+        // Temporary buffer for input
+        char buffer[MAX_STRING_LENGTH];
+        
         // Get book details from user
         cout << "Enter Title: ";
         cin.ignore();  // Clear input buffer to prevent skipping input
-        getline(cin, newBook.title);  // Read full line for title
+        cin.getline(buffer, MAX_STRING_LENGTH);
+        strncpy(newBook.title, buffer, MAX_STRING_LENGTH - 1);
+        newBook.title[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
         
         cout << "Enter Author: ";
-        getline(cin, newBook.author);  // Read full line for author
+        cin.getline(buffer, MAX_STRING_LENGTH);
+        strncpy(newBook.author, buffer, MAX_STRING_LENGTH - 1);
+        newBook.author[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
         
         cout << "Enter Category: ";
-        getline(cin, newBook.category);  // Read full line for category
+        cin.getline(buffer, MAX_STRING_LENGTH);
+        strncpy(newBook.category, buffer, MAX_STRING_LENGTH - 1);
+        newBook.category[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
         
         // New books are initially available
         newBook.available = true;
         
-        // Add the new book to the collection
-        books.push_back(newBook);
+        // Add the new book to the array
+        books[bookCount++] = newBook;
         
         // Save the updated collection to file
         saveToFile();
@@ -166,11 +256,11 @@ public:
         cin >> id;
         
         // Loop through all books to find the one with matching ID
-        for (Book book : books) {
-            if (book.id == id) {
-                book.display();  // Display the book's details
-                found = true;    // Set flag to indicate book was found
-                break;           // Exit loop after finding the book
+        for (int i = 0; i < bookCount; i++) {
+            if (books[i].id == id) {
+                books[i].display();  // Display the book's details
+                found = true;        // Set flag to indicate book was found
+                break;               // Exit loop after finding the book
             }
         }
         
@@ -186,32 +276,32 @@ public:
         cout << "\n--- All Library Books ---\n";
         
         // Check if library is empty
-        if (books.empty()) {
+        if (bookCount == 0) {
             cout << "No books in the library.\n";
             return;  // Exit the function if no books
         }
         
         // Display total number of books
-        cout << "Total Books: " << books.size() << "\n\n";
+        cout << "Total Books: " << bookCount << "\n\n";
         
         // Loop through and display each book
-        for (Book book : books) {
-            book.display();  // Display book details
-            cout << "\n";    // Add extra newline for spacing
+        for (int i = 0; i < bookCount; i++) {
+            books[i].display();  // Display book details
+            cout << "\n";        // Add extra newline for spacing
         }
     }
     
     // Method to find books by title, author, or category
     void findBook() {
         // Check if library is empty
-        if (books.empty()) {
+        if (bookCount == 0) {
             cout << "No books in the library.\n";
             return;  // Exit if no books
         }
         
-        int choice;         // Variable for search type choice
-        string searchTerm;  // Variable for search term
-        bool found = false; // Flag to track if any books match
+        int choice;                      // Variable for search type choice
+        char searchTerm[MAX_STRING_LENGTH]; // Variable for search term
+        bool found = false;              // Flag to track if any books match
         
         // Display search options menu
         cout << "\n--- Find Book ---\n";
@@ -233,40 +323,29 @@ public:
         
         // Get search term from user
         cout << "Enter search term: ";
-        getline(cin, searchTerm);
-        
-        // Convert search term to lowercase for case-insensitive search
-        for (char &c : searchTerm) {
-            c = tolower(c);  // Convert each character to lowercase
-        }
+        cin.getline(searchTerm, MAX_STRING_LENGTH);
         
         // Display results header
         cout << "\n--- Search Results ---\n";
         
         // Loop through all books to find matches
-        for (Book book : books) {
-            string value;  // Variable to store the field to search
+        for (int i = 0; i < bookCount; i++) {
+            const char* valueToSearch = NULL;  // Pointer to the field to search
             
             // Get the appropriate field based on user's choice
             if (choice == 1) {
-                value = book.title;  // Search by title
+                valueToSearch = books[i].title;  // Search by title
             } else if (choice == 2) {
-                value = book.author;  // Search by author
+                valueToSearch = books[i].author;  // Search by author
             } else {
-                value = book.category;  // Search by category
+                valueToSearch = books[i].category;  // Search by category
             }
             
-            // Convert field value to lowercase for case-insensitive comparison
-            string valueLower = value;
-            for (char &c : valueLower) {
-                c = tolower(c);  // Convert each character to lowercase
-            }
-            
-            // Check if the search term appears in the selected field
-            if (valueLower.find(searchTerm) != string::npos) {
-                book.display();  // Display matching book
-                cout << "\n";    // Add newline for spacing
-                found = true;    // Set flag that a match was found
+            // Check if the search term appears in the selected field (case-insensitive)
+            if (containsSubstring(valueToSearch, searchTerm)) {
+                books[i].display();  // Display matching book
+                cout << "\n";        // Add newline for spacing
+                found = true;        // Set flag that a match was found
             }
         }
         
@@ -287,7 +366,7 @@ public:
         cin >> id;
         
         // Loop through books to find the one with matching ID
-        for (int i = 0; i < books.size(); i++) {
+        for (int i = 0; i < bookCount; i++) {
             if (books[i].id == id) {
                 found = true;  // Set flag that book was found
                 
@@ -307,6 +386,9 @@ public:
                 // Clear input buffer for potential getline calls
                 cin.ignore();
                 
+                // Temporary buffer for input
+                char buffer[MAX_STRING_LENGTH];
+                
                 // Track if any update was made
                 bool updated = false;
                 
@@ -314,17 +396,23 @@ public:
                 switch (field) {
                     case 1:  // Update title
                         cout << "Enter new title: ";
-                        getline(cin, books[i].title);
+                        cin.getline(buffer, MAX_STRING_LENGTH);
+                        strncpy(books[i].title, buffer, MAX_STRING_LENGTH - 1);
+                        books[i].title[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
                         updated = true;
                         break;
                     case 2:  // Update author
                         cout << "Enter new author: ";
-                        getline(cin, books[i].author);
+                        cin.getline(buffer, MAX_STRING_LENGTH);
+                        strncpy(books[i].author, buffer, MAX_STRING_LENGTH - 1);
+                        books[i].author[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
                         updated = true;
                         break;
                     case 3:  // Update category
                         cout << "Enter new category: ";
-                        getline(cin, books[i].category);
+                        cin.getline(buffer, MAX_STRING_LENGTH);
+                        strncpy(books[i].category, buffer, MAX_STRING_LENGTH - 1);
+                        books[i].category[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
                         updated = true;
                         break;
                     case 4:  // Toggle availability status
@@ -369,7 +457,7 @@ public:
         cin >> id;
         
         // Loop through books to find the one with matching ID
-        for (int i = 0; i < books.size(); i++) {
+        for (int i = 0; i < bookCount; i++) {
             if (books[i].id == id) {
                 found = true;  // Set flag that book was found
                 
@@ -383,7 +471,12 @@ public:
                 
                 // Process based on user confirmation
                 if (confirm == 'y' || confirm == 'Y') {
-                    books.erase(books.begin() + i);  // Remove book from vector
+                    // Remove book by shifting all subsequent books one position back
+                    for (int j = i; j < bookCount - 1; j++) {
+                        books[j] = books[j + 1];
+                    }
+                    bookCount--;  // Decrement the book count
+                    
                     saveToFile();  // Save changes to file
                     cout << "Book removed successfully.\n";
                 } else {
