@@ -1,5 +1,5 @@
 // Include necessary header files for input/output operations
-#include <iostream>  // For console input/output operations (cin, cout)
+#include <iostream>  
 #include <fstream>   // For file input/output operations (ifstream, ofstream)
 #include <cstring>   // For string manipulation functions like strcpy, strcmp
 #include <cctype>    // For character handling functions like tolower
