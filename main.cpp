@@ -4,6 +4,15 @@
 #include <cstring>   // For string manipulation functions like strcpy, strcmp
 #include <cctype>    // For character handling functions like tolower
 
+//  using tolower Function to convert a string to lowercase from cctype library
+void toLower(char* str) {
+    for (int i = 0; str[i]; i++) {
+        str[i] = tolower(str[i]);
+    }
+}
+// Use the standard namespace to avoid prefixing std:: before every standard library element
+using namespace std;
+
 // Define constants for string length limits
 const int MAX_STRING_LENGTH = 100;  // Maximum length for strings (title, author, category)
 const int MAX_BOOKS = 10000;        // Maximum number of books the library can hold
@@ -18,14 +27,14 @@ struct Book {
     
     // Method to display all information about a book in a formatted way
     void display() {
-        std::cout << "-------------------------\n";    // Separator line for readability
-        std::cout << "Book ID: " << id << "\n";        // Display book ID
-        std::cout << "Title: " << title << "\n";       // Display book title
-        std::cout << "Author: " << author << "\n";     // Display book author
-        std::cout << "Category: " << category << "\n"; // Display book category
+        cout << "-------------------------\n";    // Separator line for readability
+        cout << "Book ID: " << id << "\n";        // Display book ID
+        cout << "Title: " << title << "\n";       // Display book title
+        cout << "Author: " << author << "\n";     // Display book author
+        cout << "Category: " << category << "\n"; // Display book category
         // Display availability status as text (Available or Checked Out)
-        std::cout << "Status: " << (available ? "Available" : "Checked Out") << "\n";
-        std::cout << "-------------------------\n";    // Bottom separator line
+        cout << "Status: " << (available ? "Available" : "Checked Out") << "\n";
+        cout << "-------------------------\n";    // Bottom separator line
     }
 };
 
@@ -69,11 +78,11 @@ private:
     // Private method to save all books to a file
     void saveToFile() {
         // Open the file for writing
-        std::ofstream file(filename);
+        ofstream file(filename);
         
         // Check if file opened successfully
         if (!file) {
-            std::cout << "Error: Could not open file for writing.\n";
+            cout << "Error: Could not open file for writing.\n";
             return;  // Exit if file cannot be opened
         }
         
@@ -125,11 +134,11 @@ private:
     // Private method to load books from a file
     void loadFromFile() {
         // Open the file for reading
-        std::ifstream file(filename);
+        ifstream file(filename);
         
         // Handle case when file doesn't exist
         if (!file) {
-            std::cout << "No existing book file found. Starting with empty library.\n";
+            cout << "No existing book file found. Starting with empty library.\n";
             nextId = 1;     // Start with ID 1 for the first book
             bookCount = 0;  // Initialize book count to 0
             return;
@@ -196,7 +205,7 @@ public:
     void addBook() {
         // Check if library is full
         if (bookCount >= MAX_BOOKS) {
-            std::cout << "Error: Library is full. Cannot add more books.\n";
+            cout << "Error: Library is full. Cannot add more books.\n";
             return;
         }
         
@@ -204,7 +213,7 @@ public:
         Book newBook;
         
         // Display section header
-        std::cout << "\n--- Add New Book ---\n";
+        cout << "\n--- Add New Book ---\n";
         
         // Assign the next available ID to the new book
         newBook.id = nextId++;
@@ -213,19 +222,19 @@ public:
         char buffer[MAX_STRING_LENGTH];
         
         // Get book details from user
-        std::cout << "Enter Title: ";
-        std::cin.ignore();  // Clear input buffer to prevent skipping input
-        std::cin.getline(buffer, MAX_STRING_LENGTH);
+        cout << "Enter Title: ";
+        cin.ignore();  // Clear input buffer to prevent skipping input
+        cin.getline(buffer, MAX_STRING_LENGTH);
         strncpy(newBook.title, buffer, MAX_STRING_LENGTH - 1);
         newBook.title[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
         
-        std::cout << "Enter Author: ";
-        std::cin.getline(buffer, MAX_STRING_LENGTH);
+        cout << "Enter Author: ";
+        cin.getline(buffer, MAX_STRING_LENGTH);
         strncpy(newBook.author, buffer, MAX_STRING_LENGTH - 1);
         newBook.author[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
         
-        std::cout << "Enter Category: ";
-        std::cin.getline(buffer, MAX_STRING_LENGTH);
+        cout << "Enter Category: ";
+        cin.getline(buffer, MAX_STRING_LENGTH);
         strncpy(newBook.category, buffer, MAX_STRING_LENGTH - 1);
         newBook.category[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
         
@@ -239,7 +248,7 @@ public:
         saveToFile();
         
         // Confirm successful addition
-        std::cout << "Book added successfully with ID: " << newBook.id << "\n";
+        cout << "Book added successfully with ID: " << newBook.id << "\n";
     }
     
     // Method to get and display a book's details by ID
@@ -248,9 +257,9 @@ public:
         bool found = false;  // Flag to track if the book was found
         
         // Display section header and prompt for ID
-        std::cout << "\n--- Get Book Details ---\n";
-        std::cout << "Enter Book ID: ";
-        std::cin >> id;
+        cout << "\n--- Get Book Details ---\n";
+        cout << "Enter Book ID: ";
+        cin >> id;
         
         // Loop through all books to find the one with matching ID
         for (int i = 0; i < bookCount; i++) {
@@ -263,28 +272,28 @@ public:
         
         // If book wasn't found, inform the user
         if (!found) {
-            std::cout << "Book with ID " << id << " not found.\n";
+            cout << "Book with ID " << id << " not found.\n";
         }
     }
     
     // Method to print all books in the library
     void printBooks() {
         // Display section header
-        std::cout << "\n--- All Library Books ---\n";
+        cout << "\n--- All Library Books ---\n";
         
         // Check if library is empty
         if (bookCount == 0) {
-            std::cout << "No books in the library.\n";
+            cout << "No books in the library.\n";
             return;  // Exit the function if no books
         }
         
         // Display total number of books
-        std::cout << "Total Books: " << bookCount << "\n\n";
+        cout << "Total Books: " << bookCount << "\n\n";
         
         // Loop through and display each book
         for (int i = 0; i < bookCount; i++) {
             books[i].display();  // Display book details
-            std::cout << "\n";        // Add extra newline for spacing
+            cout << "\n";        // Add extra newline for spacing
         }
     }
     
@@ -292,7 +301,7 @@ public:
     void findBook() {
         // Check if library is empty
         if (bookCount == 0) {
-            std::cout << "No books in the library.\n";
+            cout << "No books in the library.\n";
             return;  // Exit if no books
         }
         
@@ -301,29 +310,29 @@ public:
         bool found = false;              // Flag to track if any books match
         
         // Display search options menu
-        std::cout << "\n--- Find Book ---\n";
-        std::cout << "Search by:\n";
-        std::cout << "1. Title\n";
-        std::cout << "2. Author\n";
-        std::cout << "3. Category\n";
-        std::cout << "Enter your choice (1-3): ";
-        std::cin >> choice;
+        cout << "\n--- Find Book ---\n";
+        cout << "Search by:\n";
+        cout << "1. Title\n";
+        cout << "2. Author\n";
+        cout << "3. Category\n";
+        cout << "Enter your choice (1-3): ";
+        cin >> choice;
         
         // Clear input buffer for getline
-        std::cin.ignore();
+        cin.ignore();
         
         // Validate user choice
         if (choice < 1 || choice > 3) {
-            std::cout << "Invalid choice. Returning to main menu.\n";
+            cout << "Invalid choice. Returning to main menu.\n";
             return;  // Exit if invalid choice
         }
         
         // Get search term from user
-        std::cout << "Enter search term: ";
-        std::cin.getline(searchTerm, MAX_STRING_LENGTH);
+        cout << "Enter search term: ";
+        cin.getline(searchTerm, MAX_STRING_LENGTH);
         
         // Display results header
-        std::cout << "\n--- Search Results ---\n";
+        cout << "\n--- Search Results ---\n";
         
         // Loop through all books to find matches
         for (int i = 0; i < bookCount; i++) {
@@ -341,14 +350,14 @@ public:
             // Check if the search term appears in the selected field (case-insensitive)
             if (containsSubstring(valueToSearch, searchTerm)) {
                 books[i].display();  // Display matching book
-                std::cout << "\n";        // Add newline for spacing
+                cout << "\n";        // Add newline for spacing
                 found = true;        // Set flag that a match was found
             }
         }
         
         // If no matching books were found, inform user
         if (!found) {
-            std::cout << "No matching books found.\n";
+            cout << "No matching books found.\n";
         }
     }
     
@@ -358,9 +367,9 @@ public:
         bool found = false; // Flag to track if book was found
         
         // Display section header and prompt for ID
-        std::cout << "\n--- Update Book ---\n";
-        std::cout << "Enter Book ID to update: ";
-        std::cin >> id;
+        cout << "\n--- Update Book ---\n";
+        cout << "Enter Book ID to update: ";
+        cin >> id;
         
         // Loop through books to find the one with matching ID
         for (int i = 0; i < bookCount; i++) {
@@ -371,17 +380,17 @@ public:
                 books[i].display();
                 
                 // Display update options menu
-                std::cout << "\nWhat would you like to update?\n";
-                std::cout << "1. Title\n";
-                std::cout << "2. Author\n";
-                std::cout << "3. Category\n";
-                std::cout << "4. Availability\n";
-                std::cout << "5. Cancel\n";
-                std::cout << "Enter your choice (1-5): ";
-                std::cin >> field;
+                cout << "\nWhat would you like to update?\n";
+                cout << "1. Title\n";
+                cout << "2. Author\n";
+                cout << "3. Category\n";
+                cout << "4. Availability\n";
+                cout << "5. Cancel\n";
+                cout << "Enter your choice (1-5): ";
+                cin >> field;
                 
                 // Clear input buffer for potential getline calls
-                std::cin.ignore();
+                cin.ignore();
                 
                 // Temporary buffer for input
                 char buffer[MAX_STRING_LENGTH];
@@ -392,44 +401,44 @@ public:
                 // Process update based on user's choice
                 switch (field) {
                     case 1:  // Update title
-                        std::cout << "Enter new title: ";
-                        std::cin.getline(buffer, MAX_STRING_LENGTH);
+                        cout << "Enter new title: ";
+                        cin.getline(buffer, MAX_STRING_LENGTH);
                         strncpy(books[i].title, buffer, MAX_STRING_LENGTH - 1);
                         books[i].title[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
                         updated = true;
                         break;
                     case 2:  // Update author
-                        std::cout << "Enter new author: ";
-                        std::cin.getline(buffer, MAX_STRING_LENGTH);
+                        cout << "Enter new author: ";
+                        cin.getline(buffer, MAX_STRING_LENGTH);
                         strncpy(books[i].author, buffer, MAX_STRING_LENGTH - 1);
                         books[i].author[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
                         updated = true;
                         break;
                     case 3:  // Update category
-                        std::cout << "Enter new category: ";
-                        std::cin.getline(buffer, MAX_STRING_LENGTH);
+                        cout << "Enter new category: ";
+                        cin.getline(buffer, MAX_STRING_LENGTH);
                         strncpy(books[i].category, buffer, MAX_STRING_LENGTH - 1);
                         books[i].category[MAX_STRING_LENGTH - 1] = '\0';  // Ensure null termination
                         updated = true;
                         break;
                     case 4:  // Toggle availability status
                         books[i].available = !books[i].available;
-                        std::cout << "Book status changed to: " 
-                                  << (books[i].available ? "Available" : "Checked Out") << "\n";
+                        cout << "Book status changed to: " 
+                              << (books[i].available ? "Available" : "Checked Out") << "\n";
                         updated = true;
                         break;
                     case 5:  // Cancel update
-                        std::cout << "Update canceled.\n";
+                        cout << "Update canceled.\n";
                         break;
                     default:  // Invalid choice
-                        std::cout << "Invalid choice.\n";
+                        cout << "Invalid choice.\n";
                         break;
                 }
                 
                 // If an update was made, save changes and confirm
                 if (updated) {
                     saveToFile();  // Save changes to file
-                    std::cout << "Book updated successfully.\n";
+                    cout << "Book updated successfully.\n";
                     books[i].display();  // Display updated book details
                 }
                 
@@ -439,7 +448,7 @@ public:
         
         // If book wasn't found, inform user
         if (!found) {
-            std::cout << "Book with ID " << id << " not found.\n";
+            cout << "Book with ID " << id << " not found.\n";
         }
     }
     
@@ -449,9 +458,9 @@ public:
         bool found = false; // Flag to track if book was found
         
         // Display section header and prompt for ID
-        std::cout << "\n--- Remove Book ---\n";
-        std::cout << "Enter Book ID to remove: ";
-        std::cin >> id;
+        cout << "\n--- Remove Book ---\n";
+        cout << "Enter Book ID to remove: ";
+        cin >> id;
         
         // Loop through books to find the one with matching ID
         for (int i = 0; i < bookCount; i++) {
@@ -463,8 +472,8 @@ public:
                 
                 // Confirm with user before removing
                 char confirm;
-                std::cout << "Are you sure you want to remove this book? (y/n): ";
-                std::cin >> confirm;
+                cout << "Are you sure you want to remove this book? (y/n): ";
+                cin >> confirm;
                 
                 // Process based on user confirmation
                 if (confirm == 'y' || confirm == 'Y') {
@@ -475,9 +484,9 @@ public:
                     bookCount--;  // Decrement the book count
                     
                     saveToFile();  // Save changes to file
-                    std::cout << "Book removed successfully.\n";
+                    cout << "Book removed successfully.\n";
                 } else {
-                    std::cout << "Removal canceled.\n";
+                    cout << "Removal canceled.\n";
                 }
                 
                 break;  // Exit loop after processing the book
@@ -486,7 +495,7 @@ public:
         
         // If book wasn't found, inform user
         if (!found) {
-            std::cout << "Book with ID " << id << " not found.\n";
+            cout << "Book with ID " << id << " not found.\n";
         }
     }
     
@@ -498,21 +507,21 @@ public:
         // Loop until user chooses to exit
         while (running) {
             // Display main menu
-            std::cout << "\n==== LIBRARY MANAGEMENT SYSTEM ====\n";
-            std::cout << "1. Add New Book\n";
-            std::cout << "2. Get Book Details\n";
-            std::cout << "3. Print All Books\n";
-            std::cout << "4. Find Book\n";
-            std::cout << "5. Update Book\n";
-            std::cout << "6. Remove Book\n";
-            std::cout << "7. Exit\n";
-            std::cout << "Enter your choice (1-7): ";
+            cout << "\n==== LIBRARY MANAGEMENT SYSTEM ====\n";
+            cout << "1. Add New Book\n";
+            cout << "2. Get Book Details\n";
+            cout << "3. Print All Books\n";
+            cout << "4. Find Book\n";
+            cout << "5. Update Book\n";
+            cout << "6. Remove Book\n";
+            cout << "7. Exit\n";
+            cout << "Enter your choice (1-7): ";
             
             // Handle invalid input (non-numeric)
-            if (!(std::cin >> choice)) {
-                std::cin.clear();  // Clear error flags
-                std::cin.ignore(100, '\n');  // Discard invalid input (up to 100 chars)
-                std::cout << "Invalid input. Please enter a number.\n";
+            if (!(cin >> choice)) {
+                cin.clear();  // Clear error flags
+                cin.ignore(100, '\n');  // Discard invalid input (up to 100 chars)
+                cout << "Invalid input. Please enter a number.\n";
                 continue;  // Go back to the start of the loop
             }
             
@@ -537,11 +546,11 @@ public:
                     removeBook();
                     break;
                 case 7:  // Exit program
-                    std::cout << "Thank you for using the Library Management System. Goodbye!\n";
+                    cout << "Thank you for using the Library Management System. Goodbye!\n";
                     running = false;  // Set flag to exit the loop
                     break;
                 default:  // Invalid choice (number out of range)
-                    std::cout << "Invalid choice. Please try again.\n";
+                    cout << "Invalid choice. Please try again.\n";
                     break;
             }
         }
