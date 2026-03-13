@@ -1,16 +1,15 @@
-
 // Include necessary header files for input/output operations
 #include <iostream>  // For console input/output operations (cin, cout, endl)
 #include <fstream>   // For file input/output operations (ifstream, ofstream, file.close())
 #include <cstring>   // For C-style string manipulation functions like strcpy, strcmp, strstr, strlen
 #include <cctype>    // For character handling functions like tolower for case conversion
 
-/**
- * Function: toLower
- * Purpose: Converts all characters in a C-style string to lowercase for case-insensitive operations
- * Parameters: char* str - pointer to the string to be converted (modified in-place)
- * Algorithm: Iterates through each character and applies tolower() function from cctype
- * Used for: Case-insensitive string comparisons in search operations
+/*
+  Function: toLower
+  Purpose: Converts all characters in a C-style string to lowercase for case-insensitive operations
+  Parameters: char* str - pointer to the string to be converted (modified in-place)
+  Algorithm: Iterates through each character and applies tolower() function from cctype
+  Used for: Case-insensitive string comparisons in search operations
  */
 void toLower(char* str) {
     for (int i = 0; str[i]; i++) {  // Loop until null terminator is reached
@@ -26,11 +25,11 @@ using namespace std;
 const int MAX_STRING_LENGTH = 100;  // Maximum length for strings (title, author, category) - chosen to handle most book titles
 const int MAX_BOOKS = 10000;        // Maximum number of books the library can hold - reasonable limit for memory management
 
-/**
- * Structure: Book
- * Purpose: Represents a single book record with all essential attributes
- * Design Decision: Using struct instead of class for simple data container with public access
- * Memory Layout: Fixed-size character arrays for predictable memory usage and file I/O
+/*
+  Structure: Book
+  Purpose: Represents a single book record with all essential attributes
+  Design Decision: Using struct instead of class for simple data container with public access
+  Memory Layout: Fixed-size character arrays for predictable memory usage and file I/O
  */
 struct Book {
     int id;                           // Unique identifier for each book (auto-incrementing)
@@ -39,11 +38,11 @@ struct Book {
     char category[MAX_STRING_LENGTH]; // Category/genre of the book (single classification system)
     bool available;                   // Availability status (true = available for checkout, false = currently checked out)
     
-    /**
-     * Method: display
-     * Purpose: Formats and displays all book information in a user-friendly format
-     * Design: Uses consistent formatting with separators for visual clarity
-     * Output: Formatted text display with clear field labels and status interpretation
+    /*
+      Method: display
+      Purpose: Formats and displays all book information in a user-friendly format
+      Design: Uses consistent formatting with separators for visual clarity
+      Output: Formatted text display with clear field labels and status interpretation
      */
     void display() {
         cout << "-------------------------\n";    // Top separator line for visual grouping
@@ -57,12 +56,12 @@ struct Book {
     }
 };
 
-/**
- * Class: Library
- * Purpose: Manages the complete collection of books and provides all library operations
- * Design Pattern: Encapsulation - private data members with public interface methods
- * Memory Management: Uses fixed-size arrays for predictable memory usage
- * File Persistence: Automatic saving/loading to maintain data between program runs
+/*
+  Class: Library
+  Purpose: Manages the complete collection of books and provides all library operations
+  Design Pattern: Encapsulation - private data members with public interface methods
+  Memory Management: Uses fixed-size arrays for predictable memory usage
+  File Persistence: Automatic saving/loading to maintain data between program runs
  */
 class Library {
 private:
@@ -72,12 +71,12 @@ private:
     char filename[MAX_STRING_LENGTH]; // Name of the file where books data is persistently stored
     int nextId;                 // Next available ID for new books - ensures unique identifiers without gaps
     
-    /**
-     * Private Helper Method: toLowerCase
-     * Purpose: Converts a string to lowercase for case-insensitive string comparisons
-     * Parameters: char* str - string to convert (modified in-place)
-     * Algorithm: Iterates through each character and applies tolower() transformation
-     * Usage: Called before string comparisons to ensure consistent case handling
+    /*
+      Private Helper Method: toLowerCase
+      Purpose: Converts a string to lowercase for case-insensitive string comparisons
+      Parameters: char* str - string to convert (modified in-place)
+      Algorithm: Iterates through each character and applies tolower() transformation
+      Usage: Called before string comparisons to ensure consistent case handling
      */
     void toLowerCase(char* str) {
         for (int i = 0; str[i]; i++) {          // Continue until null terminator
@@ -85,15 +84,15 @@ private:
         }
     }
     
-    /**
-     * Private Helper Method: containsSubstring
-     * Purpose: Performs case-insensitive substring search within a larger string
-     * Parameters: 
-     *   - const char* str: The string to search within
-     *   - const char* substr: The substring to search for
-     * Returns: bool - true if substring found, false otherwise
-     * Algorithm: Creates temporary copies, converts to lowercase, uses strstr for search
-     * Memory Safety: Uses strncpy with explicit null termination to prevent buffer overflows
+    /*
+      Private Helper Method: containsSubstring
+      Purpose: Performs case-insensitive substring search within a larger string
+      Parameters: 
+        - const char* str: The string to search within
+        - const char* substr: The substring to search for
+      Returns: bool - true if substring found, false otherwise
+      Algorithm: Creates temporary copies, converts to lowercase, uses strstr for search
+      Memory Safety: Uses strncpy with explicit null termination to prevent buffer overflows
      */
     bool containsSubstring(const char* str, const char* substr) {
         // Create temporary buffers to avoid modifying original strings
@@ -115,12 +114,12 @@ private:
         return (strstr(tempStr, tempSubstr) != NULL);
     }
     
-    /**
-     * Private Method: saveToFile
-     * Purpose: Persists all book data to a CSV file for data persistence between program runs
-     * File Format: CSV with fields: ID,Title,Author,Category,Available(1/0)
-     * Error Handling: Checks file opening success and provides user feedback
-     * Design Decision: CSV format chosen for human readability and simple parsing
+    /*
+      Private Method: saveToFile
+      Purpose: Persists all book data to a CSV file for data persistence between program runs
+      File Format: CSV with fields: ID,Title,Author,Category,Available(1/0)
+      Error Handling: Checks file opening success and provides user feedback
+      Design Decision: CSV format chosen for human readability and simple parsing
      */
     void saveToFile() {
         // Open the file for writing (overwrites existing content)
@@ -144,16 +143,16 @@ private:
         file.close();
     }
     
-    /**
-     * Private Method: parseCsvLine
-     * Purpose: Parses a single CSV line into separate fields for data loading
-     * Parameters:
-     *   - const char* line: The CSV line to parse
-     *   - char fields[][MAX_STRING_LENGTH]: 2D array to store parsed fields
-     *   - int& fieldCount: Reference to store the number of fields found
-     * Algorithm: Manual CSV parsing with comma delimiter detection
-     * Design Decision: Custom parsing instead of external library for simplicity and control
-     * Handles: Field overflow protection and proper null termination
+    /*
+      Private Method: parseCsvLine
+      Purpose: Parses a single CSV line into separate fields for data loading
+      Parameters:
+        - const char* line: The CSV line to parse
+        - char fields[][MAX_STRING_LENGTH]: 2D array to store parsed fields
+        - int& fieldCount: Reference to store the number of fields found
+      Algorithm: Manual CSV parsing with comma delimiter detection
+      Design Decision: Custom parsing instead of external library for simplicity and control
+      Handles: Field overflow protection and proper null termination
      */
     void parseCsvLine(const char* line, char fields[][MAX_STRING_LENGTH], int& fieldCount) {
         fieldCount = 0;           // Initialize field counter
@@ -176,7 +175,7 @@ private:
                 if (fieldPos >= MAX_STRING_LENGTH - 1) {
                     fieldPos = MAX_STRING_LENGTH - 1;           // Cap at maximum length
                     fields[fieldCount][fieldPos] = '\0';        // Ensure null termination
-                }
+                } // Note: Excess characters are silently discarded
             }
             linePos++;  // Move to next character in line
         }
@@ -188,13 +187,13 @@ private:
         }
     }
     
-    /**
-     * Private Method: loadFromFile
-     * Purpose: Loads book data from CSV file into memory during program startup
-     * File Handling: Gracefully handles missing files by starting with empty library
-     * Data Validation: Ensures proper field count before processing each record
-     * ID Management: Tracks highest existing ID to maintain unique ID generation
-     * Error Recovery: Continues processing even if individual records are malformed
+    /*
+      Private Method: loadFromFile
+      Purpose: Loads book data from CSV file into memory during program startup
+      File Handling: Gracefully handles missing files by starting with empty library
+      Data Validation: Ensures proper field count before processing each record
+      ID Management: Tracks highest existing ID to maintain unique ID generation
+      Error Recovery: Continues processing even if individual records are malformed
      */
     void loadFromFile() {
         // Attempt to open the file for reading
@@ -255,12 +254,12 @@ private:
     }
     
 public:
-    /**
-     * Constructor: Library
-     * Purpose: Initializes a new Library object with file persistence
-     * Parameters: const char* file - filename for data storage (defaults to "books.dat")
-     * Initialization: Sets up filename, counters, and loads existing data
-     * Design: Automatic file loading ensures data persistence between program runs
+    /*
+      Constructor: Library
+      Purpose: Initializes a new Library object with file persistence
+      Parameters: const char* file - filename for data storage (defaults to "books.dat")
+      Initialization: Sets up filename, counters, and loads existing data
+      Design: Automatic file loading ensures data persistence between program runs
      */
     Library(const char* file = "books.dat") {
         // Set the filename for book data storage with bounds checking
@@ -272,13 +271,13 @@ public:
         loadFromFile();   // Load existing books from file if available
     }
     
-    /**
-     * Public Method: addBook
-     * Purpose: Adds a new book to the library with user-provided information
-     * User Interaction: Prompts for title, author, and category with input validation
-     * ID Management: Automatically assigns unique ID using nextId counter
-     * Data Persistence: Automatically saves to file after successful addition
-     * Error Handling: Checks for library capacity before adding
+    /*
+      Public Method: addBook
+      Purpose: Adds a new book to the library with user-provided information
+      User Interaction: Prompts for title, author, and category with input validation
+      ID Management: Automatically assigns unique ID using nextId counter
+      Data Persistence: Automatically saves to file after successful addition
+      Error Handling: Checks for library capacity before adding
      */
     void addBook() {
         // Check if library has reached maximum capacity
@@ -333,12 +332,12 @@ public:
         cout << "Book added successfully with ID: " << newBook.id << "\n";
     }
     
-    /**
-     * Public Method: getBook
-     * Purpose: Retrieves and displays details of a specific book by ID
-     * Search Algorithm: Linear search through books array by ID
-     * User Interface: Prompts for ID and displays formatted book information
-     * Error Handling: Provides feedback when book ID is not found
+    /*
+      Public Method: getBook
+      Purpose: Retrieves and displays details of a specific book by ID
+      Search Algorithm: Linear search through books array by ID
+      User Interface: Prompts for ID and displays formatted book information
+      Error Handling: Provides feedback when book ID is not found
      */
     void getBook() {
         int id;              // Variable to store the ID entered by the user
@@ -364,12 +363,12 @@ public:
         }
     }
     
-    /**
-     * Public Method: printBooks
-     * Purpose: Displays all books in the library in a formatted list
-     * Output Format: Shows total count followed by individual book details
-     * User Interface: Clear section headers and spacing for readability
-     * Performance: O(n) operation where n is the number of books
+    /*
+      Public Method: printBooks
+      Purpose: Displays all books in the library in a formatted list
+      Output Format: Shows total count followed by individual book details
+      User Interface: Clear section headers and spacing for readability
+      Performance: O(n) operation where n is the number of books
      */
     void printBooks() {
         // Display section header for user interface clarity
@@ -391,13 +390,13 @@ public:
         }
     }
     
-    /**
-     * Public Method: findBook
-     * Purpose: Searches for books based on title, author, or category using substring matching
-     * Search Options: User selects search field (title/author/category)
-     * Algorithm: Case-insensitive substring search across all books
-     * User Interface: Menu-driven selection with results display
-     * Performance: O(n*m) where n is number of books and m is average string length
+    /*
+      Public Method: findBook
+      Purpose: Searches for books based on title, author, or category using substring matching
+      Search Options: User selects search field (title/author/category)
+      Algorithm: Case-insensitive substring search across all books
+      User Interface: Menu-driven selection with results display
+      Performance: O(n*m) where n is number of books and m is average string length
      */
     void findBook() {
         // Handle empty library case early
@@ -462,13 +461,13 @@ public:
         }
     }
     
-    /**
-     * Public Method: updateBook
-     * Purpose: Allows modification of existing book information by ID
-     * Update Options: Title, Author, Category, or Availability status
-     * User Interface: Menu-driven field selection with current values display
-     * Data Persistence: Automatically saves changes to file
-     * Validation: Confirms book exists before allowing updates
+    /*
+      Public Method: updateBook
+      Purpose: Allows modification of existing book information by ID
+      Update Options: Title, Author, Category, or Availability status
+      User Interface: Menu-driven field selection with current values display
+      Data Persistence: Automatically saves changes to file
+      Validation: Confirms book exists before allowing updates
      */
     void updateBook() {
         int id, field;       // Variables for book ID and field selection
@@ -560,13 +559,13 @@ public:
         }
     }
     
-    /**
-     * Public Method: removeBook
-     * Purpose: Removes a book from the library after user confirmation
-     * Safety Feature: Requires explicit confirmation before deletion
-     * Algorithm: Array compaction by shifting elements left to fill gap
-     * Data Persistence: Automatically saves changes after successful removal
-     * Memory Management: Properly decrements book count and maintains array integrity
+    /*
+      Public Method: removeBook
+      Purpose: Removes a book from the library after user confirmation
+      Safety Feature: Requires explicit confirmation before deletion
+      Algorithm: Array compaction by shifting elements left to fill gap
+      Data Persistence: Automatically saves changes after successful removal
+      Memory Management: Properly decrements book count and maintains array integrity
      */
     void removeBook() {
         int id;              // Variable for book ID to remove
@@ -615,13 +614,13 @@ public:
         }
     }
     
-    /**
-     * Public Method: showMenu
-     * Purpose: Main user interface - displays menu and handles user interactions
-     * Design Pattern: Event loop that continues until user chooses to exit
-     * Input Validation: Handles both invalid numeric and out-of-range inputs
-     * User Experience: Clear menu options with numbered choices for easy navigation
-     * Error Recovery: Gracefully handles input errors and continues operation
+    /*
+      Public Method: showMenu
+      Purpose: Main user interface - displays menu and handles user interactions
+      Design Pattern: Event loop that continues until user chooses to exit
+      Input Validation: Handles both invalid numeric and out-of-range inputs
+      User Experience: Clear menu options with numbered choices for easy navigation
+      Error Recovery: Gracefully handles input errors and continues operation
      */
     void showMenu() {
         int choice;          // Variable for user's menu selection
@@ -680,12 +679,12 @@ public:
     }
 };
 
-/**
- * Function: main
- * Purpose: Program entry point - initializes library system and starts user interface
- * Design: Simple initialization with default filename, then hands control to menu system
- * Return: 0 for successful program completion (standard C++ convention)
- * Architecture: Creates Library object which handles all functionality through its methods
+/*
+  Function: main
+  Purpose: Program entry point - initializes library system and starts user interface
+  Design: Simple initialization with default filename, then hands control to menu system
+  Return: 0 for successful program completion (standard C++ convention)
+  Architecture: Creates Library object which handles all functionality through its methods
  */
 int main() {
     // Create a Library object with default filename for data persistence
